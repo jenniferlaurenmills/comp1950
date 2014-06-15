@@ -5,6 +5,25 @@
 	<title>COMP 1950 Home Page</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<meta name="description" content="Your starting point for all things COMP 1950." />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script>
+		$(document).ready(function() { 
+			$('.listMenu > li').bind('mouseover', openSubMenu);
+			$('.listMenu > li').bind('mouseout', closeSubMenu);
+			
+		 });
+
+		function openSubMenu() {
+			$(this).find('ul').css('visibility', 'visible');	
+		};
+
+		function closeSubMenu() {
+			$(this).find('ul').css('visibility', 'hidden');	
+		};
+
+		
+
+	</script>
 
 </head>
 
@@ -23,12 +42,22 @@
 	</header>
 
 	<nav>
-		<ul>
+	
+		<ul class="listMenu">
 			<li class="currentpage">Home</li>
-			<li><a href="lecture.html">Lecture</a></li>
-			<li><a href="blog.html">Blog</a></li>
+		   	<li><a href="lecture.html">Lecture</a>
+		   		<div class="popupmenu">
+					<ul>
+						<li><a href="#">Week 1</a></li>
+					    <li><a href="#">Week 2</a></li>
+					    <li><a href="#">Week 3</a></li>
+					</ul>
+				</div>
+			</li>
+		   	<li><a href="blog.html">Blog</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
+
 	</nav>
 
 	<section>
@@ -73,7 +102,6 @@
 	<footer>
 		<nav>
 			<ul>
-				
 				<li><a href="sitemap.html">Sitemap</a></li>
 				<li><a href="contact.html">Contact</a></li>
 				<li><a href="blog.html">Blog</a></li>

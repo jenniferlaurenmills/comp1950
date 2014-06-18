@@ -1,122 +1,136 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>COMP 1950 Home Page</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<meta name="description" content="Your starting point for all things COMP 1950." />
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script>
-		$(document).ready(function() { 
-			$('.listMenu > li').bind('mouseover', openSubMenu);
-			$('.listMenu > li').bind('mouseout', closeSubMenu);
-			
-		 });
+<meta charset="UTF-8">
 
-		function openSubMenu() {
-			$(this).find('ul').css('visibility', 'visible');	
-		};
+<title>Zero Cool</title>
 
-		function closeSubMenu() {
-			$(this).find('ul').css('visibility', 'hidden');	
-		};
 
-		
-
-	</script>
+<link rel="stylesheet" href="zerostyle.css">
 
 </head>
 
 <body>
 
-	<header>
+<div id="container"> 
 
-		<div id="logo">
-			<a href="/"><img src="images/logo.png" width="422" height="100" /></a>
-		</div>
-		<div id="headerlinks">
-			<h6>COMP 1950</h6>
-			<h6>BCIT</h6>
-		</div>
+<header>
+<img src="images/logo.jpg" alt="zero cool's logo">
 
-	</header>
+<h1 id="top"> Zero Cool Design</h1> 
+<h3> Design Proposal for Comp 1950 Homepage </h3>
 
-	<nav>
-	
-		<ul class="listMenu">
-			<li class="currentpage">Home</li>
-		   	<li><a href="#">Lectures</a>
-		   		<div class="popupmenu">
-					<ul>
-						<li><a href="week1.html">Week 1</a></li>
-					    <li><a href="week2.html">Week 2</a></li>
-					    <li><a href="week3.html">Week 3</a></li>
-					</ul>
-				</div>
-			</li>
-		   	<li><a href="blog.html">Blog</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-
-	</nav>
-
-	<section>
-		<div id="main">
-
-			<h2>
-				Welcome to COMP 1950
-			</h2>
-
-			<p>
-				In COMP 1950, you will learn about all kinds of things pertaining to blah blah blah...
-			</p>
-
-			<p>
-				It is expected that you blah blah blah...
-			</p>
-
-			<p>
-				The agenda is blah blah blah...
-			</p>
-
-			<p>Links
-				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
-				</ul>
-			</p>
-
-			<div class="subdivleft">
-				<h3>Instructor Info</h3>
-				<p>I have been teaching this class for hundreds of years.</p>
-			</div>
-			<div class="subdivright">
-				<h3>Latest Blog Post</h3>
-				<p>Ever have one of those days...</p>
-			</div>
+</header>
 
 
-		</div>
-	</section>
 
-	<footer>
-		<nav>
-			<ul>
-				<li><a href="sitemap.html">Sitemap</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="wiki_forums.html">Wiki/Forums</a></li>
-				<li><a href="alumniresources.html">Alumni Resources</a></li>
-			</ul>
-		</nav>
-	</footer>
+<nav>
 
-	<div class="validator">
-      <a href="http://validator.w3.org/check?uri=referer"><img
-          src="images/html5_logo_32.png"
-          alt="Valid HTML 5!" height="32" width="32" /></a>
-    </div>
-    
+<ul>
+<li><a href="index.html">Home</a> </li>
+<li><a href="#">Wireframe</a> </li>
+<li><a href="#">Protosite</a> </li>
+<li><a href="rationale.html">Rationale</a></li>
+<li><a href="#">Sitemap</a></li>
+</ul>
+
+</nav>
+
+
+<div id="content">
+
+<article>
+
+<h2>Introduction</h2>
+
+<p>The goal of this page is to showcase how much the ZeroCoolers kick all of your collective arses; that is we are going to work on a proposal to revamp the COMP 1950 home page to make it more accessible and informative for students.  Based on the questionaire answers, we have a few design goals we would like to address (prioritized in descending order):
+</p>
+
+<ul>
+<li>A more intuitive way to access information:
+	<ul>
+	 <li>visual cues such as: colors schemes, layout, and text, etc.</li>
+	 <li>search function incorporated into the site</li>
+	 <li>some form of CMS to help the instructor keep the content up to date while refraining from FTP</li>
+	 <li>keep users informed of the latest updates through a blog</li>
+	 <li>ensuring cross-platform, cross-browser, readability</li>
+	 <li>an evolving wiki that provides and evolving collective knowledge base of some sort</li>
+	</ul>
+</li>
+<li>The site should also act as a way for prospective students to get an idea of how the course will be taught and what they expect to learn from it.</li>
+<li>The possibility of an alumni area</li>
+<li>Perhaps incorporate some humor to make a more or less technical / mundane subject more interesting and "digestible" to students</li>
+</ul>
+
+
+
+</article>
+
+<article id="coolers">
+
+<h2>Meet the Zero Coolers</h2>
+
+<ul>
+<li><a href="http://students.thenet.ca/asharifi/">Ali Sharifi</a> </li>
+<li><a href="http://students.thenet.ca/jmills/">Jennifer Lauren Mills</a> </li>
+<li><a href="http://students.thenet.ca/lteng/index.html">Lawrence Teng</a> </li>
+<li><a href="http://students.thenet.ca/zwestfall/">Zach Westfall</a></li>
+</ul>
+
+</article>
+
+<article id="agenda">
+
+<h2>Agenda</h2>
+
+<div id="table">
+<table>
+  <tr>
+    <th>COOL MEMBER</th>
+    <th>DUTIES</th>
+  </tr>
+  <tr>
+    <td>Ali</td>
+    <td>codes</td>
+  </tr>
+  <tr>
+    <td>Jennifer</td>
+    <td>begin wireframe </td>
+  </tr>
+  <tr>
+    <td>Lawrence</td>
+    <td>make tea, begin client project site</td>
+  </tr>
+  <tr>
+    <td>Zach</td>
+    <td>more codes</td>
+  </tr>
+ 
+</table>
+
+</div><!--/table-->
+
+</article>
+
+
+
+
+
+
+<footer>
+
+<a href="mailto:teamzerocool@thenet.ca">Copyright &copy; zerocool 2014.</a>
+
+<a href="#top">Back to Top</a>
+
+<a href="http://validator.w3.org/check?uri=referer">Validate this Page</a>
+
+</footer> 
+
+</div><!--/content-->
+
+</div><!--/container-->
+
 </body>
 
 </html>

@@ -1,44 +1,25 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+	<meta charset="UTF-8">
 	<title>COMP 1950 Home Page</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<meta name="description" content="Your starting point for all things COMP 1950." />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="scripts.js"></script>
+	<script src="scripts/scripts.js"></script>
 </head>
 
 <body>
-	<header>
-		<div id="logo">
-			<a href="/">
-				<img src="images/logo.png" width="422" height="100" /></a>
-		</div>
-		<div id="headerlinks">
-			<h6>COMP 1950</h6>
-			<h6>BCIT</h6>
-		</div>
-	</header>
+	
+	<!--the header.inc goes here-->
+		<!--#include file="inc/header.inc" -->
+		<!---------------------------->
+		
+		<!--the navigation.inc goes here-->
+		<!--#include file="inc/navigation.inc" -->
+		<!---------------------------->
 
-	<div id="menu">
-		<nav>
-			<ul class="listMenu">
-				<li class="currentpage">Home</li>
-				<li><a href="#">Lectures</a>
-					<div class="popupmenu">
-						<ul>
-							<li><a href="week1.html">Week 1</a></li>
-							<li><a href="week2.html">Week 2</a></li>
-							<li><a href="week3.html">Week 3</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
+
 	<section>
 		<div id="main">
 			<h2>Welcome to COMP 1950
@@ -71,45 +52,29 @@
 				  Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
 			</p>
 
-			<p>
-				Links
+			Links
 				<ul>
 					<li><a href="#">Link 1</a></li>
 					<li><a href="#">Link 2</a></li>
 				</ul>
-			</p>
 
 			<div class="subdivleft">
 				<h3>Instructor Info</h3>
 				<p>I have been teaching this class for hundreds of years.</p>
 			</div>
+
 			<div class="subdivright">
 				<h3>Latest Blog Post</h3>
 				<p>Ever have one of those days...</p>
 			</div>
-
+						
+			<!--the footer.inc goes here-->
+			<!--#include file="inc/footer.inc" -->
+			<!---------------------------->  
 
 		</div>
 	</section>
 
-	<footer>
-		<nav>
-			<ul>
-				<li><a href="sitemap.html">Sitemap</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="wiki_forums.html">Wiki/Forums</a></li>
-				<li><a href="alumniresources.html">Alumni Resources</a></li>
-			</ul>
-		</nav>
-	</footer>
-
-	<div class="validator">
-		<a href="http://validator.w3.org/check?uri=referer">
-			<img
-				src="images/html5_logo_32.png"
-				alt="Valid HTML 5!" height="32" width="32" /></a>
-	</div>
 
 </body>
 

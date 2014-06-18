@@ -1,4 +1,5 @@
-﻿$(document).ready(function () {
+﻿
+$(document).ready(function () {
     $('.listMenu > li').bind('mouseover', openSubMenu);
     $('.listMenu > li').bind('mouseout', closeSubMenu);
 

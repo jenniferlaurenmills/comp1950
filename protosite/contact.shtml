@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>COMP 1950 Contact</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<meta name="description" content="Your starting point for all things COMP 1950." />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="scripts/scripts.js"></script>
+</head>
+
+<body>
+	<!--the header.inc goes here-->
+	<!--#include file="inc/header.inc" -->
+	<!---------------------------->
+
+	<!--the navigation.inc goes here-->
+	<!--#include file="inc/navigation.inc" -->
+	<!---------------------------->
+	<h1>Contact</h1>
+
+	<!--the footer.inc goes here-->
+	<!--#include file="inc/footer.inc" -->
+	<!---------------------------->
+
+</body>
+</html>

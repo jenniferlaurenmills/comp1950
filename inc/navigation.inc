@@ -7,7 +7,7 @@
       <a href="wireframe.shtml">Wireframe</a>
     </li>
     <li>
-      <a href="protosite/index.html">Protosite</a>
+      <a href="protosite/index.shtml">Protosite</a>
     </li>
     <li>
       <a href="rationale.shtml">Rationale</a>

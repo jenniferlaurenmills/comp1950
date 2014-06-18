@@ -13,27 +13,13 @@
 
     <div id="container">
 
-        <header>
-            <img src="images/logo.jpg" alt="zero cool's logo">
+        <!--the header.inc goes here-->
+        <!--#include file="inc/header.inc" -->
+        <!---------------------------->
 
-            <h1 id="top">Zero Cool Design</h1>
-            <h3>Design Proposal for Comp 1950 Homepage </h3>
-
-        </header>
-
-
-
-        <nav>
-
-            <ul>
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="wireframe.html">Wireframe</a> </li>
-                <li><a href="protosite/index.html">Protosite</a></li>
-                <li><a href="rationale.html">Rationale</a></li>
-                <li><a href="#">Sitemap</a></li>
-            </ul>
-
-        </nav>
+        <!--the navigation.inc goes here-->
+        <!--#include file="inc/navigation.inc" -->
+        <!---------------------------->
 
 
         <div id="content">
@@ -98,15 +84,9 @@
 
 
 
-            <footer>
-
-                <a href="mailto:teamzerocool@thenet.ca">Copyright &copy; zerocool 2014.</a>
-
-                <a href="#top">Back to Top</a>
-
-                <a href="http://validator.w3.org/check?uri=referer">Validate this Page</a>
-
-            </footer>
+           <!--the footer.inc goes here-->
+			<!--#include file="inc/footer.inc" -->
+			<!---------------------------->    
 
         </div>
         <!--/content-->

@@ -2,7 +2,9 @@ body {font-family: Arial, Helvetica, sans-serif;
 		
     }
 
-#container {width: 50%;
+#container {
+width: 70%;
+max-width: 800px;
            margin: auto;
 		   padding: 1em;
 		  box-shadow: 2px 2px 5px #000000;
@@ -11,7 +13,10 @@ body {font-family: Arial, Helvetica, sans-serif;
 		 background-attachment:fixed;
          background-position:center; 
 		}
-     
+
+hr {background-color: #104e8b;
+   height: .3em;
+   }   
 
 footer{background-color: #104e8b;
 			  color: #ffffff;
@@ -43,10 +48,40 @@ nav ul  a{padding: 1.5em;
       color: #ffffff;
 		text-decoration: none;
 			
-		}	   
+		}	 
+
+#coolers {margin: 0;
+		 padding: 0;
+		 }
+		
+#coolers ul li {list-style-type: none;
+			}
+
+#coolers figure { box-shadow: 2px 2px 5px #000000;
+				float: left;
+				padding: 0px;	
+			    margin: .5em;
+				}
+				
+				
+#coolers img {height:auto;
+        width:100%;
+		}		
+ 
+#coolers figcaption { text-align: center;
+                 }
+				 
+#coolers figcaption  a, .wireframe a{color: #000000;
+				  
+     }	  
+
+	 
+#agenda 	{clear: both;
+         margin: 2em auto 2em;
+        }		
 
 table {width: 80%;
-	margin: 2em auto 2em;
+  
 	
 	}
 		
@@ -62,6 +97,12 @@ td {border: 1px solid #000000;
    min-width: 5em;
    }   
 
+dl {padding: 2em;}
+
+dt {font-weight: bold;
+   padding-top: 1em;}   
+   
+   
 footer {padding: 1em;}
 
 footer  a{font-size: .8em;

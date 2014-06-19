@@ -20,7 +20,7 @@ hr {
 }
 
 footer {
-    background-color: #104e8b;
+    background-color: #737d93;
     color: #ffffff;
     margin: 0;
     padding: .3em;
@@ -42,30 +42,49 @@ body#home a#indexnav, body#wireframe a#wireframenav, body#protosite a#protositen
     background: #7ac5cd;
 }
 
-    #indexnav:hover, #wireframenav:hover, #protositenav:hover, #rationalenav:hover, #sitemapnav:hover {
-        color: #fff;
-        background: #7ac5cd;
-    }
-
-
+#indexnav:hover, #wireframenav:hover, #protositenav:hover, #rationalenav:hover, #sitemapnav:hover {
+    color: #fff;
+    background: #7ac5cd;
+}
 
 nav {
-    background-color: #104e8b;
+    background-color: #737d93;
     height: 5%;
     text-align: center;
     font-weight: bold;
     padding: .5em;
 }
 
-    nav ul li {
-        display: inline;
-    }
+/*for changing the navigation based on scroll*/
+.hidenav {
+    display: none;
+}
 
-    nav ul a {
-        padding: 1.5em;
-        color: #ffffff;
-        text-decoration: none;
-    }
+#secondnav {
+    background-color: #808080;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    min-height: 45px;
+    display: none;
+}
+
+
+nav ul li {
+    display: inline;
+}
+
+nav ul a {
+    padding: 1.5em;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 #coolers {
     margin: 0;

@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <title>Zero Cool</title>
-
-
-    <link rel="stylesheet" href="zerostyle.css">
+    <title>Wireframe</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="css/zerostyle.css">
 </head>
 
 <body id="wireframe">
 
     <div id="container">
+
+        <!--the header.inc goes here-->
+        <!--#include file="inc/secondnav.inc" -->
+        <!---------------------------->
 
         <!--the header.inc goes here-->
         <!--#include file="inc/header.inc" -->

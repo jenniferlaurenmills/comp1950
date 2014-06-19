@@ -1,124 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Zero Cool</title>
-	<link rel="stylesheet" href="zerostyle.css">
+    <meta charset="UTF-8">
+    <title>Zero Cool</title>
+    <link rel="stylesheet" href="css/zerostyle.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="scripts/scripts.js"></script>
 </head>
 
 <body id="home">
-	<div id="container">
+    <div id="container">
 
-		<!--the header.inc goes here-->
-		<!--#include file="inc/header.inc" -->
-		<!---------------------------->
-		
-		<!--the navigation.inc goes here-->
-		<!--#include file="inc/navigation.inc" -->
-		<!---------------------------->
+        <!--the header.inc goes here-->
+        <!--#include file="inc/secondnav.inc" -->
+        <!---------------------------->
 
-		<div id="content">
-			<article>
-				<h2>Introduction</h2>
-				<p>
-					We are the ZeroCoolers and we are the bestest. We are going to work on a proposal to revamp the COMP 1950 home page to make it more accessible and informative for students.  Based on the <a href="questionaire.shtml">questionaire answers</a>, we have a few design goals we would like to address:
-				</p>
+        <!--the header.inc goes here-->
+        <!--#include file="inc/header.inc" -->
+        <!---------------------------->
 
-				<ul>
-					<li>A more intuitive way to access information:
+        <!--the navigation.inc goes here-->
+        <!--#include file="inc/navigation.inc" -->
+        <!---------------------------->
+
+        <div id="content">
+            <article>
+                <h2>Introduction</h2>
+                <p>
+                    We are the ZeroCoolers and we are the bestest. We are going to work on a proposal to revamp the COMP 1950 home page to make it more accessible and informative for students.  Based on the <a href="questionaire.shtml">questionaire answers</a>, we have a few design goals we would like to address:
+                </p>
+
+                <ul>
+                    <li>A more intuitive way to access information:
 						<ul>
-							<li>visual cues such as: colors schemes, layout, and text, etc.</li>
-							<li>search function incorporated into the site</li>
-							<li>some form of CMS to help the instructor keep the content up to date while refraining from FTP</li>
-							<li>keep users informed of the latest updates through a blog</li>
-							<li>ensuring cross-platform, cross-browser, readability</li>
-							<li>an evolving wiki that provides and evolving collective knowledge base of some sort</li>
-						</ul>
-					</li>
-					<li>The site should also act as a way for prospective students to get an idea of how the course will be taught and what they expect to learn from it.</li>
-					<li>The possibility of an alumni area</li>
-					<li>Perhaps incorporate some humor to make a more or less technical / mundane subject more interesting and "digestible" to students</li>
-				</ul>
+                            <li>visual cues such as: colors schemes, layout, and text, etc.</li>
+                            <li>search function incorporated into the site</li>
+                            <li>some form of CMS to help the instructor keep the content up to date while refraining from FTP</li>
+                            <li>keep users informed of the latest updates through a blog</li>
+                            <li>ensuring cross-platform, cross-browser, readability</li>
+                            <li>an evolving wiki that provides and evolving collective knowledge base of some sort</li>
+                        </ul>
+                    </li>
+                    <li>The site should also act as a way for prospective students to get an idea of how the course will be taught and what they expect to learn from it.</li>
+                    <li>The possibility of an alumni area</li>
+                    <li>Perhaps incorporate some humor to make a more or less technical / mundane subject more interesting and "digestible" to students</li>
+                </ul>
 
-				<br>
-				<hr>
-			</article>
+                <br>
+                <hr>
+            </article>
 
-			<article id="coolers">
-				<h2>Meet the Zero Coolers</h2>
-				<ul>
-					<li>
-						<figure>
-							<img src="images/ali_s.jpg" alt="ali's pic" />
-							<figcaption><a href="http://students.thenet.ca/asharifi/">Ali Sharifi</a> </figcaption>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="images/jen_m.jpg" alt="jen's pic" />
-							<figcaption><a href="http://students.thenet.ca/jmills/">Jennifer Lauren Mills</a> </figcaption>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="images/ltengw.jpg" alt="lteng's pic" />
-							<figcaption><a href="http://students.thenet.ca/lteng/index.html">Lawrence Teng</a> </figcaption>
-						</figure>
-					</li>
-					<li>
-						<figure>
-							<img src="images/zach_w.jpg" alt="zach's pic" />
-							<figcaption><a href="http://students.thenet.ca/zwestfall/">Zach Westfall</a></figcaption>
-						</figure>
-					</li>
+            <article id="coolers">
+                <h2>Meet the Zero Coolers</h2>
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="images/ali_s.jpg" alt="ali's pic" />
+                            <figcaption><a href="http://students.thenet.ca/asharifi/">Ali Sharifi</a> </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/jen_m.jpg" alt="jen's pic" />
+                            <figcaption><a href="http://students.thenet.ca/jmills/">Jennifer Lauren Mills</a> </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/ltengw.jpg" alt="lteng's pic" />
+                            <figcaption><a href="http://students.thenet.ca/lteng/index.html">Lawrence Teng</a> </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/zach_w.jpg" alt="zach's pic" />
+                            <figcaption><a href="http://students.thenet.ca/zwestfall/">Zach Westfall</a></figcaption>
+                        </figure>
+                    </li>
 
-				</ul>
+                </ul>
 
-			</article>
+            </article>
 
-			<article id="agenda">
-				<br>
+            <article id="agenda">
+                <br>
 
-				<hr>
+                <hr>
 
-				<h2>Agenda</h2>
+                <h2>Agenda</h2>
 
-				<div id="table">
-					<table>
-						<tr>
-							<th>COOL MEMBER</th>
-							<th>DUTIES</th>
-						</tr>
-						<tr>
-							<td>Ali</td>
-							<td>codes</td>
-						</tr>
-						<tr>
-							<td>Jennifer</td>
-							<td>begin wireframe </td>
-						</tr>
-						<tr>
-							<td>Lawrence</td>
-							<td>make tea, begin client project site</td>
-						</tr>
-						<tr>
-							<td>Zach</td>
-							<td>more codes</td>
-						</tr>
-					</table>
-				</div>
-				<!--/table-->
-			</article>
+                <div id="table">
+                    <table>
+                        <tr>
+                            <th>COOL MEMBER</th>
+                            <th>DUTIES</th>
+                        </tr>
+                        <tr>
+                            <td>Ali</td>
+                            <td>codes</td>
+                        </tr>
+                        <tr>
+                            <td>Jennifer</td>
+                            <td>begin wireframe </td>
+                        </tr>
+                        <tr>
+                            <td>Lawrence</td>
+                            <td>make tea, begin client project site</td>
+                        </tr>
+                        <tr>
+                            <td>Zach</td>
+                            <td>more codes</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--/table-->
+            </article>
 
-			<!--the footer.inc goes here-->
-			<!--#include file="inc/footer.inc" -->
-			<!---------------------------->    
+            <!--the footer.inc goes here-->
+            <!--#include file="inc/footer.inc" -->
+            <!---------------------------->
 
-		</div>
-		<!--/content-->
+        </div>
+        <!--/content-->
 
-	</div>
-	<!--/container-->
+    </div>
+    <!--/container-->
 
 </body>
 

@@ -6,24 +6,23 @@
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="scripts/scripts.js"></script>
     <link rel="stylesheet" href="css/zerostyle.css">
+    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body id="questionaire">
+    <!--the header.inc goes here-->
+    <!--#include file="inc/secondnav.inc" -->
+    <!---------------------------->
 
+    <!--the header.inc goes here-->
+    <!--#include file="inc/header.inc" -->
+    <!---------------------------->
+
+    <!--the navigation.inc goes here-->
+    <!--#include file="inc/navigation.inc" -->
+    <!---------------------------->
     <div id="container">
-
-        <!--the header.inc goes here-->
-        <!--#include file="inc/secondnav.inc" -->
-        <!---------------------------->
-
-        <!--the header.inc goes here-->
-        <!--#include file="inc/header.inc" -->
-        <!---------------------------->
-
-        <!--the navigation.inc goes here-->
-        <!--#include file="inc/navigation.inc" -->
-        <!---------------------------->
-
 
         <div id="content">
 

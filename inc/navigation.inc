@@ -1,4 +1,4 @@
-﻿<nav id="mainnav">
+<nav id="mainnav">
   <ul>
     <li>
       <a id="indexnav" href="index.shtml">Home</a>

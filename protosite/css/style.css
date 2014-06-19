@@ -30,14 +30,11 @@ a {
     }
 
 
-img {
-    padding: 5px;
-}
-
 header {
     display: inline-block;
     width: 100%;
-    /*border:solid;*/
+    background-color: #507800;
+    height: 86px;
 }
 
 footer {
@@ -70,6 +67,7 @@ nav {
     clear: both;
     background-color: rgba(0,0,0,.3);
     height: 50px;
+
 }
 
 footer nav {
@@ -82,11 +80,11 @@ footer a:link {
 
 footer a:visited {
     color: white;
-} 
+}
 
 footer a:hover {
-        color: black;
-    }
+    color: black;
+}
 
 ul {
     list-style-type: none;
@@ -130,7 +128,7 @@ section {
 }
 
 #logo {
-    float: left;
+    /*float: left;*/
 }
 
 .listMenu {

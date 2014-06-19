@@ -9,17 +9,13 @@
 	<script src="scripts/scripts.js"></script>
 </head>
 
-<body>
-	
+<body>	
 	<!--the header.inc goes here-->
 		<!--#include file="inc/header.inc" -->
 		<!---------------------------->
-		
 		<!--the navigation.inc goes here-->
 		<!--#include file="inc/navigation.inc" -->
 		<!---------------------------->
-
-
 	<section>
 		<div id="main">
 			<h2>Welcome to COMP 1950

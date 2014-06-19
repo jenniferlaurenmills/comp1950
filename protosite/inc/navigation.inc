@@ -1,4 +1,4 @@
-﻿<div id="menu">
+<div id="menu">
   <nav>
     <ul class="listMenu">
       <li class="currentpage">

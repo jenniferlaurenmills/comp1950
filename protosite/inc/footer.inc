@@ -1,4 +1,4 @@
-﻿<footer>
+<footer>
   <nav>
     <ul>
       <li>

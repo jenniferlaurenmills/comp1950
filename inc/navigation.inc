@@ -1,19 +1,19 @@
 ﻿<nav>
   <ul>
     <li>
-      <a href="index.shtml">Home</a>
+      <a id="indexnav" href="index.shtml">Home</a>
     </li>
     <li>
-      <a href="wireframe.shtml">Wireframe</a>
+      <a id="wireframenav" href="wireframe.shtml">Wireframe</a>
     </li>
     <li>
-      <a href="protosite/index.shtml">Protosite</a>
+      <a id="protositenav" href="protosite/index.shtml">Protosite</a>
     </li>
     <li>
-      <a href="rationale.shtml">Rationale</a>
+      <a id="rationalenav" href="rationale.shtml">Rationale</a>
     </li>
     <li>
-      <a href="#">Sitemap</a>
+      <a id="sitemapnav" href="sitemap.shtml">Sitemap</a>
     </li>
   </ul>
 </nav>

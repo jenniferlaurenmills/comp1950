@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="zerostyle.css">
 </head>
 
-<body>
+<body id="home">
 	<div id="container">
 
 		<!--the header.inc goes here-->

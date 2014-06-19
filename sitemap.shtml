@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Site Map</title>
+    <link rel="stylesheet" href="zerostyle.css">
+</head>
+
+<body id="sitemap">
+    <div id="container">
+
+        <!--the header.inc goes here-->
+        <!--#include file="inc/header.inc" -->
+        <!---------------------------->
+
+        <!--the navigation.inc goes here-->
+        <!--#include file="inc/navigation.inc" -->
+        <!---------------------------->
+
+        <div id="content">
+
+            <h2>Sitemap</h2>
+
+            <article>
+            </article>
+
+            <!--the footer.inc goes here-->
+            <!--#include file="inc/footer.inc" -->
+            <!---------------------------->
+
+        </div>
+        <!--/content-->
+
+    </div>
+    <!--/container-->
+
+</body>
+
+</html>

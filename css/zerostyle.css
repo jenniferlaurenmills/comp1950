@@ -1,12 +1,15 @@
 body {
     font-family: 'Noto Sans','Arapey', serif,Arial, Helvetica, sans-serif;
     background: #e1e3e4;
+    color: #373c44;
 }
 
 #container {
     width: 70%;
     max-width: 1000px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 15px;*/
     padding: 1em;
     /*box-shadow: 2px 2px 5px #000000;*/
     background-image: url(images/logo_bg.jpg);
@@ -21,11 +24,18 @@ hr {
 }
 
 footer {
-    background-color: #737d93;
     color: #ffffff;
     margin: 0;
-    padding: .3em;
     font-style: italic;
+    background-color: #737d93;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 70%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -55,8 +65,13 @@ nav {
     height: 2%;
     text-align: center;
     font-weight: bold;
-    padding: .2em;
-    width: 1025px;
+    /*padding: .1em,1em,.1em,1em;*/
+    padding-top: .1em;
+    padding-bottom: .1em;
+    padding-left:1em;
+    padding-right:1em;
+    width: 70%;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -78,7 +93,7 @@ nav {
     right: 0px;
     top: 0px;
     min-height: 45px;
-    /*display: none;*/
+    max-width: none;
 }
 
 
@@ -141,7 +156,7 @@ table {
 }
 
 th {
-    background-color: #104e8b;
+    background-color: #7ac5cd;
     color: #ffffff;
     font-weight: 600;
     padding: 5px;

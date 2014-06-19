@@ -33,15 +33,15 @@
             <article>
             </article>
 
-            <!--the footer.inc goes here-->
-            <!--#include file="inc/footer.inc" -->
-            <!---------------------------->
-
         </div>
         <!--/content-->
 
     </div>
     <!--/container-->
+
+    <!--the footer.inc goes here-->
+    <!--#include file="inc/footer.inc" -->
+    <!---------------------------->
 
 </body>
 

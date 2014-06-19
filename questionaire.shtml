@@ -317,17 +317,16 @@ This site has some unique requirements, like having audience members coming back
                 </dd>
             </dl>
 
-
-
-            <!--the footer.inc goes here-->
-            <!--#include file="inc/footer.inc" -->
-            <!---------------------------->
-
         </div>
         <!--/content-->
 
     </div>
     <!--/container-->
+
+
+    <!--the footer.inc goes here-->
+    <!--#include file="inc/footer.inc" -->
+    <!---------------------------->
 
 </body>
 

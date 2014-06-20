@@ -31,9 +31,8 @@ article {
 
 /*for Bcit logo on navigation*/
 #logo {
-    margin-top:0px;
-    padding-top:0px;
-    
+    margin-top: 0px;
+    padding-top: 0px;
     z-index: 10000;
 }
 
@@ -110,7 +109,7 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
-    display:none;
+    display: none;
 }
 
     footer nav {
@@ -134,15 +133,14 @@ footer {
     margin: 0px;
     width: 100%;
     height: 100%;
-
+    font-family: 'Arvo', serif;
 }
 
 #mainimg {
     z-index: -1;
     width: 100%;
     height: 700px;
-    background-image: url('../images/mainimg.jpg') ;
-    
+    background-image: url('../images/mainimg.jpg');
     padding: 0px;
     margin: 0px;
     -webkit-background-size: cover;
@@ -151,22 +149,76 @@ footer {
     background-size: cover;
 }
 
-.text {
-    font-family: 'Arvo', serif;
-    font-style: italic;
+#mainimgcontent {
+    /*border: solid;
+    border-color: white;*/
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     position: absolute;
-    top: 170px;
-    left: 450px;
+    top: 30%;
+    left: 18%;
 }
 
-.text1 {
-    font-family: 'Arvo', serif;
-    font-style: italic;
+.moto {
+    /*border: solid;
+    border-color: white;*/
     color: white;
-    position: absolute;
-    top: 230px;
-    left: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: left;
+    min-width: 250px;
+    text-align: center;
+    font-size: 150%;
+}
+
+#transparentbtn {
+    /*border: solid;
+    border-color: white;*/
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+    min-width: 180px;
+    max-width: 250px;
+    font-size: 105%;
+}
+
+    #transparentbtn a {
+        text-decoration: none;
+        color: white;
+    }
+
+        #transparentbtn a:hover {
+            color: #60edbd;
+        }
+         #transparentbtn #lnk1:hover {
+            color: #061779;
+        }
+          #transparentbtn #lnk2:hover {
+            color: #061779;
+        }
+
+
+
+
+.btn {
+    border: solid 2px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out 0s;
+    margin: 8px;
+}
+
+.lnk {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;  
 }
 
 .subdiv {

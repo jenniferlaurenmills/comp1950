@@ -24,9 +24,20 @@
 
     <section>
         <div id="bigimg">
-            <div id="mainimg"></div>
-            <h1 class="text">Are You Ready to Code!</h1>
-            <h1 class="text1">Start Learning Now.</h1>
+            <div id="mainimg">
+                <div id="mainimgcontent">
+                    <div class="moto">
+                        <h1>Are You Ready to Code!</h1>
+                        <h1>Start Learning Now.</h1>
+                    </div>
+                    <div id="transparentbtn">
+                        <div class="btn" id="btn1"><a class="lnk" id="lnk1" href="lectures.shtml">Start Here</a></div>
+                        <div class="btn" id="btn2"><a class="lnk" id="lnk2" href="http://www.alistair.com/">Meet AListair</a></div>
+                        <div class="btn" id="btn3"><a class="lnk" id="lnk3" href="mailto:acalder1@my.bcit.ca">Contact</a></div>
+                        <div class="btn" id="btn4"><a class="lnk" id="lnk4" href="https://my.bcit.ca/cp/home/displaylogin">MyBCIT</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -108,27 +119,32 @@
         </div>
     </section>
 
-
-    <div class="owl-carousel" style="clear:both;">
-        <div>
-            <img src="http://lorempixel.com/220/124/nature/1/"></div>
-        <div>
-            <img src="http://lorempixel.com/220/124/nature/2/">
+    <section>
+        <h3 style="clear: both;">What You Would Be Able to Create In The End!</h3>
+        <div class="owl-carousel">
+            <div>
+                <img src="http://lorempixel.com/220/124/nature/1/">
+            </div>
+            <div>
+                <img src="http://lorempixel.com/220/124/nature/2/">
+            </div>
+            <div>
+                <img src="http://lorempixel.com/220/124/nature/3/">
+            </div>
+            <div>
+                <img src="http://lorempixel.com/220/124/nature/4/">
+            </div>
+            <div>
+                <img src="http://lorempixel.com/220/124/nature/5/">
+            </div>
+            <div>
+                <img src="http://lorempixel.com/220/124/nature/6/">
+            </div>
+            <div>
+                <img src="http://lorempixel.com/220/124/nature/7/">
+            </div>
         </div>
-        <div>
-            <img src="http://lorempixel.com/220/124/nature/3/">
-        </div>
-        <div>
-            <img src="http://lorempixel.com/220/124/nature/4/"></div>
-        <div>
-            <img src="http://lorempixel.com/220/124/nature/5/"></div>
-        <div>
-            <img src="http://lorempixel.com/220/124/nature/6/">
-        </div>
-        <div>
-            <img src="http://lorempixel.com/220/124/nature/7/">
-        </div>
-    </div>
+    </section>
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
     <!---------------------------->

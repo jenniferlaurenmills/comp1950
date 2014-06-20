@@ -14,21 +14,7 @@ a {
     text-decoration: none;
 }
 
-    a:link {
-        color: blue;
-    }
 
-    a:visited {
-        color: white;
-    }
-
-    a:hover {
-        color: black;
-    }
-
-    a:active {
-        color: red;
-    }
 
 #main {
     margin-left: auto;
@@ -92,15 +78,16 @@ footer {
 
 .text {
     font-family: 'Arvo', serif;
-     font-style:italic;
+    font-style: italic;
     color: white;
     position: absolute;
     top: 170px;
     left: 450px;
 }
+
 .text1 {
     font-family: 'Arvo', serif;
-    font-style:italic;
+    font-style: italic;
     color: white;
     position: absolute;
     top: 230px;

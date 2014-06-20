@@ -88,7 +88,7 @@
 
 		
 
-			<div class="subdivleft">
+			<div class="subdiv subdivleft">
 				<h3>Instructor Info</h3>
 				<figure>
 					<img src="images/alistair.jpg" />
@@ -98,7 +98,7 @@
 				<p>I have been developing websites since 1995.  I enjoy teaching, and COMP 1950 students are by far the brightest and best looking people around!</p>
 			</div>
 
-			<div class="subdivright">
+			<div class="subdiv subdivright">
 				<h3>Latest Blog Post</h3>
 				<p>Ever have one of those days...</p>
 			</div>

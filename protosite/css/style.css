@@ -47,6 +47,10 @@ article {
     color: red;
 }
 
+.contentheader {
+    margin-left:25px;
+}
+
 footer {
     position: fixed;
     height: 46px;
@@ -123,10 +127,18 @@ nav ul li {
     width: 100%;
 }
 
+.subdiv {
+    border:1px solid;
+    background-color:#CCC;
+    border-radius: 10px;
+    margin:20px;
+}
+
 .subdivleft {
     float: left;
-    width:40%;
+    width:35%;
     padding:30px;
+
 }
 
 .subdivright {

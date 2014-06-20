@@ -9,13 +9,13 @@
         <div class="popupmenu">
           <ul>
             <li>
-              <a href="week1.html">Week 1</a>
+              <a href="week1.shtml">Week 1</a>
             </li>
             <li>
-              <a href="week2.html">Week 2</a>
+              <a href="week2.shtml">Week 2</a>
             </li>
             <li>
-              <a href="week3.html">Week 3</a>
+              <a href="week3.shtml">Week 3</a>
             </li>
           </ul>
         </div>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>COMP 1950 Home Page</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="Your starting point for all things COMP 1950." />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <a href="http://www.bcit.ca/">
+        <img id="logo" src="images/logobcit.jpg" alt="BCIT Logo" /></a>
+    <!--the navigation.inc goes here-->
+    <!--#include file="inc/navigation.inc" -->
+    <!---------------------------->
+    <section>
+        <div id="main">
+            <h2>Week 2
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
+
+			   Mei putent expetendis ut, eius graece sit et. Sit ad purto case nullam, per errem doming noluisse et, omnium vocent no sea. Pro ex quem rebum consequat, an nullam graeci est. Minim eirmod ne ius, est elit tibique atomorum ut. Augue noster salutandi ex est, et meliore delectus his.
+
+			   Eu eros prima mea. Id est diam labitur delicatissimi, putant deseruisse ea vix. Ad ius purto forensibus. Ut convenire dissentias eam, quo et everti option debitis.
+            </p>
+
+        </div>
+    </section>
+       <!--the footer.inc goes here-->
+            <!--#include file="inc/footer.inc" -->
+            <!---------------------------->
+
+</body>
+
+</html>

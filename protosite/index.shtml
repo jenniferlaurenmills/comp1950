@@ -1,86 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>COMP 1950 Home Page</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<meta name="description" content="Your starting point for all things COMP 1950." />
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="scripts/scripts.js"></script>
+    <meta charset="UTF-8">
+    <title>COMP 1950 Home Page</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="Your starting point for all things COMP 1950." />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="scripts/scripts.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	 <a href="http://www.bcit.ca/"><img id="logo" src="images/logobcit.jpg" alt="BCIT Logo" /></a>
-	<!--the navigation.inc goes here-->
-	<!--#include file="inc/navigation.inc" -->
-	<!---------------------------->
-    
+    <a href="http://www.bcit.ca/">
+        <img id="logo" src="images/logobcit.jpg" alt="BCIT Logo" /></a>
+    <!--the navigation.inc goes here-->
+    <!--#include file="inc/navigation.inc" -->
+    <!---------------------------->
+
     <section>
         <div id="bigimg">
             <img id="mainimg" src="images/mainimg.jpg" alt="main imgage" />
             <h1 class="text">Are You Ready to Code!</h1>
             <h1 class="text1">Start Learning Now.</h1>
         </div>
-        
+
     </section>
 
 
-	<section>
-		<div id="main">
-			<h2>Welcome to COMP 1950
-			</h2>
-			<p>
-				Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
+    <section>
+        <div id="main">
+            <h2>Welcome to COMP 1950
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
 
 			   Mei putent expetendis ut, eius graece sit et. Sit ad purto case nullam, per errem doming noluisse et, omnium vocent no sea. Pro ex quem rebum consequat, an nullam graeci est. Minim eirmod ne ius, est elit tibique atomorum ut. Augue noster salutandi ex est, et meliore delectus his.
 
 			   Eu eros prima mea. Id est diam labitur delicatissimi, putant deseruisse ea vix. Ad ius purto forensibus. Ut convenire dissentias eam, quo et everti option debitis.
-			</p>
+            </p>
 
-			<p>
-				Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
+            <p>
+                Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
 
 			   Mei putent expetendis ut, eius graece sit et. Sit ad purto case nullam, per errem doming noluisse et, omnium vocent no sea. Pro ex quem rebum consequat, an nullam graeci est. Minim eirmod ne ius, est elit tibique atomorum ut. Augue noster salutandi ex est, et meliore delectus his.
 
 			   Eu eros prima mea. Id est diam labitur delicatissimi, putant deseruisse ea vix. Ad ius purto forensibus. Ut convenire dissentias eam, quo et everti option debitis.
-			</p>
+            </p>
 
-			<p>
-				Ea duo purto nemore omittam. Eu ignota salutandi usu, mutat maiorum persecuti id est, est ex nonumy malorum detraxit. Ut pro probo recteque, ut quodsi voluptua sit. Mei impetus sanctus maiorum at, nisl unum dissentias eam ea. Mei ex laoreet vocibus invidunt.
+            <p>
+                Ea duo purto nemore omittam. Eu ignota salutandi usu, mutat maiorum persecuti id est, est ex nonumy malorum detraxit. Ut pro probo recteque, ut quodsi voluptua sit. Mei impetus sanctus maiorum at, nisl unum dissentias eam ea. Mei ex laoreet vocibus invidunt.
 
 				Vel movet salutatus in. Expetendis posidonium intellegebat id per, at eum stet ancillae incorrupte, falli viderer voluptatum ex mel. Nec at tempor platonem. Ignota latine vis ut, clita dictas sed ei. No eos affert soleat virtute, mea convenire sapientem at, at alterum numquam efficiantur nam. Vis in enim noluisse. Ullum eripuit vituperata et sit, at pro omnes audire.
-			</p>
+            </p>
 
-			<p>
-				Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
+            <p>
+                Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
 				  Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
 				  Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
-			</p>
+            </p>
 
-			Links
+            Links
 				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
-				</ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
 
-			<div class="subdivleft">
-				<h3>Instructor Info</h3>
-				<p>I have been teaching this class for hundreds of years.</p>
-			</div>
+            <div class="subdivleft">
+                <h3>Instructor Info</h3>
+                <p>I have been teaching this class for hundreds of years.</p>
+            </div>
 
-			<div class="subdivright">
-				<h3>Latest Blog Post</h3>
-				<p>Ever have one of those days...</p>
-			</div>
-
-			<!--the footer.inc goes here-->
-			<!--#include file="inc/footer.inc" -->
-			<!---------------------------->
-
-		</div>
-	</section>
-
+            <div class="subdivright">
+                <h3>Latest Blog Post</h3>
+                <p>Ever have one of those days...</p>
+            </div>
+        </div>
+    </section>
+    <!--the footer.inc goes here-->
+    <!--#include file="inc/footer.inc" -->
+    <!---------------------------->
 
 </body>
 

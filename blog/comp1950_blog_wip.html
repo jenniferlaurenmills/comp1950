@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>COMP 1950 Blog</title>
+
+
+<style>
+
+body {font-family: Arial,Sans-serif;
+    background-color: #3b414e;
+    color: #373c44;
+    }
+    
+
+.container {
+    width: 65%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e1e3e4;
+    padding: 1em;
+    
+    
+}
+
+
+
+header {height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: .5em;
+        background:url(http://teams.thenet.ca/zerocool/blog/images/blog_header.jpg);
+		background-repeat: no-repeat;
+		background-color: #e1dcdc;
+		}
+
+h1 {color: #FFFFFF;
+  }
+
+
+.post {border: 1px solid #5C5C5C;\
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 1em;
+	   padding: 3em;
+	   box-shadow: 3px 3px 3px #5C5C5C;
+		  }
+		  
+
+.quotes {background-color: #989898;
+        padding: .5em .5em .5em 2em;
+        margin: 1em;
+        }
+
+.quotes h5 {font-style: italic;
+        }
+
+.datestyle img {border-radius: 10px;
+        }
+
+
+.tagstyle { display: inline;
+            padding: 5px;
+            }
+
+.tagged, .tagstyle a {font-style: italic;
+            color: #6c7b8b;
+           font-family:"Courier New", Courier, monospace;
+            } 
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>COMP 1950 Blog</h1>
+</header>
+
+
+{block:HasPages}
+<nav>
+<ul>
+{block:Pages}
+<li><a href="{URL}">{Label}</a></li>
+{/block:Pages}
+</ul>
+</nav>
+{/block:HasPages}
+
+
+
+
+
+
+
+{block:Posts} 
+
+<article class="post">
+
+	{block:Text} 
+		<h2>{Title}</h2>
+		{Body}
+	{/block:Text}
+	
+	{block:Photo}
+		<figure>
+	    <img src="{PhotoURL-400}"/>
+	        <figcaption>
+	        {Caption}
+	        </figcaption>
+	    </figure>
+	{/block:Photo}	
+	
+	{block:Link}
+	    <div class="links">
+	    <h3>Featured link for this week: {Name}</h3> 
+	   <p>{Description}<a href="{URL}">{URL}</a></p>  
+	    </div>
+	    
+	{/block:Link}
+	
+	{block:Quote}
+	<div class="quotes">
+	<h3>"{Quote}"</h3>
+	 {block:Source}
+	<h5>{Source}</h5>
+	{/block:Source}	
+	</div>
+	{/block:Quote}
+	
+	{block:Date} 
+	     <hr>
+	   	 <div class="datestyle">
+	   	<img src="{PostAuthorPortraitURL-40}"/> 
+	    Posted on: {DayOfWeek}, {ShortMonth} {DayOfMonth}, {Year} by <span class="authorstyle">{PostAuthorName}</span> 
+	    </div>
+	{/block:Date} 
+	  
+	
+	
+    {block:HasTags} 
+  
+        
+         <span class="tagged">Tagged as:</span>
+        {block:Tags}
+         <div class="tagstyle">
+        <a href="{TagURL}">{Tag}</a>
+         </div>
+	    {/block:Tags}
+     
+	{/block:HasTags}
+	
+	
+   
+
+	
+
+</article>	
+	
+{/block:Posts}
+
+
+
+
+<footer>
+
+{block:Pagination}
+<nav>
+
+{block:PreviousPage}
+<a href="{PreviousPage}">Previous</a>
+{/block:PreviousPage}
+
+
+{block:JumpPagination length="3"}
+{block:CurrentPage}{PageNumber}{/block:CurrentPage}
+{block:JumpPage}<a href="{URL}">{PageNumber}</a>{/block:JumpPage}
+{/block:JumpPagination}
+
+
+{block:NextPage}
+<a href="{NextPage}">Next</a>
+{/block:NextPage}
+
+</nav>
+{/block:Pagination}
+
+</footer>
+
+
+</div><!--/container-->
+
+</body>
+
+</html>

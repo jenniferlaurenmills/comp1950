@@ -24,6 +24,25 @@ a {
     padding-bottom: 150px;
 }
 
+article {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #CCC;
+}
+
+/*for bcit logo on navigation*/
+#logo {
+    margin-top:0px;
+    padding-top:0px;
+    
+    z-index: 10000;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*------------------------Start CSS for navigation and footer of protosite------------------------------------*/
+
 nav {
     clear: both;
     margin-left: auto;
@@ -32,24 +51,59 @@ nav {
     /*border: solid;*/
 }
 
-article {
-    border:1px solid;
-    border-radius: 10px;
-    padding:10px;
-    margin:20px;
-    background-color: #CCC;
-}
-
 #menu {
     clear: both;
     background-color: #3b414e;
     height: 50px;
-    color: red;
 }
 
-.contentheader {
-    margin-left:25px;
+.listMenu {
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+nav ul li {
+    font-size: 0.8em;
+    padding-right: 10px;
+    padding-top: 15px;
+    display: inline;
+    margin-right: 40px;
+}
+
+.listMenu a {
+    color: white;
+}
+
+    .listMenu a:hover {
+        color: #0885fe;
+    }
+
+
+.listMenu li {
+    display: inline;
+    list-style: none;
+    float: left;
+}
+
+
+    .listMenu li ul {
+        position: fixed;
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+        .listMenu li ul li {
+            display: block;
+            float: none;
+            padding: 0;
+        }
 
 footer {
     position: fixed;
@@ -69,23 +123,34 @@ footer {
         color: white;
     }
 
-    footer a:visited, .listMenu a:visited {
-        color: white;
-    }
+/*------------------------End CSS for navigation and footer of protosite------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------*/
 
-    footer a:hover, .listMenu a:hover {
-        color: white;
-    }
+/*----------------------------------------Start Index page CSS----------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------*/
 
-#logo {
-    position: absolute;
-    margin-left: 5%;
+#bigimg {
+    /*border: solid;
+    border-color: red;*/
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+
 }
 
 #mainimg {
+    z-index: -1;
     width: 100%;
-    z-index: -100;
-    position: relative;
+    height: 700px;
+    background-image: url('../images/mainimg.jpg') ;
+    
+    padding: 0px;
+    margin: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .text {
@@ -106,18 +171,27 @@ footer {
     left: 450px;
 }
 
-ul {
-    list-style-type: none;
-    text-align: left;
+.subdiv {
+    border: 1px solid;
+    background-color: #CCC;
+    border-radius: 10px;
+    margin: 20px;
 }
 
-nav ul li {
-    font-size: 0.8em;
-    padding-right: 10px;
-    padding-top: 15px;
-    display: inline;
-    margin-right: 40px;
+.subdivleft {
+    float: left;
+    width: 35%;
+    padding: 30px;
 }
+
+.subdivright {
+    float: right;
+    width: 40%;
+    padding: 30px;
+}
+
+/*----------------------------------------End Index page CSS------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------*/
 
 .clear {
     clear: both;
@@ -126,77 +200,3 @@ nav ul li {
 .validator {
     width: 100%;
 }
-
-.subdiv {
-    border:1px solid;
-    background-color:#CCC;
-    border-radius: 10px;
-    margin:20px;
-}
-
-.subdivleft {
-    float: left;
-    width:35%;
-    padding:30px;
-
-}
-
-.subdivright {
-    float: right;
-    width:40%;
-    padding:30px;
-}
-
-#headerlinks {
-    float: right;
-    color: blue;
-    margin-right: 40px;
-}
-
-.listMenu {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    /*background-color: #DDD;*/
-    color: white;
-}
-
-
-
-    .listMenu li {
-        display: inline;
-        list-style: none;
-        float: left;
-    }
-
-        .listMenu ul li a:link, .listMenu li a:visited {
-            display: block;
-            text-decoration: none;
-            background-color: #09F;
-            padding: 0.5em 2em;
-            margin: 0;
-            border-right: 1px solid #fff;
-            color: white;
-        }
-
-        .listMenu li ul {
-            position: fixed;
-            visibility: hidden;
-            margin: 0;
-            padding: 0;
-        }
-
-            .listMenu li ul li {
-                display: block;
-                float: none;
-                padding: 0;
-            }
-
-                .listMenu li ul li a:link, .listMenu li ul li a:listMenu {
-                    background-color: white;
-                    width: auto;
-                }
-
-                .listMenu li ul li a:hover {
-                    background-color: #0CF;
-                }

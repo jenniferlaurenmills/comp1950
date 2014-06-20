@@ -11,14 +11,15 @@
 </head>
 
 <body>
-     <a href="http://www.bcit.ca/"><img id="logo" src="images/logobcit.jpg" alt="BCIT Logo" /></a>
+     <!--<a href="http://www.bcit.ca/"><img id="logo" src="images/logobcit.jpg" alt="BCIT Logo" /></a>-->
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
     <!---------------------------->
     
     <section>
         <div id="bigimg">
-            <img id="mainimg" src="images/mainimg.jpg" alt="main imgage" />
+            <!--<img id="mainimg" src="images/mainimg.jpg" alt="main imgage" />-->
+            <div id="mainimg"> </div>
             <h1 class="text">Are You Ready to Code!</h1>
             <h1 class="text1">Start Learning Now.</h1>
         </div>
@@ -28,8 +29,6 @@
 
     <section>
         <div id="main">
-
-
             <article>
                 <h3>Fall 2014 - Welcome!</h3>
 

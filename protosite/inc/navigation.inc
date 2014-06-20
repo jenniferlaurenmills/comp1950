@@ -1,6 +1,11 @@
 <div id="menu">
   <nav>
     <ul class="listMenu">
+      <li id="logo">
+        <a href="http://www.bcit.ca/">
+          <img  src="images/logobcit.jpg" alt="BCIT Logo" />
+        </a>
+      </li>
       <li class="currentpage">
         <a href="index.shtml">Home</a>
       </li>

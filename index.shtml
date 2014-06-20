@@ -40,7 +40,7 @@
                             <li>some form of CMS to help the instructor keep the content up to date while refraining from FTP</li>
                             <li>keep users informed of the latest updates through a blog</li>
                             <li>ensuring cross-platform, cross-browser, readability</li>
-                            <li>an evolving wiki that provides and evolving collective knowledge base of some sort</li>
+                            <li>an evolving wiki that provides an evolving collective knowledge base of some sort</li>
                         </ul>
                     </li>
                     <li>The site should also act as a way for prospective students to get an idea of how the course will be taught and what they expect to learn from it.</li>
@@ -111,7 +111,7 @@
                         </tr>
                         <tr>
                             <td>Zach</td>
-                            <td>start the codes for lecture / home page</td>
+                            <td>start the code for lecture / home page</td>
                         </tr>
                     </table>
                 </div>

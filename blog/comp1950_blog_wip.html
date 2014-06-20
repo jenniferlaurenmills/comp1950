@@ -17,8 +17,8 @@ body {font-family: Arial,Sans-serif;
     
 
 .container {
-    width: 65%;
-    max-width: 1000px;
+    width: 50%;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     
@@ -38,7 +38,7 @@ header {height: 150px;
 		background-repeat: no-repeat;*/
 		}
 
-h1 {color: #ffffff;
+h1, header h2 {color: #ffffff;
    font-family: 'Arvo', serif;
    font-style: italic;
    text-align: center;
@@ -51,8 +51,12 @@ h1 {color: #ffffff;
        margin-top: 1em;
 	   padding: 3em;
 	  		  }
+	  		  
+.links a {color: #373c44;}
 
-		  
+#urly {font-size: .8em;
+              color: #6c7b8b;
+}
 
 .quotes {background-color: #989898;
         padding: .5em .5em .5em 2em;
@@ -64,6 +68,10 @@ h1 {color: #ffffff;
 
 .datestyle img {border-radius: 10px;
         }
+
+.authorstyle {font-weight: bold;
+              font-style: italic;
+            }
 
 
 .tagstyle { display: inline;
@@ -92,6 +100,7 @@ h1 {color: #ffffff;
 
 <header>
 <h1>COMP 1950 Blog</h1>
+<h2>The class bulletin board for announcements, gossips, and last minute updates.</h2>
 </header>
 
 
@@ -131,8 +140,8 @@ h1 {color: #ffffff;
 	
 	{block:Link}
 	    <div class="links">
-	    <h3>Featured link for this week: {Name}</h3> 
-	   <p>{Description}<a href="{URL}">{URL}</a></p>  
+	    <h3>Featured link for this week: <a href="{URL}">{Name} <span id="urly">{URL}</span></a></h3> 
+	   <p>{Description} </p>  
 	    </div>
 	    
 	{/block:Link}
@@ -148,6 +157,7 @@ h1 {color: #ffffff;
 	
 	{block:Date} 
 	     <hr>
+	     <br>
 	   	 <div class="datestyle">
 	   	<img src="{PostAuthorPortraitURL-40}"/> 
 	    Posted on: {DayOfWeek}, {ShortMonth} {DayOfMonth}, {Year} by <span class="authorstyle">{PostAuthorName}</span> 

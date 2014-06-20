@@ -11,19 +11,19 @@
 </head>
 
 <body>
-     <!--<a href="http://www.bcit.ca/"><img id="logo" src="images/logobcit.jpg" alt="BCIT Logo" /></a>-->
+
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
     <!---------------------------->
-    
+
     <section>
         <div id="bigimg">
             <!--<img id="mainimg" src="images/mainimg.jpg" alt="main imgage" />-->
-            <div id="mainimg"> </div>
+            <div id="mainimg"></div>
             <h1 class="text">Are You Ready to Code!</h1>
             <h1 class="text1">Start Learning Now.</h1>
         </div>
-        
+
     </section>
 
 
@@ -67,7 +67,8 @@
 
             <article>
                 <h3>Expectations</h3>
-                <p>There are a few things I want to make sure everyone knows:
+                <p>
+                    There are a few things I want to make sure everyone knows:
                 <ul>
                     <li>After week 2 - I do not want to help you with your FTP.  This is a <em>non-negotiable skill</em> you should know as a web developer</li>
                     <li>Spaces, special characters and capital letters should <strong>never</strong> be used in file or folder names on the web.   The habit might be easy to get into on your desktop, but as someone who crafts web pages, you should avoid this. </li>
@@ -79,8 +80,8 @@
                             <li>The course is delivered weekly, so should your work</li>
                             <li>Use techniques you have learned in class</li>
                             <li>You don't have to spend hours making it beautiful - that is not an aim of this course.  Focus on making it usable and befitting of the content</li>
-                            </ul>
-                        </li>
+                        </ul>
+                    </li>
                 </ul>
                 </p>
             </article>
@@ -101,14 +102,12 @@
                 <h3>Latest Blog Post</h3>
                 <p>Ever have one of those days...</p>
             </div>
-
-            <!--the footer.inc goes here-->
-            <!--#include file="inc/footer.inc" -->
-            <!---------------------------->
-
         </div>
     </section>
-
+ 
+    <!--the footer.inc goes here-->
+    <!--#include file="inc/footer.inc" -->
+    <!---------------------------->
 
 </body>
 

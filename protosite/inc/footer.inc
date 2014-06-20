@@ -1,6 +1,8 @@
-<footer>
+<br style="clear:both" />
+<br />
 
-  <div id="menu">
+<footer>
+  <div>
     <nav>
       <ul class="listMenu">
         <li class="currentpage">

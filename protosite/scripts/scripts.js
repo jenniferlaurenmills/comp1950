@@ -12,3 +12,16 @@ function openSubMenu() {
 function closeSubMenu() {
     $(this).find('ul').css('visibility', 'hidden');
 };
+
+
+$(window).scroll(function () {
+    if ($(this).scrollTop() < 50) {
+
+        $("footer").slideUp();
+
+    } else {
+
+        $("footer").slideDown();
+
+    }
+});

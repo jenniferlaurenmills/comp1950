@@ -26,6 +26,13 @@
       <li>
         <a href="contact.shtml">Contact</a>
       </li>
+      </li>
+      <li>
+        <a href="#">Wiki/Forums</a>
+      </li>
+      <li>
+        <a href="#">Alumni Resources</a>
+      </li>
     </ul>
   </nav>
 </div>

@@ -1,23 +1,33 @@
 <footer>
-  <nav>
-    <ul>
-      <li>
-        <a href="#">Sitemap</a>
-      </li>
-      <li>
-        <a href="contact.shtml">Contact</a>
-      </li>
-      <li>
-        <a href="#">Blog</a>
-      </li>
-      <li>
-        <a href="#">Wiki/Forums</a>
-      </li>
-      <li>
-        <a href="#">Alumni Resources</a>
-      </li>
-    </ul>
-  </nav>
+
+  <div id="menu">
+    <nav>
+      <ul class="listMenu">
+        <li class="currentpage">
+          <a href="index.shtml">Home</a>
+        </li>
+        <li>
+          <a href="lectures.shtml">Lectures</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="contact.shtml">Contact</a>
+        </li>
+
+        <li>
+          <a href="#">Wiki/Forums</a>
+        </li>
+        <li>
+          <a href="#">Alumni Resources</a>
+        </li>
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </footer>
 
 <div class="validator">

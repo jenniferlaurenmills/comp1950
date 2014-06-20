@@ -28,45 +28,74 @@
 
 	<section>
 		<div id="main">
-			<h2>Welcome to COMP 1950
-			</h2>
-			<p>
-				Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
+			
 
-			   Mei putent expetendis ut, eius graece sit et. Sit ad purto case nullam, per errem doming noluisse et, omnium vocent no sea. Pro ex quem rebum consequat, an nullam graeci est. Minim eirmod ne ius, est elit tibique atomorum ut. Augue noster salutandi ex est, et meliore delectus his.
+			<article>
+				<h3>Fall 2014 - Welcome!</h3>
 
-			   Eu eros prima mea. Id est diam labitur delicatissimi, putant deseruisse ea vix. Ad ius purto forensibus. Ut convenire dissentias eam, quo et everti option debitis.
-			</p>
+				<p>
+					The agenda for Week 1 is:
+					<ul>
+						<li>About This Course</li>
+						<li>Textbook</li>
+						<li>Introductions</li>
+						<li>Web Space</li>
+						<li>Expectations</li>
+						
+					</ul>
+				</p>
+			</article>
 
-			<p>
-				Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
+			<article>
+				<h3>About This Course</h3>
+				<p>Official details about the who, what, where and how are located in the outlines section on the BCIT web site</p>
+			</article>
 
-			   Mei putent expetendis ut, eius graece sit et. Sit ad purto case nullam, per errem doming noluisse et, omnium vocent no sea. Pro ex quem rebum consequat, an nullam graeci est. Minim eirmod ne ius, est elit tibique atomorum ut. Augue noster salutandi ex est, et meliore delectus his.
+			<article>
+				<h3>Textbook</h3>
+				<p>There is no textbook for this class - why?</p>
+			</article>
 
-			   Eu eros prima mea. Id est diam labitur delicatissimi, putant deseruisse ea vix. Ad ius purto forensibus. Ut convenire dissentias eam, quo et everti option debitis.
-			</p>
+			<article>
+				<h3>Introductions</h3>
+				<p>Please introduce yourself to your neighbours.</p>
+			</article>
 
-			<p>
-				Ea duo purto nemore omittam. Eu ignota salutandi usu, mutat maiorum persecuti id est, est ex nonumy malorum detraxit. Ut pro probo recteque, ut quodsi voluptua sit. Mei impetus sanctus maiorum at, nisl unum dissentias eam ea. Mei ex laoreet vocibus invidunt.
+			<article>
+				<h3>Web Space</h3>
+				<p>Each student will be given web space for assignments at students.thenet.ca.</p>
+			</article>
 
-				Vel movet salutatus in. Expetendis posidonium intellegebat id per, at eum stet ancillae incorrupte, falli viderer voluptatum ex mel. Nec at tempor platonem. Ignota latine vis ut, clita dictas sed ei. No eos affert soleat virtute, mea convenire sapientem at, at alterum numquam efficiantur nam. Vis in enim noluisse. Ullum eripuit vituperata et sit, at pro omnes audire.
-			</p>
-
-			<p>
-				Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
-				  Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
-				  Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
-			</p>
-
-			Links
+			<article>
+				<h3>Expectations</h3>
+				<p>There are a few things I want to make sure everyone knows:
 				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
+					<li>After week 2 - I do not want to help you with your FTP.  This is a <em>non-negotiable skill</em> you should know as a web developer</li>
+					<li>Spaces, special characters and capital letters should <strong>never</strong> be used in file or folder names on the web.   The habit might be easy to get into on your desktop, but as someone who crafts web pages, you should avoid this. </li>
+					<li>The student webspace is: <strong>students.thenet.ca/(student_name)</strong> &larr; Notice that there is <strong>no www</strong> at the front</li>
+					<li>You will be maintaining a web site for this course. A web development course. Think about that a moment.</li>
+					<li>The audience for your course homepage is your instructor, design it for me:
+						<ul>
+							<li>Have your assignments easy to find</li>
+							<li>The course is delivered weekly, so should your work</li>
+							<li>Use techniques you have learned in class</li>
+							<li>You don't have to spend hours making it beautiful - that is not an aim of this course.  Focus on making it usable and befitting of the content</li>
+							</ul>
+						</li>
 				</ul>
+				</p>
+			</article>
+
+		
 
 			<div class="subdivleft">
 				<h3>Instructor Info</h3>
-				<p>I have been teaching this class for hundreds of years.</p>
+				<figure>
+					<img src="images/alistair.jpg" />
+					<figcaption>Alistair</figcaption>
+				</figure>
+
+				<p>I have been developing websites since 1995.  I enjoy teaching, and COMP 1950 students are by far the brightest and best looking people around!</p>
 			</div>
 
 			<div class="subdivright">

@@ -32,6 +32,14 @@ nav {
     /*border: solid;*/
 }
 
+article {
+    border:1px solid;
+    border-radius: 10px;
+    padding:10px;
+    margin:20px;
+    background-color: #CCC;
+}
+
 #menu {
     clear: both;
     background-color: #3b414e;
@@ -117,10 +125,14 @@ nav ul li {
 
 .subdivleft {
     float: left;
+    width:40%;
+    padding:30px;
 }
 
 .subdivright {
     float: right;
+    width:40%;
+    padding:30px;
 }
 
 #headerlinks {

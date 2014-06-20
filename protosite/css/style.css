@@ -1,7 +1,7 @@
 
 body {
     background-color: #DDD;
-    font-family: 'Noto Sans','Arapey',serif,Arial,Helvetica,sans-serif;
+    font-family: Arial,Sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -32,10 +32,23 @@ nav {
     /*border: solid;*/
 }
 
+article {
+    border:1px solid;
+    border-radius: 10px;
+    padding:10px;
+    margin:20px;
+    background-color: #CCC;
+}
+
 #menu {
     clear: both;
     background-color: #3b414e;
     height: 50px;
+    color: red;
+}
+
+.contentheader {
+    margin-left:25px;
 }
 
 footer {
@@ -57,6 +70,10 @@ footer {
     }
 
     footer a:visited, .listMenu a:visited {
+        color: white;
+    }
+
+    footer a:hover, .listMenu a:hover {
         color: white;
     }
 
@@ -95,8 +112,7 @@ ul {
 }
 
 nav ul li {
-    font-size: .9em;
-    
+    font-size: 0.8em;
     padding-right: 10px;
     padding-top: 15px;
     display: inline;
@@ -111,12 +127,24 @@ nav ul li {
     width: 100%;
 }
 
+.subdiv {
+    border:1px solid;
+    background-color:#CCC;
+    border-radius: 10px;
+    margin:20px;
+}
+
 .subdivleft {
     float: left;
+    width:35%;
+    padding:30px;
+
 }
 
 .subdivright {
     float: right;
+    width:40%;
+    padding:30px;
 }
 
 #headerlinks {
@@ -134,10 +162,6 @@ nav ul li {
 }
 
 
-    .listMenu a:hover {
-        color: #1194eb;
-    }
-
 
     .listMenu li {
         display: inline;
@@ -152,6 +176,7 @@ nav ul li {
             padding: 0.5em 2em;
             margin: 0;
             border-right: 1px solid #fff;
+            color: white;
         }
 
         .listMenu li ul {
@@ -170,4 +195,8 @@ nav ul li {
                 .listMenu li ul li a:link, .listMenu li ul li a:listMenu {
                     background-color: white;
                     width: auto;
+                }
+
+                .listMenu li ul li a:hover {
+                    background-color: #0CF;
                 }

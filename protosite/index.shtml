@@ -7,15 +7,25 @@
 	<meta name="description" content="Your starting point for all things COMP 1950." />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="scripts/scripts.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
 </head>
 
-<body>	
-	<!--the header.inc goes here-->
-		<!--#include file="inc/header.inc" -->
-		<!---------------------------->
-		<!--the navigation.inc goes here-->
-		<!--#include file="inc/navigation.inc" -->
-		<!---------------------------->
+<body>
+	 <a href="http://www.bcit.ca/"><img id="logo" src="images/logobcit.jpg" alt="BCIT Logo" /></a>
+	<!--the navigation.inc goes here-->
+	<!--#include file="inc/navigation.inc" -->
+	<!---------------------------->
+    
+    <section>
+        <div id="bigimg">
+            <img id="mainimg" src="images/mainimg.jpg" alt="main imgage" />
+            <h1 class="text">Are You Ready to Code!</h1>
+            <h1 class="text1">Start Learning Now.</h1>
+        </div>
+        
+    </section>
+
+
 	<section>
 		<div id="main">
 			<h2>Welcome to COMP 1950
@@ -63,10 +73,10 @@
 				<h3>Latest Blog Post</h3>
 				<p>Ever have one of those days...</p>
 			</div>
-						
+
 			<!--the footer.inc goes here-->
 			<!--#include file="inc/footer.inc" -->
-			<!---------------------------->  
+			<!---------------------------->
 
 		</div>
 	</section>

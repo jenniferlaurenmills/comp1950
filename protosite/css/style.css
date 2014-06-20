@@ -1,3 +1,4 @@
+
 body {
     background-color: #DDD;
     font-family: Arial,Sans-serif;
@@ -29,24 +30,6 @@ a {
         color: red;
     }
 
-
-header {
-    display: inline-block;
-    width: 100%;
-    background-color: #507800;
-    height: 86px;
-}
-
-footer {
-    position: fixed;
-    height: 46px;
-    background-color: rgba(0,0,0,.6);
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-}
-
 #main {
     margin-left: auto;
     margin-right: auto;
@@ -65,25 +48,63 @@ nav {
 
 #menu {
     clear: both;
-    background-color: rgba(0,0,0,.3);
+    background-color: #3b414e;
     height: 50px;
-
+    color: red;
 }
 
-footer nav {
-    width: 800px;
+footer {
+    position: fixed;
+    height: 46px;
+    background-color: rgba(0,0,0,.6);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
-footer a:link {
+    footer nav {
+        width: 800px;
+    }
+
+    footer a:link {
+        color: white;
+    }
+
+    footer a:visited, .listMenu a:visited {
+        color: white;
+    }
+
+    footer a:hover, .listMenu a:hover {
+        color: white;
+    }
+
+#logo {
+    position: absolute;
+    margin-left: 5%;
+}
+
+#mainimg {
+    width: 100%;
+    z-index: -100;
+    position: relative;
+}
+
+.text {
+    font-family: 'Arvo', serif;
+     font-style:italic;
     color: white;
+    position: absolute;
+    top: 170px;
+    left: 450px;
 }
-
-footer a:visited {
+.text1 {
+    font-family: 'Arvo', serif;
+    font-style:italic;
     color: white;
-}
-
-footer a:hover {
-    color: black;
+    position: absolute;
+    top: 230px;
+    left: 450px;
 }
 
 ul {
@@ -97,12 +118,6 @@ nav ul li {
     padding-top: 15px;
     display: inline;
     margin-right: 60px;
-}
-
-
-
-section {
-    margin-top: 70px;
 }
 
 .clear {
@@ -127,16 +142,14 @@ section {
     margin-right: 40px;
 }
 
-#logo {
-    /*float: left;*/
-}
-
 .listMenu {
     display: inline;
     margin: 0;
     padding: 0;
     /*background-color: #DDD;*/
+    color: white;
 }
+
 
 
     .listMenu li {
@@ -152,9 +165,8 @@ section {
             padding: 0.5em 2em;
             margin: 0;
             border-right: 1px solid #fff;
-            color: #111;
+            color: white;
         }
-
 
         .listMenu li ul {
             position: fixed;
@@ -170,7 +182,7 @@ section {
             }
 
                 .listMenu li ul li a:link, .listMenu li ul li a:listMenu {
-                    background-color: #09F;
+                    background-color: white;
                     width: auto;
                 }
 

@@ -44,6 +44,19 @@ h1, header h2 {color: #ffffff;
    text-align: center;
   }
 
+
+.pages {margin-top: 7em;
+       }
+
+
+.pages li {border: 2px solid #ffffff;
+           padding: 1em;
+           font-weight: bold;
+  
+}
+
+.pages a {color: #ffffff;}
+
 .postings {margin-top: 6em;}
 
 .post {background-color: #e1e3e4;
@@ -154,9 +167,10 @@ nav ul li {
 
 
 
-footer {padding: 1em;
+footer {padding: 2em;
         color: #ffffff;
         text-align: center;
+        font-weight: bold;
 }
 
 footer a {color: #ffffff;}
@@ -222,7 +236,7 @@ footer a {color: #ffffff;}
 </div>
 
 {block:HasPages}
-<nav>
+<nav class="pages">
 <ul>
 {block:Pages}
 <li><a href="{URL}">{Label}</a></li>

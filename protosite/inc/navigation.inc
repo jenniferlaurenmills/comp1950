@@ -9,10 +9,13 @@
       <li class="currentpage">
         <a href="index.shtml">Home</a>
       </li>
-      <li>
+      
+      
+      <li class="popupmenu">
         <a href="lectures.shtml">Lectures</a>
-        <div class="popupmenu">
-          <ul>
+        
+        <div id="lecturemenu">
+          <ul id="tt">
             <li>
               <a href="week1.shtml">Week 1</a>
             </li>
@@ -25,6 +28,8 @@
           </ul>
         </div>
       </li>
+      
+      
       <li>
         <a href="#">Blog</a>
       </li>

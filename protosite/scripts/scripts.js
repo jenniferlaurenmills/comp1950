@@ -1,6 +1,8 @@
 ﻿
-//////////////Menu//////////////
+
 $(document).ready(function () {
+
+    //////////////Menu//////////////
     $('.listMenu > li').bind('mouseover', openSubMenu);
     $('.listMenu > li').bind('mouseout', closeSubMenu);
 
@@ -14,15 +16,35 @@ $(document).ready(function () {
     $("#lnk4").mouseover(function () { $("#btn4").css("border-color", "#00d0ff"); });
     $("#lnk4").mouseout(function () { $("#btn4").css("border-color", "#fff"); });
 
+
+    //for scroll through the page
+    $(function () {
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
 });
 
 function openSubMenu() {
     $(this).find('ul').css('visibility', 'visible');
+    
 };
 
 function closeSubMenu() {
     $(this).find('ul').css('visibility', 'hidden');
 };
+
+
 
 //////////////for Footer Slide///////////////////
 $(window).scroll(function () {
@@ -41,7 +63,5 @@ $(window).scroll(function () {
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel();
 });
-
-
 
 

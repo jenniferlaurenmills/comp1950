@@ -89,7 +89,7 @@ nav ul li {
 }
 
 #lecturemenu {
- margin-top:10px;
+    margin-top: 10px;
 }
 
     #lecturemenu ul {
@@ -347,9 +347,6 @@ footer {
         color: white;
     }
 
-
-
-
 /*----------------------------------------End Index page CSS------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------------*/
 
@@ -359,4 +356,129 @@ footer {
 
 .validator {
     width: 100%;
+}
+
+/*----------------------------------------Start Lecture page CSS------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------*/
+
+#wrapper {
+    /*border: solid;*/
+    width: 78%;
+    /*max-width: 1200px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper1 {
+    /*border: solid;*/
+    width: 100%;
+    /*width: 1050px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CSS for creating circles in page*/
+.circle {
+    width: 30%;
+    min-width: 200px;
+    height: 300px;
+    border-radius: 0px;
+    /*font-size: 20px;*/
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    background: #328e85;
+    float: left;
+    /*margin-left: 50px;
+    margin-top: 50px;*/
+    /*border:solid;
+    border-color:lightgray;*/
+}
+
+/*in order to expand the circle width*/
+/*#aboutme {
+    -webkit-transition: width .5s, height 0.5s, -webkit-transform 0s; /* For Safari 3.1 to 6.0 */
+transition: width .5s, height 0.5s, transform 0s;
+}
+
+*/
+/*#aboutme:hover {
+        margin-left: 0px;
+        width: 1000px;
+    }*/
+#week1 {
+    background: #bd5b5b;
+}
+
+#week2 {
+    background: #13b9af;
+}
+
+#week3 {
+    background: #805a79;
+}
+
+#week4 {
+    background: #a3a971;
+}
+
+#week5 {
+    background: #c17474;
+}
+
+#week6 {
+    background: #d47320;
+}
+
+#week7 {
+    background: #0885fe;
+}
+
+#week8 {
+    background: #58879c;
+}
+
+#week9 {
+    background: #37b69f;
+}
+
+#week10 {
+    background: #658160;
+}
+
+#week11 {
+    background: #798f54;
+}
+
+#week12 {
+    background: #8ca54d;
+}
+
+
+#skills li, #example li, #sites li {
+    text-align: left;
+}
+
+#example a, #sites a, #homework a {
+    text-decoration: none;
+}
+
+
+    #example a:hover, #sites a:hover, #homework a:hover {
+        color: white;
+    }
+
+#tools li {
+    list-style: none;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#aboutme p {
+    padding: 10px;
+}
+
+#skills ul {
+    margin-left: 2px;
 }

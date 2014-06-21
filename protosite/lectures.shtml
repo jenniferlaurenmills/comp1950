@@ -17,7 +17,178 @@
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
     <!---------------------------->
-    <h1>Lectures</h1>
+
+
+
+    <div id="wrapper">
+        <br />
+        <br />
+        <h1>Lectures</h1>
+        <section id="wrapper1">
+
+            <article class="circle" id="week1">
+                <br />
+                <header>
+                    <h3>Week 1</h3>
+                </header>
+                <ul>
+                    <li>Course Introduction: (this week!)</li>
+                    <li>Why are you here</li>
+                    <li>What you will learn</li>
+                    <li>Student Survey</li>
+                    <li>Assignment 1: Course homepage</li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week2">
+                <br />
+                <header>
+                    <h3>Week 2</h3>
+                </header>
+                <ul>
+                    <li>Standards in Web development</li>
+                    <li>Script/JQuery</li>
+                    <li>Assignment 2: Using tools & standards</li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week3">
+                <br />
+                <header>
+                    <h3>Week 3</h3>
+                </header>
+                <ul>
+
+                    <li>XHTML1, XHTML 2, HTML 4, HTML 5</li>
+                    <li>History and current developments</li>
+                    <li>What is the best development language?</li>
+                    <li>Assignment 3: Working with different MLs</li>
+
+                </ul>
+            </article>
+
+            <article class="circle" id="week4">
+                <br />
+                <header>
+                    <h3>Week 4</h3>
+                </header>
+                <ul>
+                    <li>Quiz 1: Markup</li>
+                    <li>Review of CSS</li>
+                    <li>Beyond text formatting</li>
+                    <li>Assignment 4: Using different stylesheets</li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week5">
+                <br />
+                <header>
+                    <h3>Week 5</h3>
+                </header>
+                <ul>
+                    <li>Advanced CSS</li>
+                    <li>Layout and positioning</li>
+                    <li>Assignment 5: Troubleshooting CSS, Positioning Exercises</li>
+                    <li></li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week6">
+                <br />
+                <header>
+                    <h3>Week 6</h3>
+                </header>
+
+                <ul>
+                    <li>Understanding Server Side Includes</li>
+                    <li>Beyond SSIs: Delivering dynamic information</li>
+                    <li>Introduction to template development</li>
+                    <li>Assignment 6: Template</li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week7">
+                <br />
+                <header>
+                    <h3>Week 7</h3>
+                </header>
+                <ul>
+                    <li>Midterm</li>
+                    <li>More Template Development</li>
+                    <li>Used in Blogs, wikis, user-driven sites, communities</li>
+                    <li>Assignment 7: Template II</li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week8">
+                <br />
+                <header>
+                    <h3>Week 8</h3>
+                </header>
+                <ul>
+                    <li>Development Methodology </li>
+                    <li>Requirements, Design, Production, Launch, Maintenance</li>
+                    <li>Project outlined</li>
+                    <li>Assignment 8: Methodology Notes</li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week9">
+                <br />
+                <header>
+                    <h3>Week 9</h3>
+                </header>
+                <ul>
+                    <li>Behaviour</li>
+                    <li>Adding interactivity</li>
+                    <li>JavaScript Libraries and Frameworks</li>
+                    <li>Assignment 9: Javascript exercises</li>
+
+                </ul>
+            </article>
+
+            <article class="circle" id="week10">
+                <br />
+                <header>
+                    <h3>Week 10</h3>
+                </header>
+                <ul>
+                    <li>Site Construction</li>
+                    <li>Bringing it all together</li>
+                    <li>Source/Revision Control using GIT</li>
+                    <li>Assignment 10: Completed site</li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week11">
+                <br />
+                <header>
+                    <h3>Week 11</h3>
+                </header>
+                <ul>
+                    <li>Project Work</li>
+                </ul>
+            </article>
+
+            <article class="circle" id="week12">
+                <br />
+                <header>
+                    <h3>Week 12</h3>
+                </header>
+                <ul>
+                    <li>Final Examination</li>
+
+                </ul>
+            </article>
+        </section>
+
+        <br style="clear: both;" />
+        <br />
+
+    </div>
+
+
+
 
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->

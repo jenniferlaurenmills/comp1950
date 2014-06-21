@@ -16,7 +16,23 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <script src="scripts/owl.carousel.min.js"></script>
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -50,11 +66,12 @@
     <section>
 
         <p style="text-align: center">
-            <img src="images/arrowdown1.png" alt="arrow down" />
+            <a href="#two">
+                <img src="images/arrowdown1.png" alt="arrow down" /></a>
         </p>
 
         <div id="outcome">
-            <div class="learn line">
+            <div class="learn line" id="two">
                 <hr />
             </div>
             <div class="learn">
@@ -95,116 +112,150 @@
                         <img src="images/tumblr.png" /></a>
                     <h3>Tumblr</h3>
                 </div>
-
             </div>
         </div>
 
     </section>
 
-    <!-- <section>
+    <br class="clear" />
+
+    <section>
         <div id="main">
+            <div class="learn line">
+                <hr />
+            </div>
+            <div class="learn">
+                <h2>About Comp 1950 Course</h2>
+            </div>
+            <div class="learn line">
+                <hr />
+            </div>
             <article>
-                <h3>Fall 2014 - Welcome!</h3>
+                <article class="mainarticle">
+                    <p>Official details about the who, what, where and how are located in the outlines section on the BCIT web site</p>
+                </article>
 
-                <p>
-                    The agenda for Week 1 is:
+                <article class="mainarticle">
+                    <h4>Textbook</h4>
+                    <p>There is no textbook for this class - why?</p>
+                </article>
+
+                <article class="mainarticle">
+                    <h4>Introductions</h4>
+                    <p>Please introduce yourself to your neighbors.</p>
+                </article>
+
+                <article class="mainarticle">
+                    <h4>Web Space</h4>
+                    <p>Each student will be given web space for assignments at students.thenet.ca.</p>
+                </article>
+
+                <article class="mainarticle">
+                    <h4>Expectations</h4>
+                    <p>
+                        There are a few things I want to make sure everyone knows:
+                    </p>
                     <ul>
-                        <li>About This Course</li>
-                        <li>Textbook</li>
-                        <li>Introductions</li>
-                        <li>Web Space</li>
-                        <li>Expectations</li>
-
-                    </ul>
-                </p>
-            </article>
-
-            <article>
-                <h3>About This Course</h3>
-                <p>Official details about the who, what, where and how are located in the outlines section on the BCIT web site</p>
-            </article>
-
-            <article>
-                <h3>Textbook</h3>
-                <p>There is no textbook for this class - why?</p>
-            </article>
-
-            <article>
-                <h3>Introductions</h3>
-                <p>Please introduce yourself to your neighbours.</p>
-            </article>
-
-            <article>
-                <h3>Web Space</h3>
-                <p>Each student will be given web space for assignments at students.thenet.ca.</p>
-            </article>
-
-            <article>
-                <h3>Expectations</h3>
-                <p>
-                    There are a few things I want to make sure everyone knows:
-                <ul>
-                    <li>After week 2 - I do not want to help you with your FTP.  This is a <em>non-negotiable skill</em> you should know as a web developer</li>
-                    <li>Spaces, special characters and capital letters should <strong>never</strong> be used in file or folder names on the web.   The habit might be easy to get into on your desktop, but as someone who crafts web pages, you should avoid this. </li>
-                    <li>The student webspace is: <strong>students.thenet.ca/(student_name)</strong> &larr; Notice that there is <strong>no www</strong> at the front</li>
-                    <li>You will be maintaining a web site for this course. A web development course. Think about that a moment.</li>
-                    <li>The audience for your course homepage is your instructor, design it for me:
+                        <li>After week 2 - I do not want to help you with your FTP.  This is a <em>non-negotiable skill</em> you should know as a web developer</li>
+                        <li>Spaces, special characters and capital letters should <strong>never</strong> be used in file or folder names on the web.   The habit might be easy to get into on your desktop, but as someone who crafts web pages, you should avoid this. </li>
+                        <li>The student web space is: <strong>students.thenet.ca/(student_name)</strong> &larr; Notice that there is <strong>no www</strong> at the front</li>
+                        <li>You will be maintaining a web site for this course. A web development course. Think about that a moment.</li>
+                        <li>The audience for your course homepage is your instructor, design it for me:
                         <ul>
                             <li>Have your assignments easy to find</li>
                             <li>The course is delivered weekly, so should your work</li>
                             <li>Use techniques you have learned in class</li>
                             <li>You don't have to spend hours making it beautiful - that is not an aim of this course.  Focus on making it usable and befitting of the content</li>
                         </ul>
-                    </li>
-                </ul>
-                </p>
+                        </li>
+                    </ul>
+
+                </article>
             </article>
+        </div>
+    </section>
 
+    <div id="overlay">
+        <figure id="alistairimg">
+            <img src="images/alistair.jpg" />
+            <figcaption>Alistair
+            </figcaption>
+        </figure>
 
+        <div id="alistair">
+            <section>
+                <article>
 
-            <div class="subdiv subdivleft">
-                <h3>Instructor Info</h3>
-                <figure>
-                    <img src="images/alistair.jpg" />
-                    <figcaption>Alistair</figcaption>
-                </figure>
+                    <div class="subdiv">
+                        <br />
+                        <p>I have been developing websites since 1995.  I enjoy teaching, and COMP 1950 students are by far the brightest and best looking people around!</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </div>
 
-                <p>I have been developing websites since 1995.  I enjoy teaching, and COMP 1950 students are by far the brightest and best looking people around!</p>
-            </div>
-
-            <div class="subdiv subdivright">
+    <div id="blog">
+        <article>
+            <div class="subdiv">
                 <h3>Latest Blog Post</h3>
                 <p>Ever have one of those days...</p>
             </div>
-        </div>
-    </section>-->
+        </article>
+    </div>
+    <br />
+    <div class="learn line">
+        <hr />
+    </div>
+    <div class="learn">
+        <h2>See What You Can Create</h2>
+    </div>
+    <div class="learn line">
+        <hr />
+    </div>
 
     <section>
-        <h3 style="clear: both;">What You Would Be Able to Create In The End!</h3>
+        <h3 style="clear: both;"></h3>
         <div class="owl-carousel">
             <div>
-                <img src="http://lorempixel.com/220/124/nature/1/">
+                <a href="/">
+                    <img src="images/site1.jpg" alt="site image"></a>
             </div>
             <div>
-                <img src="http://lorempixel.com/220/124/nature/2/">
+                <a href="http://teams.thenet.ca/zerocool/">
+                    <img src="images/site2.jpg" alt="site image"></a>
             </div>
             <div>
-                <img src="http://lorempixel.com/220/124/nature/3/">
+                <a href="http://teams.thenet.ca/">
+                    <img src="images/site3.jpg" alt="site image"></a>
             </div>
             <div>
-                <img src="http://lorempixel.com/220/124/nature/4/">
+                <a href="http://teams.thenet.ca/">
+                    <img src="images/site4.jpg" alt="site image"></a>
             </div>
             <div>
-                <img src="http://lorempixel.com/220/124/nature/5/">
+                <a href="http://teams.thenet.ca/">
+                    <img src="images/site5.jpg" alt="site image"></a>
             </div>
             <div>
-                <img src="http://lorempixel.com/220/124/nature/6/">
+                <a href="http://teams.thenet.ca/">
+                    <img src="images/site6.jpg" alt="site image"></a>
             </div>
             <div>
-                <img src="http://lorempixel.com/220/124/nature/7/">
+                <a href="http://teams.thenet.ca/">
+                    <img src="images/site7.jpg" alt="site image"></a>
+            </div>
+            <div>
+                <a href="http://teams.thenet.ca/">
+                    <img src="images/site8.jpg" alt="site image"></a>
             </div>
         </div>
+        <p style="text-align: center">
+            <a href="#menu">
+                <img src="images/arrowup.png" alt="arrow up" /></a>
+        </p>
     </section>
+
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
     <!---------------------------->

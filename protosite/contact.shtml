@@ -11,8 +11,6 @@
 
 <body>
 
-    <a href="http://www.bcit.ca/">
-        <img id="logo" src="images/logobcit.jpg" alt="BCIT Logo" /></a>
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
     <!---------------------------->

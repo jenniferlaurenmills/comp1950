@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>COMP 1950 Home Page</title>
+	<title>COMP 1950 - Week 3</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<meta name="description" content="Your starting point for all things COMP 1950." />
+	<meta name="description" content="Course content for week 3." />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="scripts/scripts.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
@@ -20,15 +20,48 @@
 
 	<section>
 		<div id="main">
-			<h2>Week 3
-			</h2>
-			<p>
-				Lorem ipsum dolor sit amet, in eam suas liberavisse, ei essent tractatos pro. Veri paulo te nam, nec an latine euismod. Has at minimum legendos, aliquip nonumes eleifend in sea. Cibo movet signiferumque in eum. Eu vix consulatu inciderint, legimus complectitur vim ne.
 
-			   Mei putent expetendis ut, eius graece sit et. Sit ad purto case nullam, per errem doming noluisse et, omnium vocent no sea. Pro ex quem rebum consequat, an nullam graeci est. Minim eirmod ne ius, est elit tibique atomorum ut. Augue noster salutandi ex est, et meliore delectus his.
+			<div class="contentheader">
+                <h2>Week 3
+                </h2>
+            </div>
 
-			   Eu eros prima mea. Id est diam labitur delicatissimi, putant deseruisse ea vix. Ad ius purto forensibus. Ut convenire dissentias eam, quo et everti option debitis.
-			</p>
+			<article>
+				<h3>New development in web development</h3>
+
+				<ul>
+					<li>Always trying to make the web more accessible and publishable</li>
+					<li>Tools for doing this abound!</li>
+					<li>In September, 2013, Google released <a href="http://www.google.com/webdesigner/">Web Designer</a>
+
+					</li>
+					<li>In a similar way, Squarespace just launched their <a href="http://squarespace.com/logo">Logo Maker</a></li>
+					<li>There are may similar tools out there, not to mention things like <a href="http://wix.com">Wix</a>, <a href="http://www.weebly.com/">Weebly</a>, <a href="http://www.moonfruit.com/">Moonfruit</a> and more.</li>
+				</ul>
+
+
+				<h4>Your viewpoint</h4>
+				<ul>
+					<li>What is the value of these tools?</li>
+					<li>Where do web developers fit in?</li>
+					<li>Is this a threat to web development skills?</li>
+					<li>Let's <strong>discuss this</strong></li>
+				</ul>
+			</article>
+			
+			<article>
+				<h3>Referer</h3>
+				<ul>
+					<li>Validators can accept requests from existing URLs</li>
+					<li>Rather than creating a link each time, you can reuse this one: <a href="http://validator.w3.org/check?uri=referer">Referer</a></li>
+					<li>It&apos;s portable and can be used on <em>any</em> page</li>
+					<li>Also, keep your homepages clean, up to date and they should make sense to an unknowing viewer</li>
+					<li>Remember, this is a <strong>web development course</strong></li>
+					
+				</ul>
+			</article>
+      
+
 
 		</div>
 	</section>

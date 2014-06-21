@@ -3,6 +3,8 @@ body {
     font-family: Arial,Sans-serif;
     padding: 0px;
     margin: 0px;
+    color: #565656;
+    /*font-family: 'Noto Sans','Arapey',serif,Arial,Helvetica,sans-serif;*/
 }
 
 h3 {
@@ -196,15 +198,14 @@ footer {
         #transparentbtn a:hover {
             color: #60edbd;
         }
-         #transparentbtn #lnk1:hover {
-            color: #061779;
-        }
-          #transparentbtn #lnk2:hover {
-            color: #061779;
-        }
 
+    #transparentbtn #lnk1:hover {
+        color: #061779;
+    }
 
-
+    #transparentbtn #lnk2:hover {
+        color: #061779;
+    }
 
 .btn {
     border: solid 2px;
@@ -218,8 +219,46 @@ footer {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    text-align: center;  
+    text-align: center;
 }
+
+#outcome {
+    clear: both;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn {
+    width: 32%;
+    float: left;
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+
+.line {
+    padding-top: 20px;
+}
+
+#icons {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    /*border:solid;*/
+}
+
+.iconpic {
+    /*border: solid;*/
+    float: left;
+    margin-left:50px;
+    margin-top:20px;
+    text-align:center;
+}
+    .iconpic h3 {
+        margin-top:25px;
+    }
+
+
 
 .subdiv {
     border: 1px solid;

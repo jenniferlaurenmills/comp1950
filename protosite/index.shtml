@@ -9,6 +9,9 @@
     <script src="scripts/scripts.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
 
+    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+
     <!--Carousel resource for index page-->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -29,6 +32,9 @@
                     <div class="moto">
                         <h1>Are You Ready to Code!</h1>
                         <h1>Start Learning Now.</h1>
+                        <h6>This site has developed with the help of a Dog,a Cat and an angry Orange! Can you believe it.!!
+
+                        </h6>
                     </div>
                     <div id="transparentbtn">
                         <div class="btn" id="btn1"><a class="lnk" id="lnk1" href="lectures.shtml">Start Here</a></div>
@@ -42,6 +48,60 @@
     </section>
 
     <section>
+
+        <p style="text-align: center">
+            <img src="images/arrowdown1.png" alt="arrow down" />
+        </p>
+
+        <div id="outcome">
+            <div class="learn line">
+                <hr />
+            </div>
+            <div class="learn">
+                <h2>What You Can Learn</h2>
+            </div>
+            <div class="learn line">
+                <hr />
+            </div>
+
+            <div id="icons">
+                <div class="iconpic">
+                    <img src="images/html5.png" />
+                    <h3>HTML 5</h3>
+                </div>
+
+                <div class="iconpic">
+                    <a href="lectures.shtml">
+                        <img src="images/css3.png" /></a>
+                    <h3>CSS 3</h3>
+                </div>
+                <div class="iconpic">
+                    <a href="lectures.shtml">
+                        <img src="images/method.png" /></a>
+                    <h3>Methodology</h3>
+                </div>
+                <div class="iconpic">
+                    <a href="lectures.shtml">
+                        <img src="images/github.png" /></a>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="iconpic">
+                    <a href="lectures.shtml">
+                        <img src="images/jquery.png" /></a>
+                    <h3>JQuery</h3>
+                </div>
+                <div class="iconpic">
+                    <a href="lectures.shtml">
+                        <img src="images/tumblr.png" /></a>
+                    <h3>Tumblr</h3>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <section>
         <div id="main">
             <article>
                 <h3>Fall 2014 - Welcome!</h3>
@@ -117,7 +177,7 @@
                 <p>Ever have one of those days...</p>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section>
         <h3 style="clear: both;">What You Would Be Able to Create In The End!</h3>

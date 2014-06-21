@@ -8,16 +8,20 @@
 
  <body>
 
-<div id =content>
+<div id = header>
  
  <h1>Rationale Page</h1>
+</header>
 
+</div>
+
+<div id =content>
 
 <section>
 <article>
  <h2>Objective</h2>
 
- <p>Zero Cool Design works with the Client using our own Methodolgy which is designed to keep the following goals in mind: </p>
+ <p>Zero Cool Design begins and ends with our Clients. We consistently use the following methodology when starting a new project:</p>
 
  <ul> 
 	<li>Ensure that the website meets and exceeds our client's expectations</li>
@@ -27,23 +31,57 @@
 	<li>Plan for growth</li>
  </ul>
 
- <p>Going forward with our Client we can determine the following..</p>
+ <p>Keeping that in mind we can break down our project into specifics. </p>
 
  <h3>Purpose</h3>
  <p>To act as a online text book that is useful, informative and educational</p>
 
+
+
  <h3>Audience</h3>
  <p>Current COMP1950 Students and Alumni COMP1950 Students</p>
+
+
+
+<h3>Overall Design</h3>
+<p>Looking at the design of the current website, we decided as a team that although it was getting the job done it lacked a sleek and "sexy" (as Lawrence would put it) design. We also wanted to adapt more of a consistency throughout the parent bcit.ca and the COMP1950 site. Another impressive factor was that all new pages are designed with semantics and search engine optimization to achieve a website that qualifies as part of the semantic web, providing universal access. Overall, our biggest goal was to create a website that was visual and user-friendly, which in our opinion have succeeded in doing so.</p>
+
+
+<h3>Home Page</h3>
+<p>The beginning of our new "sexy" design is the Home Page. Minimal and straight forward, what any student would be looking for is right in front of them. Also, if you were contemplating taking this course you will find many different information sources as to what you would be learning, as well as details about your instructor!</p>
+
+<h3>Navigation</h3>
+<p>The Navigation was a major aspect of our changes. We eliminated the side bar nav and created a vertical bar. Then exposing a drop-down menu to break down the lecture by weeks - which in itself, is quite beautiful. The weeks are to be added as the course progresses which will allow the instructor to have full control of what is available at any time throughout. Also if you may notice when scrolling down a lecture as soon as the top navigation is no longer in sight the footer navigation pops up along the bottom. In addition to the accessible features in the original navigation you can also locate the sitemap should you need to. 
+<br>
+
+*insert mobile version details*</p>
+
+<h3>Blog</h3>
+<p>Our proudest addition is our Blog, which associated with tumblr to create an easy to use content management system. Here, you can find up to date information on the course, projects and news within the community. Easily accessible our blog keeps the flow within the website in regards to style, navigation and written content.</p>
+
+
+<h3>Lecture Page</h3>
+<p>Each lecture page keeps to a similar skeleton as the website was once before. Divided by appropriate sub sections to indicate the beginning and end of specific topics. While the vocal point is the content, links are obvious and relevant in regards to where they are placed. We have adapted a more user-friendly approach.</p>
+
+
+<h3>Search</h3>
+<p>One of the most detrimental features is the search bar. Honestly, I am unsure of how this site functioned beforehand. In this area you can look up anything in particular and it will examine the site for any related information. This in itself will make the user experience impeccable.</p>
+
+<h3>Wiki/Forums</h3>
+<p>Have a question that cannot be answered through google? Rely on your peers and communicate through simple forums. This feature can be found helpful to current and alumni students. It can provide you will definitions and reasoning as to why web development and design is done the way it is done - as well as it may break some rules?</p>
+
+<h3>Alumni Resources</h3>
+<p>Located in the footer is an area for alumni students which will feature more advanced aspects of web development and design.</p>
+
+<h3>Conclusion</h3>
+<p>Throughout this project, we have examined what works and what does not work with the original site and we are genuinely quite pleased with what our team has accomplished. Zero Cool has been able to maintain the course content and yet take the user experience to a whole new level. Adaptive and creative, we truly listen to our clients and deliver on each and every aspect of what they are looking for.</p>
+
+<p>Zero Cool design would like to thank you for the opportunity and we hope you enjoy your new website.</p>
+
 
  </article> 
 
 
- <article> 
-
- 
- 
-
-  </article>
 
 
   </div>
@@ -51,3 +89,13 @@
 
  </body>
 </html>
+
+
+
+
+  </div>
+
+
+ </body>
+</html>
+

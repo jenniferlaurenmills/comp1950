@@ -15,6 +15,9 @@ $(document).ready(function () {
     $("#lnk3").mouseout(function () { $("#btn3").css("border-color", "#fff"); });
     $("#lnk4").mouseover(function () { $("#btn4").css("border-color", "#00d0ff"); });
     $("#lnk4").mouseout(function () { $("#btn4").css("border-color", "#fff"); });
+     
+    $("#divextra2").mouseover(function () { $("#divextra2").css("border-color", "#00d0ff"); });
+    $("#divextra2").mouseout(function () { $("#divextra2").css("border-color", "gray"); });
 
 
     //for scroll through the page

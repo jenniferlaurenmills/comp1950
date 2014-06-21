@@ -395,19 +395,10 @@ footer {
     border-color:lightgray;*/
 }
 
-/*in order to expand the circle width*/
-/*#aboutme {
-    -webkit-transition: width .5s, height 0.5s, -webkit-transform 0s; /* For Safari 3.1 to 6.0 */
-transition: width .5s, height 0.5s, transform 0s;
-}
 
-*/
-/*#aboutme:hover {
-        margin-left: 0px;
-        width: 1000px;
-    }*/
 #week1 {
     background: #bd5b5b;
+    clear: both;
 }
 
 #week2 {
@@ -481,4 +472,37 @@ transition: width .5s, height 0.5s, transform 0s;
 
 #skills ul {
     margin-left: 2px;
+}
+
+.extralearn {
+    clear: both;
+}
+
+#divextralearn {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#divextra1 {
+    /*border: solid;*/
+    float: left;
+    width: 45%;
+    min-width: 180px;
+}
+
+#divextra2 {
+    border: solid;
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-left: 20%;
+    min-width: 80px;
+    margin-top: 50px;
+    color: gray;
+}
+
+#divextra2 :hover { 
+    color: #212942;
 }

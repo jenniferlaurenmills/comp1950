@@ -34,9 +34,7 @@
                     <div class="moto">
                         <h1>Are You Ready to Code!</h1>
                         <h1>Start Learning Now.</h1>
-                        <h6>This site has developed with the help of a Dog,a Cat and an angry Orange! Can you believe it.!!
-
-                        </h6>
+                        <h6></h6>
                     </div>
                     <div id="transparentbtn">
                         <div class="btn" id="btn1"><a class="lnk" id="lnk1" href="lectures.shtml">Start Here</a></div>

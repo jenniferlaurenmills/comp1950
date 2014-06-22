@@ -46,17 +46,26 @@ h1, header h2 {color: #ffffff;
 
 header a {text-decoration: none;}
 
-.pages {margin-top: 7em;
-       }
+.pages {border: 1px solid #ffffff;
+        padding: 1em;
+       margin-top: 3em;
+      
+}
 
+.blogintro {color: #ffffff;
+            font-weight: bold;
+           padding: 1em;
+            
+}
 
-.pages li {border: 2px solid #ffffff;
+.blogtag li {border: 2px solid #ffffff;
            padding: 1em;
            font-weight: bold;
+          
   
 }
 
-.pages a {color: #ffffff;}
+.blogtag a {color: #ffffff;}
 
 .postings {margin-top: 6em;}
 
@@ -73,7 +82,7 @@ header a {text-decoration: none;}
               color: #6c7b8b;
 }
 
-.quotes {background-color: #989898;
+.quotes {background-color: #4f94cd;
         padding: .5em .5em .5em 2em;
         margin: 1em;
         }
@@ -187,15 +196,6 @@ footer a {color: #ffffff;}
 
 <div class="container">
 
-
-<header>
-<a href="http://zerocoolers.tumblr.com/">
-<h1>COMP 1950 Blog</h1>
-<h2>The class bulletin board for announcements, gossips, and last minute updates.</h2>
-</a>
-</header>
-
-
 <div id="menu">
   <nav>
     <ul class="listMenu">
@@ -240,14 +240,35 @@ footer a {color: #ffffff;}
   </nav>
 </div>
 
+<header>
+<a href="http://zerocoolers.tumblr.com/">
+<h1>COMP 1950 Blog</h1>
+<h2>The class bulletin board for announcements, gossips, and last minute updates.</h2>
+</a>
+</header>
+
+
+
+
 {block:HasPages}
+
+
+
 <nav class="pages">
-<ul>
+
+<p class="blogintro">
+What do you feel like reading today?
+</p>
+
+<ul class="blogtag">
 {block:Pages}
 <li><a href="{URL}">{Label}</a></li>
 {/block:Pages}
 </ul>
+
 </nav>
+
+
 {/block:HasPages}
 
 

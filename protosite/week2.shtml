@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>COMP 1950 - Week 2</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="Course content for week 2." />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <!--the navigation.inc goes here-->
+    <!--#include file="inc/navigation.inc" -->
+    <!---------------------------->
+    <section>
+        <div id="main">
+             <div class="contentheader">
+                <h2>Week 2
+                </h2>
+             </div>
+
+            <article>
+                <h2>web review: reminders</h2>
+
+                <p>There are a few things that bear reminding:
+                    <ul>
+                        <li>
+                            File and folder names cannot contain:
+                            <ul>
+                                <li>capital letters</li>
+                                <li>spaces</li>
+                                <li> special characters: ! @ # $ % ^ &amp; * ( ) + { } [
+                           ] : ; &quot; &lt; &gt; ? |</li>
+                                <li>
+                                    acceptable non-alphanumeric characters: .  _  -  ~
+                                </li>
+                            </ul>
+                        </li>
+
+                         <li>
+                             default page: index.htm, index.html or index.shtml (or
+                             whatever your server default is)
+                         </li>
+
+                    </ul>
+                </p>
+            </article>
+
+            <article>
+                <h2>Browser Tools</h2>
+                
+                <h4>Lots of options</h4>
+
+                <ul>
+                    <li>These days there are lots of browser-based tools available for web developers</li>
+                    <li>Webkit (<a href="www.google.com/chrome">Chrome</a>, <a href="http://www.apple.com/safari/">Safari</a>) and Mozilla (<a href="http://www.mozilla.org/en-US/firefox">Firefox</a>) both have built-in tools</li>
+                    <li>Tools are enhanced by their organizations</li>
+                    <li>Easy to develop and troubleshoot now</li>
+                    <li>We will look at <a href="www.google.com/chrome">Chrome</a> and <a href="http://www.apple.com/safari/">Safari</a> but, in COMP 1950, the focus will be <a href="http://www.mozilla.org/en-US/firefox">Firefox</a></li>
+                </ul>
+
+
+                <h4>Why Use Firefox?</h4>
+                <ul>
+                    <li>Open source and user supported</li>
+                    <li>Extremely standards compliant </li>
+                    <li>Designed by web developers</li>
+                    <li>Uses the superb Gecko page-rendering engine</li>
+                    <li>Current version very solid (with minimal extensions)</li>
+                    <li>Built in tools are excellent</li>
+                    <li>Works for large or small-scale development</li>
+                    <li>Excellent selection of extensions</li>
+                </ul>
+                 
+                <h4>Challenges</h4>
+                <ul>
+                    <li>Open source and user supported</li>
+                    <li>User contributable code and suggestions</li>
+                    <li>Can become heavy under it&apos;s own weight: extensions &amp; add-ons</li>
+                </ul>
+                 
+                <h4>Considerations</h4>
+                <ul>
+                    <li>Remember that there are other browsers out there!</li>
+                    <li>Test in Moz/IE/Opera/FF and anything else just to be sure</li>
+                </ul>
+
+                <h4>Built-in tools</h4>
+
+                <p>Starting with the built-in web developer tools:</p>
+                <ul>
+                    <li>Firefox Developer Toolbar</li>
+                    <li>Includes console, debugger, inspector</li>
+                    <li>Also includes multiple view options, ability to include style and even full size screenshots</li>
+                    <li>Responsive Design view</li>
+                    <li>Scratchpad for JavaScript stuff</li>
+                    <li>Separate style editor</li>
+                </ul>
+                <p>Some pretty great stuff, but there are other tools out there that offer far more!
+                </div>
+
+            </article>
+
+        </div>
+    </section>
+       <!--the footer.inc goes here-->
+            <!--#include file="inc/footer.inc" -->
+            <!---------------------------->
+
+</body>
+
+</html>

@@ -12,7 +12,7 @@
           <a href="lectures.shtml">Lectures</a>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <a href="http://zerocoolers.tumblr.com">Blog</a>
         </li>
         <li>
           <a href="contact.shtml">Contact</a>

@@ -2,14 +2,20 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>COMP 1950 - Week 2</title>
+    <title>COMP 1950 Home Page</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta name="description" content="Course content for week 2." />
+    <meta name="description" content="Your starting point for all things COMP 1950." />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="scripts/scripts.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+
     <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+
+    <!--Carousel resource for index page-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="scripts/owl.carousel.min.js"></script>
 </head>
 
 <body>
@@ -17,35 +23,71 @@
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
     <!---------------------------->
+
+    <section class="black">
+        <div class="weeksummary">
+            <div id="summarywrap">
+                <div id="agenda">
+                    <h3>Agenda</h3>
+                    <hr class="hline" />
+                    <ul>
+                        <li>Web review: some reminders </li>
+                        <li>Web Development with Firefox, Chrome and Safari 
+                        </li>
+                        <li>Standards & Semantics 
+                        </li>
+                        <li>Markup Languages </li>
+                        <li>Assignment & Homework </li>
+                    </ul>
+                </div>
+                <div id="assignment">
+                    <h3>Assignment</h3>
+                    <hr class="hline" />
+                    <ul>
+                        <li>You have two pieces of homework for this week. Please finish both:
+                        <ul>
+                            <li>Create a page for Finnegan in XHTML Strict and HTML5</li>
+                            <li>Create related pages for Finnegan in XHTML Strict and HTML5 </li>
+                            <li>Create a page for a Realtor in XHTML Strict and HTML5 </li>
+                            <li>Create related pages for a Realtor in XHTML Strict and HTML5 </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center">
+            <a href="#main">
+                <img src="images/uparrow.png" alt="arrow up" /></a>
+        </p>
+    </section>
+
     <section>
         <div id="main">
-             <div class="contentheader">
+            <div class="contentheader">
                 <h2>Week 2
                 </h2>
-             </div>
+            </div>
 
             <article>
                 <h2>web review: reminders</h2>
 
-                <p>There are a few things that bear reminding:
+                <p>
+                    There are a few things that bear reminding:
                     <ul>
-                        <li>
-                            File and folder names cannot contain:
+                        <li>File and folder names cannot contain:
                             <ul>
                                 <li>capital letters</li>
                                 <li>spaces</li>
-                                <li> special characters: ! @ # $ % ^ &amp; * ( ) + { } [
+                                <li>special characters: ! @ # $ % ^ &amp; * ( ) + { } [
                            ] : ; &quot; &lt; &gt; ? |</li>
-                                <li>
-                                    acceptable non-alphanumeric characters: .  _  -  ~
+                                <li>acceptable non-alphanumeric characters: .  _  -  ~
                                 </li>
                             </ul>
                         </li>
 
-                         <li>
-                             default page: index.htm, index.html or index.shtml (or
+                        <li>default page: index.htm, index.html or index.shtml (or
                              whatever your server default is)
-                         </li>
+                        </li>
 
                     </ul>
                 </p>
@@ -53,7 +95,7 @@
 
             <article>
                 <h2>Browser Tools</h2>
-                
+
                 <h4>Lots of options</h4>
 
                 <ul>
@@ -76,14 +118,14 @@
                     <li>Works for large or small-scale development</li>
                     <li>Excellent selection of extensions</li>
                 </ul>
-                 
+
                 <h4>Challenges</h4>
                 <ul>
                     <li>Open source and user supported</li>
                     <li>User contributable code and suggestions</li>
                     <li>Can become heavy under it&apos;s own weight: extensions &amp; add-ons</li>
                 </ul>
-                 
+
                 <h4>Considerations</h4>
                 <ul>
                     <li>Remember that there are other browsers out there!</li>
@@ -101,16 +143,17 @@
                     <li>Scratchpad for JavaScript stuff</li>
                     <li>Separate style editor</li>
                 </ul>
-                <p>Some pretty great stuff, but there are other tools out there that offer far more!
-                </div>
+                <p>
+                    Some pretty great stuff, but there are other tools out there that offer far more!
+        </div>
 
-            </article>
+        </article>
 
         </div>
     </section>
-       <!--the footer.inc goes here-->
-            <!--#include file="inc/footer.inc" -->
-            <!---------------------------->
+    <!--the footer.inc goes here-->
+    <!--#include file="inc/footer.inc" -->
+    <!---------------------------->
 
 </body>
 

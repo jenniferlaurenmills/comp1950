@@ -19,6 +19,10 @@ $(document).ready(function () {
     $("#divextra2").mouseover(function () { $("#divextra2").css("border-color", "#00d0ff"); });
     $("#divextra2").mouseout(function () { $("#divextra2").css("border-color", "gray"); });
 
+ 
+    
+
+
 
     //for scroll through the page
     $(function () {
@@ -68,3 +72,7 @@ $(document).ready(function () {
 });
 
 
+
+//$("#slideup").onClick(function () {
+//    $("#summarywrap").css("display", "none");
+//});

@@ -75,19 +75,31 @@ header a {text-decoration: none;}
        margin-top: 1em;
 	   padding: 3em;
 	  		  }
+
 	  		  
-.links a {color: #373c44;}
+
 
 #urly {font-size: .8em;
               color: #6c7b8b;
 }
 
-.quotes {background-color: #4f94cd;
+.inspirations, .reference, .announcements, .homework {background-color: #4f94cd;
         padding: .5em .5em .5em 2em;
         margin: 1em;
         }
 
-.quotes h5 {font-style: italic;
+.reference  {background-color: #7ccd7c;
+         }   
+         
+.reference a {color: #373c44;}         
+         
+.announcements { background-color: #cd919e;
+         }     
+
+.homework   { background-color: 	#eead0e;
+         }           
+
+.inspirations h5 {font-style: italic;
         }
 
 .datestyle img {border-radius: 10px;
@@ -283,21 +295,25 @@ What do you feel like reading today?
 <article class="post">
 
 	{block:Text} 
+	<div class="post {block:HasTags}{block:Tags}{Tag} {/block:Tags}{/block:HasTags}">
 		<h2>{Title}</h2>
 		{Body}
+	</div>	
 	{/block:Text}
 	
 	{block:Photo}
+	<div class="post {block:HasTags}{block:Tags}{Tag} {/block:Tags}{/block:HasTags}">
 		<figure>
 	    <img src="{PhotoURL-400}"/>
 	        <figcaption>
 	        {Caption}
 	        </figcaption>
 	    </figure>
+	    </div>
 	{/block:Photo}	
 	
 	{block:Link}
-	    <div class="links">
+	    <div class="post {block:HasTags}{block:Tags}{Tag} {/block:Tags}{/block:HasTags}">
 	    <h3>Featured link for this week: <a href="{URL}">{Name} <span id="urly">{URL}</span></a></h3> 
 	   <p>{Description} </p>  
 	    </div>
@@ -305,7 +321,7 @@ What do you feel like reading today?
 	{/block:Link}
 	
 	{block:Quote}
-	<div class="quotes">
+	<div class="post {block:HasTags}{block:Tags}{Tag} {/block:Tags}{/block:HasTags}">
 	Quote of the week....
 	<h3>"{Quote}"</h3>
 	 {block:Source}

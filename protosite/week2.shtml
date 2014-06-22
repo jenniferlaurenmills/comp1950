@@ -65,8 +65,8 @@
         </p>
     </section>
 
-     <!--for side navigation-->
-    <div id="rotatetext"><a id="left-menu" href="#left-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" /></a></div>
+    <!--for side navigation-->
+    <div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" /></a></div>
     <!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
 
 

@@ -20,6 +20,8 @@
     <!--for sider navigation-->
     <link href="css/jquery.sidr.dark.css" rel="stylesheet" />
     <script src="scripts/jquery.sidr.min.js"></script>
+
+
 </head>
 
 <body>
@@ -68,8 +70,11 @@
 
 
     <!--for side navigation-->
-    <div id="rotatetext"><a id="left-menu" href="#left-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" /></a></div>
+    <div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" /></a></div>
     <!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
+    
+
+
 
     <section>
         <div id="main">
@@ -133,6 +138,7 @@
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
     <!---------------------------->
+
 </body>
 
 </html>

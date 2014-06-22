@@ -73,20 +73,14 @@ $(document).ready(function () {
 
 
 
-//for sider navigation
 $(document).ready(function () {
-    $('#left-menu').sidr({
-        name: 'sidr-left',
-        side: 'left' // By default
+
+    $('#callback-menu').sidr({
+        name: 'Contents',
+        source: function (name) {
+            return '<h1 style="font-size:120% ;">' + name + ' Comp 1950</h1><p><a href="lectures.shtml">Home</a></p><p><a href="week1.shtml">01| Introduction</a></p><p><a href="week2.shtml">02| Tools & Standards</a></p><p><a href="week3.shtml">03| HTML 5 & SEO</a></p><p>04| CSS Concepts</p><p>05| More CSS</p><p>06| CSS & SSI</p><p>07| Template Development</p><p>08| Methodology</p><p>09| Alistair!</p><p>10| JQUERY/Git</p>';
+        }
     });
-    $('#right-menu').sidr({
-        name: 'sidr-right',
-        side: 'right'
-    });
- 
 });
-
-
-
 //css('transform', 'rotate(90deg)');
 //$(this).css('border', 'solid');

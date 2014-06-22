@@ -7,8 +7,9 @@
     <meta name="description" content="Your starting point for all things COMP 1950." />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="scripts/scripts.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
 
+    <!--page fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 

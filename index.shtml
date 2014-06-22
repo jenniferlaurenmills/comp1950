@@ -29,7 +29,7 @@
             <article>
                 <h2>Introduction</h2>
                 <p>
-                    We are the ZeroCoolers and we are the bestest. We are going to work on a proposal to revamp the COMP 1950 home page to make it more accessible and informative for students.  Based on the <a href="questionaire.shtml">questionnaire answers</a>, we have a few design goals we would like to address:
+                    The ZeroCoolers are an eclectic bunch. Some of us are nocturnal, some are diurnal, while some are only awake during weekends. But we all share a burning love to create the bestest websites ever.  And as students of COMP 1950, we get our five minutes of fame to propose a revamp of the current course website to make it more accessible and informative for everyone. This site will act like a "live" textbook / resources for the current COMP 1950 students, the main target audience.   Based on the <a href="questionaire.shtml">questionnaire answers</a>, we have a few design goals we will attempt to address:
                 </p>
 
                 <ul>
@@ -40,12 +40,23 @@
                             <li>some form of CMS to help the instructor keep the content up to date while refraining from FTP</li>
                             <li>keep users informed of the latest updates through a blog</li>
                             <li>ensuring cross-platform, cross-browser, readability</li>
-                            <li>an evolving wiki that provides an evolving collective knowledge base of some sort</li>
+                            <li>a wiki that provides an evolving collective knowledge base</li>
+							<li>In keeping with this goal, at the very least every page must have:
+								<ul>
+									<li>access to previous lectures/exercises/assignments</li>
+									<li>general course outline</li>
+									<li>instructor information</li>
+									<li>access to the course blog</li>
+								</ul>
+							</li>
                         </ul>
                     </li>
+					
                     <li>The site should also act as a way for prospective students to get an idea of how the course will be taught and what they expect to learn from it.</li>
-                    <li>The possibility of an alumni area</li>
+                    <li>The possibility of an alumni (COMP 1950 alumni) area, sometimes grad students can provide some learning tips as well as some inspiring real world post-grad experience</li>
                     <li>Perhaps incorporate some humor to make a more or less technical / mundane subject more interesting and "digestible" to students</li>
+					
+					
                 </ul>
 
                 <br>
@@ -99,19 +110,19 @@
                         </tr>
                         <tr>
                             <td>Ali</td>
-                            <td>revamping / fine-tuning the client site, added effects, color tweaking</td>
+                            <td>revamping / fine-tuning the client site, protosite, and blogs with added effects, color tweaking, and jquery. </td>
                         </tr>
                         <tr>
                             <td>Jennifer</td>
-                            <td>wireframes for home and lecture pages, draft of the rationale </td>
+                            <td>content and version 1 of the rationale, sitemap, wireframes for home and lecture pages, version 2 of the rationale (with detailed descriptions)</td>
                         </tr>
                         <tr>
                             <td>Lawrence</td>
-                            <td>start the client project site / images / graphics, and update links</td>
+                            <td>content and version 1 of the client project site and the  protosite blog (includes initial porting of the protosite style to the blog)</td>
                         </tr>
                         <tr>
                             <td>Zach</td>
-                            <td>start the code for lecture / home page</td>
+                            <td>content and version 1 of protosite home page and lectures pages, </td>
                         </tr>
                     </table>
                 </div>

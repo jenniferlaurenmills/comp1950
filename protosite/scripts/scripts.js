@@ -15,13 +15,13 @@ $(document).ready(function () {
     $("#lnk3").mouseout(function () { $("#btn3").css("border-color", "#fff"); });
     $("#lnk4").mouseover(function () { $("#btn4").css("border-color", "#00d0ff"); });
     $("#lnk4").mouseout(function () { $("#btn4").css("border-color", "#fff"); });
-     
+
     $("#divextra2").mouseover(function () { $("#divextra2").css("border-color", "#00d0ff"); });
     $("#divextra2").mouseout(function () { $("#divextra2").css("border-color", "gray"); });
 
- 
-    
 
+
+    //$("#imgd").click(function () { alert("Handler for .click() called."); })
 
 
     //for scroll through the page
@@ -44,7 +44,7 @@ $(document).ready(function () {
 
 function openSubMenu() {
     $(this).find('ul').css('visibility', 'visible');
-    
+
 };
 
 function closeSubMenu() {
@@ -73,6 +73,20 @@ $(document).ready(function () {
 
 
 
-//$("#slideup").onClick(function () {
-//    $("#summarywrap").css("display", "none");
-//});
+//for sider navigation
+$(document).ready(function () {
+    $('#left-menu').sidr({
+        name: 'sidr-left',
+        side: 'left' // By default
+    });
+    $('#right-menu').sidr({
+        name: 'sidr-right',
+        side: 'right'
+    });
+ 
+});
+
+
+
+//css('transform', 'rotate(90deg)');
+//$(this).css('border', 'solid');

@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <script src="scripts/owl.carousel.min.js"></script>
+
+    <!--for sider navigation-->
+    <link href="css/jquery.sidr.dark.css" rel="stylesheet" />
+    <script src="scripts/jquery.sidr.min.js"></script>
 </head>
 
 <body>
@@ -45,7 +49,7 @@
                     <hr class="hline" />
                     <ul>
                         <li>Using the principles of:
-                        <ul>
+						<ul>
                             <li>HTML5 Semantics</li>
                             <li>SEO fundamentals </li>
                             <li>Solid content </li>
@@ -61,6 +65,11 @@
                 <img src="images/uparrow.png" alt="arrow up" /></a>
         </p>
     </section>
+
+
+    <!--for side navigation-->
+    <div id="rotatetext"><a id="left-menu" href="#left-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" /></a></div>
+    <!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
 
     <section>
         <div id="main">

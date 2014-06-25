@@ -10,6 +10,8 @@
 	
 	<style>
 	
+	
+	
 	.contact {background:url(http://teams.thenet.ca/zerocool/protosite/images/blog_bg.jpg);
 			background-repeat: no-repeat;
 			 background-color: #243755;
@@ -19,8 +21,7 @@
 			
 	 }
 	 
-	 
-	 
+	 	 
 	 .instruct, .students,  .messages  {border: 1px solid #ffffff;
         padding: 1em;
        margin-top: 3em;

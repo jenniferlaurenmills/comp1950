@@ -79,13 +79,20 @@
 
 
 <h4>Navigation</h4>
-<p>The ZeroCoolers opted to have a dual navigation bar, one at the top of the site and one below.  This not only makes it more convenient to visit pages without having to scroll up, but also acts like a "visual frame" for aesthetic appeal.  The most important section of the site is the lectures and we invested a lot more navigation help in this section with a detailed pull-out side bar, in addition to the gallery style layout. In this way, students reading through the lectures may have easier access to notes from previous weeks.  It is also understood that lecture notes and information will not be posted too early in advance. There is also a sitemap provided for easy access to the entire site. </p>
+<p>The ZeroCoolers opted to have a dual navigation bar, one at the top of the site and one below.  This not only makes it more convenient to visit pages without having to scroll up, but also acts like a "visual frame" for aesthetic appeal.  The most important section of the site is the <a href="http://teams.thenet.ca/zerocool/protosite/week1.shtml">weekly lectures</a> and we invested a lot more navigation help in this section with a detailed pull-out side bar, in addition to the gallery style layout. In this way, students reading through the lectures may have easier access to notes from previous weeks.  It is also understood that lecture notes and information will not be posted too early in advance. </p>
+
+<h4>Sitemap</h4>
+<p>We have a <a href="http://teams.thenet.ca/zerocool/sitemap.shtml">site map</a> proposed that also follows a coloured gallery palette layout as well. We are hoping that our proposed layout for the site (gallery palette), will make the sitemap redundant (in particular the lecture main page). But if implemented, this sitemap will be linked on both the upper and lower main navigation bars.  </p>
+
 
 </article>
 
 
 <br>
 <hr>
+
+
+
 
 
 <article>
@@ -110,7 +117,7 @@ able to create posts on the blog.  Ideally, it should only to be used to transmi
 
 <article>
 <h3>Contact Page</h3>
-<p>One of the more cumbersome process in trying to get hold of fellow students is having to use an external email / messaging system (i.e. through mybcit) outside of the COMP 1950 site.  A more efficient way to do this could be to include in the contact page a way for students to send messages to each other.  Perhaps it can be organized into class sections.  There could be a way to implement a filter so that only the students of a particular section are visible depending on the login account. </p>
+<p>One of the more cumbersome process in trying to get hold of fellow students is having to use an external email / messaging system (i.e. through mybcit) outside of the COMP 1950 site.  A more efficient way to do this could be to include in the contact page a way for students to send messages to each other.  Perhaps it can be organized into class sections.  There could be a way to implement a filter so that only the students of a particular section are visible depending on the login account.  A little message area is proposed for recent message threads as well. </p>
 </article>
 
 

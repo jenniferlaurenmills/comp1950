@@ -25,7 +25,7 @@
           <a href="#">Alumni Resources</a>
         </li>
         <li>
-          <a href="#">Sitemap</a>
+          <a href="sitemap.shtml">Sitemap</a>
         </li>
       </ul>
     </nav>

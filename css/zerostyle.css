@@ -4,7 +4,7 @@ body {
     color: #373c44;
 }
 
-#container {
+#container, .sitemap {
     width: 70%;
     max-width: 1000px;
     margin-left: auto;
@@ -17,13 +17,25 @@ body {
     background-attachment: fixed;
     background-position: center;
     background: white;
+    min-width: 200px;
 }
+#sitemap #container {
+     min-width: 400px;
+}
+
+.sitemap {
+    padding: 1em 1em;
+    margin-left: -1em;
+    min-width: 400px;
+}
+
 
 hr {
     background-color: #104e8b;
 }
 
 footer {
+    clear: both;
     color: #ffffff;
     margin: 0;
     font-style: italic;
@@ -68,8 +80,8 @@ nav {
     /*padding: .1em,1em,.1em,1em;*/
     padding-top: .1em;
     padding-bottom: .1em;
-    padding-left:1em;
-    padding-right:1em;
+    padding-left: 1em;
+    padding-right: 1em;
     width: 70%;
     max-width: 1000px;
     margin-left: auto;
@@ -144,9 +156,9 @@ nav ul a {
         }
 
 .wireframe figure {
-    width:30%;
-    margin-left:auto;
-    margin-right:auto;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #agenda {
@@ -194,4 +206,3 @@ footer {
         padding: 3em;
         color: #7ac5cd;
     }
-

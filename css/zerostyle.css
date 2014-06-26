@@ -143,6 +143,11 @@ nav ul a {
             color: #000000;
         }
 
+.wireframe figure {
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 #agenda {
     clear: both;
@@ -189,3 +194,4 @@ footer {
         padding: 3em;
         color: #7ac5cd;
     }
+

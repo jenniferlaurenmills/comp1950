@@ -37,9 +37,10 @@
 
             <article class="wireframe">
                 <h2>Homepage Wireframe</h2>
+                <br />
 
                 <figure>
-                    <img src="images/t_wireframehomepage.jpg" alt="homepage wireframe" />
+                    <a href="images/wireframehomepage.jpg"><img src="images/t_wireframehomepage.jpg" alt="homepage wireframe" /></a>
                     <figcaption><a href="images/wireframehomepage.jpg">Homepage</a> </figcaption>
                 </figure>
 
@@ -50,9 +51,9 @@
             <article class="wireframe">
 
                 <h2>Lecture Page Wireframe</h2>
-
+                <br />
                 <figure>
-                    <img src="images/t_wireframelecture.jpg" alt="lecture page wireframe" />
+                    <a href="images/wireframelecture.jpg"><img src="images/t_wireframelecture.jpg" alt="lecture page wireframe" /></a>
                     <figcaption><a href="images/wireframelecture.jpg">Lecture Page</a> </figcaption>
                 </figure>
 

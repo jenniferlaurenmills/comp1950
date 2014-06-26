@@ -1,74 +1,80 @@
 ﻿
 @page {
-    margin: 2cm;
+	margin: 2cm;
 }
 
 nav {
-    display: none;
-    border:solid;
+	display: none;
+	border:solid;
 }
 
 #menu {
-    display: none;
+	display: none;
  }
 
 body {
-    font-family: "Times New Roman", Times, serif;
-    float: none;
-    width: auto;
-    margin: 0;
-    padding: 0;
-    background: none;
-    color: #000;
-    background: #fff;
+	font-family: "Times New Roman", Times, serif;
+	float: none;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	background: none;
+	color: #000;
+	background: #fff;
 }
 
 figure {
-    float: left;
-    width: 40%;
-    display: block;
-    background-color: gray;
+	float: left;
+	width: 40%;
+	display: block;
+	background-color: gray;
 }
 
+a:link, a:visited {
+	color: #309;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+
 #wireframe .wireframe figure {
-    float: none;
-    display: block;
-    background-color: gray;
-    width: 100%;
+	float: none;
+	display: block;
+	background-color: gray;
+	width: 100%;
 }
 
 #wireframe .wireframe img {
-    clear: both;
-    width: 100%;
+	clear: both;
+	width: 100%;
 }
 
 /*for index page print*/
 #bigimg {
-    display: none;
+	display: none;
 }
 
 #outcome img {
-    float: none;
-    margin: 0px;
-    padding: 0px;
+	float: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 .owl-carousel {
-    display: none;
+	display: none;
 }
 
-    .owl-carousel img {
-        display: none;
-    }
+	.owl-carousel img {
+		display: none;
+	}
 
 a:after {
-    content: " (URL: " attr(href) ") ";
-    font-size: 90%;
+	content: " (URL: " attr(href) ") ";
+	font-size: 90%;
 }
 
 .black .center img{
-    display:none;
+	display:none;
 }
 #arr {
-    display:none;
+	display:none;
 }

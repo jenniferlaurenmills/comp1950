@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         var sT = $(this).scrollTop();
-        if (sT >= 220) {
+        if (sT >= 220 &&$(window).width() > 686) {
             //$('#mainnav').addClass('hidenav');
             //$('#secondnav').css("display", "block");
             // $('#secondnav').css("display", "block").fadeIn("slow");
@@ -20,4 +20,15 @@ $(document).ready(function () {
 
         }
     })
+
+
+
+    //show and hide nav
+    $('#navmenu').mouseover(function () { $('#mainnav').fadeIn(); });
+    // $('#navmenu').click(function () { $('nav').fadeOut(); });
+    $('nav').mouseleave(function () { if ($(window).width() < 686) { $('#mainnav').fadeOut(); } });
+
+    $('nav').mouseleave(function () { if ($(window).width() > 686) { $('#mainnav').fadeIn(); } });
+    //$('nav').mouseout(function () { $('nav').hide(); });
+
 })

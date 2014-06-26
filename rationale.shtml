@@ -1,299 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="rationale page of Zero Cool group for comp 1950 final project">
-    <title>Rationale</title>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="scripts/scripts.js"></script>
-    <link rel="stylesheet" href="css/zerostyle.css" title="default css" media="screen" />
-    <!--print stylesheet-->
-    <link rel="stylesheet" href="css/print.css" media="print" />
-    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>Zero Cool</title>
+	<meta name="description" content="This a home page of Zero Cool group. It's final project for Comp 1950 by Ali, Lawrence , Janni and Zack">
+	<link rel="stylesheet" href="css/zerostyle.css" title="default css" media="screen" />
+	<!--print stylesheet-->
+	<link rel="stylesheet" href="css/print.css" media="print" />
+	<!--responsive stylesheet-->
+	<link rel="stylesheet" href="css/responsive.css" />
+	<!-- Mobile viewport consideration -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="scripts/scripts.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body id="rationale">
-    <<<<<<< HEAD
 	<!--the header.inc goes here-->
-    <!--#include file="inc/secondnav.inc" -->
+	<!--#include file="inc/secondnav.inc" -->
 
-    <!--the header.inc goes here-->
-    <!--#include file="inc/header.inc" -->
+	<!--the header.inc goes here-->
+	<!--#include file="inc/header.inc" -->
 
-    <!--the navigation.inc goes here-->
-    <!--#include file="inc/navigation.inc" -->
+	<!--the navigation.inc goes here-->
+	<!--#include file="inc/navigation.inc" -->
 
-    <section>
-        <div id="container">
-            <div id="content">
-                <header>
-                    <h2>The Rationale: Method to the Madness</h2>
-                </header>
-                <article>
-                    <header>
-                        <h3>ZeroCool Plan of Action</h3>
-                    </header>
+	<section>
+		<div id="container">
+			<div id="content">
+				<header>
+					<h2>The Rationale: Method to the Madness</h2>
+				</header>
+				<article>
+					<header>
+						<h3>ZeroCool Plan of Action</h3>
+					</header>
 
-                    <p>Due to the time frame given and the scope of our unlimited ambitions, the ZeroCoolers have decided to adapt a parallel working method for this project.  Instead of assigning one person to a specific task in a sequence, we all divided the project into sections based on the member's skill sets.  After this first draft, we then set about refining each other's work further. </p>
+					<p>Due to the time frame given and the scope of our unlimited ambitions, the ZeroCoolers have decided to adapt a parallel working method for this project.  Instead of assigning one person to a specific task in a sequence, we all divided the project into sections based on the member's skill sets.  After this first draft, we then set about refining each other's work further. </p>
 
-                    <p>This is a brief breakdown of our modified methodolgy:</p>
-                    <ul>
-                        <li>Review and analysis of the questionaire answers</li>
-                        <li>Three main parts determined: Client Page, Protosite, Blog</li>
-                        <li>Three main roles: Content producers, Coders, Testers (all members play one of these roles at one point or another during the project)</li>
-                        <li>Content producers for team proceed with adding the preliminary html codes, text, graphics, as well as first draft of the CSS</li>
-                        <li>Advance coders proceed to refine / alter the CSS styles</li>
-                        <li>Testers work the site and check for consistency</li>
-                        <li>Additional content and modifications to the html as needed based on coders requests.</li>
-                        <li>Finalizing and packaging the project</li>
-                    </ul>
+					<p>This is a brief breakdown of our modified methodolgy:</p>
+					<ul>
+						<li>Review and analysis of the questionaire answers</li>
+						<li>Three main parts determined: Client Page, Protosite, Blog</li>
+						<li>Three main roles: Content producers, Coders, Testers (all members play one of these roles at one point or another during the project)</li>
+						<li>Content producers for team proceed with adding the preliminary html codes, text, graphics, as well as first draft of the CSS</li>
+						<li>Advance coders proceed to refine / alter the CSS styles</li>
+						<li>Testers work the site and check for consistency</li>
+						<li>Additional content and modifications to the html as needed based on coders requests.</li>
+						<li>Finalizing and packaging the project</li>
+					</ul>
 
-                </article>
+				</article>
 
-                <br>
-                <hr>
+				<br>
+				<hr>
 
-                <article>
-                    <header>
-                        <h3>Overall Design Theme</h3>
-                    </header>
-                    <p>The current design of the COMP 1950 website, while fully functional and complete, is lacking a little of what we ZeroCoolers call the "sexy Kittler strut". Therefore we set about trying to give the existing site a visual facelift. We feel that a technically geared course such as COMP 1950 may benefit from being offset by the added element of fun and visual appeal in its course website.  A great looking website may also inspire the students, both current and future hopefuls, of what kind of work they can expect to create upon completion of the course. </p>
+				<article>
+					<header>
+						<h3>Overall Design Theme</h3>
+					</header>
+					<p>The current design of the COMP 1950 website, while fully functional and complete, is lacking a little of what we ZeroCoolers call the "sexy Kittler strut". Therefore we set about trying to give the existing site a visual facelift. We feel that a technically geared course such as COMP 1950 may benefit from being offset by the added element of fun and visual appeal in its course website.  A great looking website may also inspire the students, both current and future hopefuls, of what kind of work they can expect to create upon completion of the course. </p>
 
-                    <p>The visual style that we have adopted uses a light coloured palette that is superimposed on the dark blue corporate BCIT colour scheme, perhaps symbolically to emphasize the adventurous (and fun-loving) nature of the course that the students are about to partake.  This design also lends some stylistic consistency of the COMP 1950 as it relates to the BCIT Main Page; that is, COMP 1950 is still a part of BCIT, but "different". The use of lighter colour schemes, clean lines, and simple shapes also reflect on the soothing themes found in pre-school settings, which has been proven to have a positive effect on learning. The site should not intimidate; it should entice and encourage. </p>
+					<p>The visual style that we have adopted uses a light coloured palette that is superimposed on the dark blue corporate BCIT colour scheme, perhaps symbolically to emphasize the adventurous (and fun-loving) nature of the course that the students are about to partake.  This design also lends some stylistic consistency of the COMP 1950 as it relates to the BCIT Main Page; that is, COMP 1950 is still a part of BCIT, but "different". The use of lighter colour schemes, clean lines, and simple shapes also reflect on the soothing themes found in pre-school settings, which has been proven to have a positive effect on learning. The site should not intimidate; it should entice and encourage. </p>
 
-                    <p>The protosite <a href="protosite/index.shtml">home page</a> shows an example of this style in use. Upon entering the site, the visitor is presented with a familiar BCIT-like theme and then by scrolling down, the COMP 1950 happy style takes over. Here we will find examples of past students' work (perhaps on a rotating basis), expectations about the course, access to the lectures, information about the course instructor, and of course a link back to the BCIT website.</p>
-                </article>
+					<p>The protosite <a href="protosite/index.shtml">home page</a> shows an example of this style in use. Upon entering the site, the visitor is presented with a familiar BCIT-like theme and then by scrolling down, the COMP 1950 happy style takes over. Here we will find examples of past students' work (perhaps on a rotating basis), expectations about the course, access to the lectures, information about the course instructor, and of course a link back to the BCIT website.</p>
+				</article>
 
-                <br>
-                <hr>
+				<br>
+				<hr>
 
-                <article>
-                    <header>
-                        <h3>User Friendly Layout</h3>
-                    </header>
+				<article>
+					<header>
+						<h3>User Friendly Layout</h3>
+					</header>
 
-                    <header>
-                        <h4>Gallery Layout</h4>
-                    </header>
-                    <p>The ZeroCoolers feel that a course website is only as intuitive as its ability to help students find what they want when they want it. Therefore, one of our main goals for the site was to have as much of the information clearly laid out as possible.  It may seem like a counter-productive thing to do, considering the potential clutter it may cause, but we feel that in keeping with the general app-like layout in visual trends,  having things laid out in a "smorgasbord" fashion may actually serve the purpose better.  One example of this gallery type of layout used is in the <a href="protosite/lectures.shtml">lectures main page</a>, where different weeks are laid out as coloured blocks, all within sight (and accessible for those using touch screens perhaps).</p>
+					<header>
+						<h4>Gallery Layout</h4>
+					</header>
+					<p>The ZeroCoolers feel that a course website is only as intuitive as its ability to help students find what they want when they want it. Therefore, one of our main goals for the site was to have as much of the information clearly laid out as possible.  It may seem like a counter-productive thing to do, considering the potential clutter it may cause, but we feel that in keeping with the general app-like layout in visual trends,  having things laid out in a "smorgasbord" fashion may actually serve the purpose better.  One example of this gallery type of layout used is in the <a href="protosite/lectures.shtml">lectures main page</a>, where different weeks are laid out as coloured blocks, all within sight (and accessible for those using touch screens perhaps).</p>
 
-                    <header>
-                        <h4>Navigation</h4>
-                    </header>
-                    <p>The ZeroCoolers opted to have a dual navigation bar, one at the top of the site and one below.  This not only makes it more convenient to visit pages without having to scroll up, but also acts like a "visual frame" for aesthetic appeal.  The most important section of the site is the <a href="http://teams.thenet.ca/zerocool/protosite/week1.shtml">weekly lectures</a> and we invested a lot more navigation help in this section with a detailed pull-out side bar, in addition to the gallery style layout. In this way, students reading through the lectures may have easier access to notes from previous weeks.  It is also understood that lecture notes and information will not be posted too early in advance. </p>
+					<header>
+						<h4>Navigation</h4>
+					</header>
+					<p>The ZeroCoolers opted to have a dual navigation bar, one at the top of the site and one below.  This not only makes it more convenient to visit pages without having to scroll up, but also acts like a "visual frame" for aesthetic appeal.  The most important section of the site is the <a href="http://teams.thenet.ca/zerocool/protosite/week1.shtml">weekly lectures</a> and we invested a lot more navigation help in this section with a detailed pull-out side bar, in addition to the gallery style layout. In this way, students reading through the lectures may have easier access to notes from previous weeks.  It is also understood that lecture notes and information will not be posted too early in advance. </p>
 
-                    <header>
-                        <h4>Sitemap</h4>
-                    </header>
-                    <p>We have a <a href="http://teams.thenet.ca/zerocool/sitemap.shtml">site map</a> proposed that also follows a coloured gallery palette layout as well. We are hoping that our proposed layout for the site (gallery palette), will make the sitemap redundant (in particular the lecture main page). But if implemented, this sitemap will be linked on both the upper and lower main navigation bars.  </p>
-                </article>
+					<header>
+						<h4>Sitemap</h4>
+					</header>
+					<p>We have a <a href="http://teams.thenet.ca/zerocool/sitemap.shtml">site map</a> proposed that also follows a coloured gallery palette layout as well. We are hoping that our proposed layout for the site (gallery palette), will make the sitemap redundant (in particular the lecture main page). But if implemented, this sitemap will be linked on both the upper and lower main navigation bars.  </p>
+				</article>
 
-                <br>
-                <hr>
+				<br>
+				<hr>
 
-                <article>
-                    <header>
-                        <h3>Blog</h3>
-                    </header>
-                    <p>
-                        The <a href="http://zerocoolers.tumblr.com/">blog</a> will serve as the "Bulletin Board" of the class, where updates, announcements, and other important 
-=======
-    <!--the header.inc goes here-->
-                        <!--#include file="inc/secondnav.inc" -->
+				<article>
+					<header>
+						<h3>Blog</h3>
+					</header>
+					<p>
+						The <a href="http://zerocoolers.tumblr.com/">blog</a> will serve as the "Bulletin Board" of the class, where updates, announcements, and other important 
 
-                        <!--the header.inc goes here-->
-                        <!--#include file="inc/header.inc" -->
+					</p>
+				</article>
 
-                        <!--the navigation.inc goes here-->
-                        <!--#include file="inc/navigation.inc" -->
+				<br>
+				<hr>
 
-                        <section>
-                            <div id="container">
-                                <div id="content">
-                                    <header>
-                                        <h2>The Rationale: Method to the Madness</h2>
-                                    </header>
-                                    <article>
-                                        <header>
-                                            <h3>ZeroCool Plan of Action</h3>
-                                        </header>
+				<article>
+					<header>
+						<h3>Search</h3>
+					</header>
+					<p>As this site seems to be fairly modest in comparison to the main BCIT website, a search function in the COMP 1950 site itself may seem to be excessive considering the information should be all already be laid out.   However a search function may be needed in the Wiki / Forum section when the information may not be so visibly laid out.</p>
+				</article>
 
-                                        <p>Due to the time frame given and the scope of our unlimited ambitions, the ZeroCoolers have decided to adapt a parallel working method for this project.  Instead of assigning one person to a specific task in a sequence, we all divided the project into sections based on the member's skill sets.  After this first draft, we then set about refining each other's work further. </p>
+				<br>
+				<hr>
 
-                                        <p>This is a brief breakdown of our modified methodolgy:</p>
-                                        <ul>
-                                            <li>Review and analysis of the questionaire answers</li>
-                                            <li>Three main parts determined: Client Page, Protosite, Blog</li>
-                                            <li>Three main roles: Content producers, Coders, Testers (all members play one of these roles at one point or another during the project)</li>
-                                            <li>Content producers for team proceed with adding the preliminary html codes, text, graphics, as well as first draft of the CSS</li>
-                                            <li>Advance coders proceed to refine / alter the CSS styles</li>
-                                            <li>Testers work the site and check for consistency</li>
-                                            <li>Additional content and modifications to the html as needed based on coders requests.</li>
-                                            <li>Finalizing and packaging the project</li>
-                                        </ul>
+				<article>
+					.<header>
+						<h3>Contact Page</h3>
+					</header>
+					<p>One of the more cumbersome process in trying to get hold of fellow students is having to use an external email / messaging system (i.e. through mybcit) outside of the COMP 1950 site.  A more efficient way to do this could be to include in the contact page a way for students to send messages to each other.  Perhaps it can be organized into class sections.  As of now, <a href="http://teams.thenet.ca/zerocool/protosite/contact.shtml">the contact page</a> is a simple message submit form, perhaps there could be a drop down list from the email input area  to add recipients. </p>
+				</article>
 
-                                    </article>
+				<br>
+				<hr>
 
-                                    <br>
-                                    <hr>
-
-                                    <article>
-                                        <header>
-                                            <h3>Overall Design Theme</h3>
-                                        </header>
-                                        <p>The current design of the COMP 1950 website, while fully functional and complete, is lacking a little of what we ZeroCoolers call the "sexy Kittler strut". Therefore we set about trying to give the existing site a visual facelift. We feel that a technically geared course such as COMP 1950 may benefit from being offset by the added element of fun and visual appeal in its course website.  A great looking website may also inspire the students, both current and future hopefuls, of what kind of work they can expect to create upon completion of the course. </p>
-
-                                        <p>The visual style that we have adopted uses a light coloured palette that is superimposed on the dark blue corporate BCIT colour scheme, perhaps symbolically to emphasize the adventurous (and fun-loving) nature of the course that the students are about to partake.  This design also lends some stylistic consistency of the COMP 1950 as it relates to the BCIT Main Page; that is, COMP 1950 is still a part of BCIT, but "different". The use of lighter colour schemes, clean lines, and simple shapes also reflect on the soothing themes found in pre-school settings, which has been proven to have a positive effect on learning. The site should not intimidate; it should entice and encourage. </p>
-
-                                        <p>The protosite <a href="protosite/index.shtml">home page</a> shows an example of this style in use. Upon entering the site, the visitor is presented with a familiar BCIT-like theme and then by scrolling down, the COMP 1950 happy style takes over. Here we will find examples of past students' work (perhaps on a rotating basis), expectations about the course, access to the lectures, information about the course instructor, and of course a link back to the BCIT website.</p>
-                                    </article>
-
-                                    <br>
-                                    <hr>
-
-                                    <article>
-                                        <header>
-                                            <h3>User Friendly Layout</h3>
-                                        </header>
-
-                                        <header>
-                                            <h4>Gallery Layout</h4>
-                                        </header>
-                                        <p>The ZeroCoolers feel that a course website is only as intuitive as its ability to help students find what they want when they want it. Therefore, one of our main goals for the site was to have as much of the information clearly laid out as possible.  It may seem like a counter-productive thing to do, considering the potential clutter it may cause, but we feel that in keeping with the general app-like layout in visual trends,  having things laid out in a "smorgasbord" fashion may actually serve the purpose better.  One example of this gallery type of layout used is in the <a href="protosite/lectures.shtml">lectures main page</a>, where different weeks are laid out as coloured blocks, all within sight (and accessible for those using touch screens perhaps).</p>
-
-                                        <header>
-                                            <h4>Navigation</h4>
-                                        </header>
-                                        <p>The ZeroCoolers opted to have a dual navigation bar, one at the top of the site and one below.  This not only makes it more convenient to visit pages without having to scroll up, but also acts like a "visual frame" for aesthetic appeal.  The most important section of the site is the <a href="http://teams.thenet.ca/zerocool/protosite/week1.shtml">weekly lectures</a> and we invested a lot more navigation help in this section with a detailed pull-out side bar, in addition to the gallery style layout. In this way, students reading through the lectures may have easier access to notes from previous weeks.  It is also understood that lecture notes and information will not be posted too early in advance. </p>
-
-                                        <header>
-                                            <h4>Sitemap</h4>
-                                        </header>
-                                        <p>We have a <a href="http://teams.thenet.ca/zerocool/sitemap.shtml">site map</a> proposed that also follows a coloured gallery palette layout as well. However we also added an outline version of the sitemap for good measure.  There are two possibilities for the sitemap, either as a permanent fixture at the lower navigation area or as links on both the upper and lower main navigation bars.  </p>
-                                    </article>
-
-                                    <br>
-                                    <hr>
-
-                                    <article>
-                                        <header>
-                                            <h3>Blog</h3>
-                                        </header>
-                                        <p>
-                                            The <a href="http://zerocoolers.tumblr.com/">blog</a> will serve as the "Bulletin Board" of the class, where updates, announcements, and other important 
->>>>>>> origin/master
-topics will be posted (as opposed to the archival nature of the wiki / forums).  The posts are tagged 
-accordingly and can be accessed as a group using the page links categorized (hypothetically) as: 
-Announcements, Homework Tips, References, and Inspiration.  Unlike the Wiki / Forum, the students will not be 
-able to create posts on the blog.  Ideally, it should only to be used to transmit information from the instructor to the students. Perhaps a function can be considered where a student can indicate that he / she has read the information (via comments).
-<<<<<<< HEAD
-                                        </p>
-                                    </article>
-
-                                    <br>
-                                    <hr>
-
-                                    <article>
-                                        <header>
-                                            <h3>Search</h3>
-                                        </header>
-                                        <p>As this site seems to be fairly modest in comparison to the main BCIT website, a search function in the COMP 1950 site itself may seem to be excessive considering the information should be all already be laid out.   However a search function may be needed in the Wiki / Forum section when the information may not be so visibly laid out.</p>
-                                    </article>
-
-                                    <br>
-                                    <hr>
-
-                                    <article>
-                                        .<header>
-                                            <h3>Contact Page</h3>
-                                        </header>
-                                        <p>One of the more cumbersome process in trying to get hold of fellow students is having to use an external email / messaging system (i.e. through mybcit) outside of the COMP 1950 site.  A more efficient way to do this could be to include in the contact page a way for students to send messages to each other.  Perhaps it can be organized into class sections.  There could be a way to implement a filter so that only the students of a particular section are visible depending on the login account.  A little message area is proposed for recent message threads as well. </p>
-                                    </article>
-
-                                    <br>
-                                    <hr>
-
-                                    <article>
-                                        <header>
-                                            <h3>Wiki/Forums</h3>
-                                        </header>
-                                        <p>Whereas the blog will be saved for announcements and frequent updates, the wiki / forums will serve as a repository of peer knowledge. This giant, evolving collective knowledge will be valuable for tips, tutorials, and will contain a running list of useful websites, books, and media for references.  The reference link posts in the blog will eventually find their way here to the wiki, all accessible in a special section. There is probably going to be a forum section for questions and answers; however, the non-real time nature of forums makes them less efficient when speedy help is needed.  So perhaps the forum (if it existed) will serve as a discussion / debate area for new techniques or developments and not for technical assistance. A search function will be integrated here as well to search topics of interest.</p>
-                                    </article>
+				<article>
+					<header>
+						<h3>Wiki/Forums</h3>
+					</header>
+					<p>Whereas the blog will be saved for announcements and frequent updates, the wiki / forums will serve as a repository of peer knowledge. This giant, evolving collective knowledge will be valuable for tips, tutorials, and will contain a running list of useful websites, books, and media for references.  The reference link posts in the blog will eventually find their way here to the wiki, all accessible in a special section. There is probably going to be a forum section for questions and answers; however, the non-real time nature of forums makes them less efficient when speedy help is needed.  So perhaps the forum (if it existed) will serve as a discussion / debate area for new techniques or developments and not for technical assistance. A search function will be integrated here as well to search topics of interest.</p>
+				</article>
 
 
-                                    <br>
-                                    <hr>
+				<br>
+				<hr>
 
-                                    <article>
-                                        <header>
-                                            <h3>Alumni Resources</h3>
-                                        </header>
-                                        <p>The ZeroCoolers contemplated that the Alumni section be merged with the Wiki/Forums at first, but in the end we decided to keep the alumnus contained in their own section, less they interfere with the younglings's training, or heaven forbid, offer "unorthodox" advice. However, their presence is still a much welcome addition to the website, as they serve as living proof of what one can accomplished after finishing the course (living testimonies: "I survived, so can you....") Or maybe some of them can be potential channels for networking and / or job placements. </p>
+				<article>
+					<header>
+						<h3>Alumni Resources</h3>
+					</header>
+					<p>The ZeroCoolers contemplated that the Alumni section be merged with the Wiki/Forums at first, but in the end we decided to keep the alumnus contained in their own section, less they interfere with the younglings's training, or heaven forbid, offer "unorthodox" advice. However, their presence is still a much welcome addition to the website, as they serve as living proof of what one can accomplished after finishing the course (living testimonies: "I survived, so can you....") Or maybe some of them can be potential channels for networking and / or job placements. </p>
 
-                                    </article>
-                                </div>
-                                <!--/content-->
-                            </div>
-                        </section>
-                        <!--/container-->
+				</article>
+			</div>
+			<!--/content-->
+		</div>
+	</section>
+	<!--/container-->
 
-                        <!--the footer.inc goes here-->
-                        <!--#include file="inc/footer.inc" -->
-                        =======
-                    </p>
-                </article>
-
-                <br>
-                <hr>
-
-                <article>
-                    <header>
-                        <h3>Search</h3>
-                    </header>
-                    <p>As this site seems to be fairly modest in comparison to the main BCIT website, a search function in the COMP 1950 site itself may seem to be excessive considering the information should be all already be laid out.   However a search function may be needed in the Wiki / Forum section when the information may not be so visibly laid out.</p>
-                </article>
-
-                <br>
-                <hr>
-
-                <article>
-                    .<header>
-                        <h3>Contact Page</h3>
-                    </header>
-                    <p>One of the more cumbersome process in trying to get hold of fellow students is having to use an external email / messaging system (i.e. through mybcit) outside of the COMP 1950 site.  A more efficient way to do this could be to include in the contact page a way for students to send messages to each other.  Perhaps it can be organized into class sections.  As of now, <a href="http://teams.thenet.ca/zerocool/protosite/contact.shtml">the contact page</a> is a simple message submit form, perhaps there could be a drop down list from the email input area  to add recipients. </p>
-                </article>
-
-                <br>
-                <hr>
-
-                <article>
-                    <header>
-                        <h3>Wiki/Forums</h3>
-                    </header>
-                    <p>Whereas the blog will be saved for announcements and frequent updates, the wiki / forums will serve as a repository of peer knowledge. This giant, evolving collective knowledge will be valuable for tips, tutorials, and will contain a running list of useful websites, books, and media for references.  The reference link posts in the blog will eventually find their way here to the wiki, all accessible in a special section. There is probably going to be a forum section for questions and answers; however, the non-real time nature of forums makes them less efficient when speedy help is needed.  So perhaps the forum (if it existed) will serve as a discussion / debate area for new techniques or developments and not for technical assistance. A search function will be integrated here as well to search topics of interest.</p>
-                </article>
-
-
-                <br>
-                <hr>
-
-                <article>
-                    <header>
-                        <h3>Alumni Resources</h3>
-                    </header>
-                    <p>The ZeroCoolers contemplated that the Alumni section be merged with the Wiki/Forums at first, but in the end we decided to keep the alumnus contained in their own section, less they interfere with the younglings's training, or heaven forbid, offer "unorthodox" advice. However, their presence is still a much welcome addition to the website, as they serve as living proof of what one can accomplished after finishing the course (living testimonies: "I survived, so can you....") Or maybe some of them can be potential channels for networking and / or job placements. </p>
-
-                </article>
-            </div>
-            <!--/content-->
-        </div>
-    </section>
-    <!--/container-->
-
-    <!--the footer.inc goes here-->
-    <!--#include file="inc/footer.inc" -->
-    >>>>>>> origin/master
+	<!--the footer.inc goes here-->
+	<!--#include file="inc/footer.inc" -->
 
 </body>
 

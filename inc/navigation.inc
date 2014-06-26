@@ -1,4 +1,7 @@
- <nav id="mainnav">
+<div id="sandw">
+  <img id="navmenu" src="images/nav_menu.png" alt="navigation image" />
+</div> 
+<nav id="mainnav">
   <ul>
     <li>
       <a id="indexnav" href="index.shtml">Home</a>

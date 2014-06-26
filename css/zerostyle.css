@@ -4,7 +4,7 @@ body {
     color: #373c44;
 }
 
-#container, .sitemap {
+#container, .sitemap {clear:both;
     width: 70%;
     max-width: 1000px;
     margin-left: auto;
@@ -17,10 +17,11 @@ body {
     background-attachment: fixed;
     background-position: center;
     background: white;
-    min-width: 200px;
+    min-width: 300px;
 }
+
 #sitemap #container {
-     min-width: 400px;
+    min-width: 400px;
 }
 
 .sitemap {
@@ -30,8 +31,8 @@ body {
 }
 
 .validator {
-    width:20%;
-    float:left;
+    width: 20%;
+    float: left;
 }
 
 hr {
@@ -59,6 +60,7 @@ header {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    width:100%;
 }
 
     header img {
@@ -70,6 +72,7 @@ body#home a#indexnav, body#wireframe a#wireframenav, body#protosite a#protositen
     color: #fff;
     background: #7ac5cd;
 }
+
 body#home a#indexnav1, body#wireframe a#wireframenav1, body#protosite a#protositenav1, body#rationale a#rationalenav1, body#sitemap a#sitemapnav1 {
     color: #fff;
     background: #7ac5cd;
@@ -79,6 +82,7 @@ body#home a#indexnav1, body#wireframe a#wireframenav1, body#protosite a#protosit
     color: #fff;
     background: #7ac5cd;
 }
+
 #indexnav1:hover, #wireframenav1:hover, #protositenav1:hover, #rationalenav1:hover, #sitemapnav1:hover {
     color: #fff;
     background: #7ac5cd;
@@ -218,3 +222,8 @@ footer {
         padding: 3em;
         color: #7ac5cd;
     }
+
+
+#navmenu {
+    display: none;
+}

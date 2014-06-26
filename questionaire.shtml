@@ -6,6 +6,8 @@
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="scripts/scripts.js"></script>
 	<link rel="stylesheet" href="css/zerostyle.css">
+	<!--print stylesheet-->
+	<link rel="stylesheet" href="css/print.css" media="print" />
 	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>

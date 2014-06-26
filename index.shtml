@@ -5,6 +5,8 @@
 	<title>Zero Cool</title>
 	<meta name="description" content="This a home page of Zero Cool group. It's final project for Comp 1950 by Ali, Lawrence , Janni and Zack">
 	<link rel="stylesheet" href="css/zerostyle.css">
+	<!--print stylesheet-->
+	<link rel="stylesheet" href="css/print.css" media="print" />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="scripts/scripts.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>

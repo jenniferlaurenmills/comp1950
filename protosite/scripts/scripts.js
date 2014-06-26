@@ -20,7 +20,7 @@ $(document).ready(function () {
     $("#divextra2").mouseout(function () { $("#divextra2").css("border-color", "gray"); });
 
 
-//for scroll on click
+    //for scroll on click
     $('a[href*=#]:not([href=#])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
             || location.hostname == this.hostname) {
@@ -40,7 +40,6 @@ $(document).ready(function () {
     //wysiwyg  editor  for textarea
     tinymce.init({
         selector: "textarea"
-        
     });
 });
 

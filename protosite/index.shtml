@@ -1,277 +1,279 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Comp 1950 is an intemediate web development course in BCIT Vancouver. it all about best practices in web developments">
-    <title>COMP 1950 Home Page</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta name="description" content="Your starting point for all things COMP 1950." />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="scripts/scripts.js"></script>
+	<meta charset="UTF-8">
+	<meta name="description" content="Comp 1950 is an intemediate web development course in BCIT Vancouver. it all about best practices in web developments">
+	<title>COMP 1950 Home Page</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<!--print stylesheet-->
+	<link rel="stylesheet" href="css/print.css" media="print" />
+	<meta name="description" content="Your starting point for all things COMP 1950." />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="scripts/scripts.js"></script>
 
-    <!--page fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<!--page fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 
-    <!--Carousel resource for index page-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <script src="scripts/owl.carousel.min.js"></script>
+	<!--Carousel resource for index page-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<script src="scripts/owl.carousel.min.js"></script>
 </head>
 
 <body>
 
-    <!--the navigation.inc goes here-->
-    <!--#include file="inc/navigation.inc" -->
+	<!--the navigation.inc goes here-->
+	<!--#include file="inc/navigation.inc" -->
 
-    <section>
-        <div id="bigimg">
-            <div id="mainimg">
-                <div id="mainimgcontent">
-                    <div class="moto">
-                        <h1>Are You Ready to Code!</h1>
-                        <h1>Start Learning Now.</h1>
-                    </div>
-                    <div id="transparentbtn">
-                        <div class="btn" id="btn1"><a class="lnk" id="lnk1" href="lectures.shtml">Start Here</a></div>
-                        <div class="btn" id="btn2"><a class="lnk" id="lnk2" href="http://www.alistair.com/">Meet AListair</a></div>
-                        <div class="btn" id="btn3"><a class="lnk" id="lnk3" href="mailto:acalder1@my.bcit.ca">Contact</a></div>
-                        <div class="btn" id="btn4"><a class="lnk" id="lnk4" href="https://my.bcit.ca/cp/home/displaylogin">MyBCIT</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section>
+		<div id="bigimg">
+			<div id="mainimg">
+				<div id="mainimgcontent">
+					<div class="moto">
+						<h1>Are You Ready to Code!</h1>
+						<h1>Start Learning Now.</h1>
+					</div>
+					<div id="transparentbtn">
+						<div class="btn" id="btn1"><a class="lnk" id="lnk1" href="lectures.shtml">Start Here</a></div>
+						<div class="btn" id="btn2"><a class="lnk" id="lnk2" href="http://www.alistair.com/">Meet AListair</a></div>
+						<div class="btn" id="btn3"><a class="lnk" id="lnk3" href="mailto:acalder1@my.bcit.ca">Contact</a></div>
+						<div class="btn" id="btn4"><a class="lnk" id="lnk4" href="https://my.bcit.ca/cp/home/displaylogin">MyBCIT</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-    <div class="center" id="arr">
-        <figure>
-            <a href="#two">
-                <img src="images/arrowdown1.png" alt="arrow down" />
-            </a>
-        </figure>
-    </div>
-    <section>
-        <article>
-            <div id="outcome">
-                <div class="learn line" id="two">
-                    <hr />
-                </div>
-                <div class="learn">
-                    <header>
-                        <h2>What You Can Learn</h2>
-                    </header>
-                </div>
-                <div class="learn line">
-                    <hr />
-                </div>
+	<div class="center" id="arr">
+		<figure>
+			<a href="#two">
+				<img src="images/arrowdown1.png" alt="arrow down" />
+			</a>
+		</figure>
+	</div>
+	<section>
+		<article>
+			<div id="outcome">
+				<div class="learn line" id="two">
+					<hr />
+				</div>
+				<div class="learn">
+					<header>
+						<h2>What You Can Learn</h2>
+					</header>
+				</div>
+				<div class="learn line">
+					<hr />
+				</div>
 
-                <div id="icons">
-                    <div class="iconpic">
-                        <a href="lectures.shtml">
-                            <img src="images/html5.png" alt="html5" /></a>
-                        <header>
-                            <h3>HTML 5</h3>
-                        </header>
-                    </div>
+				<div id="icons">
+					<div class="iconpic">
+						<a href="lectures.shtml">
+							<img src="images/html5.png" alt="html5" /></a>
+						<header>
+							<h3>HTML 5</h3>
+						</header>
+					</div>
 
-                    <div class="iconpic">
-                        <a href="lectures.shtml">
-                            <figure>
-                                <img src="images/css3.png" alt="css" />
-                            </figure>
-                        </a>
-                        <header>
-                            <h3>CSS 3</h3>
-                        </header>
-                    </div>
-                    <div class="iconpic">
-                        <a href="lectures.shtml">
-                            <figure>
-                                <img src="images/method.png" alt="method" />
-                            </figure>
-                        </a>
-                        <header>
-                            <h3>Methodology</h3>
-                        </header>
-                    </div>
-                    <div class="iconpic">
-                        <a href="lectures.shtml">
-                            <figure>
-                                <img src="images/github.png" alt="git" />
-                            </figure>
-                        </a>
-                        <header>
-                            <h3>GitHub</h3>
-                        </header>
-                    </div>
-                    <div class="iconpic">
-                        <a href="lectures.shtml">
-                            <figure>
-                                <img src="images/jquery.png" alt="jquery" />
-                            </figure>
-                        </a>
-                        <header>
-                            <h3>JQuery</h3>
-                        </header>
-                    </div>
-                    <div class="iconpic">
-                        <a href="lectures.shtml">
-                            <figure>
-                                <img src="images/tumblr.png" alt="tumblr" />
-                            </figure>
-                        </a>
-                        <header>
-                            <h3>Tumblr</h3>
-                        </header>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </section>
+					<div class="iconpic">
+						<a href="lectures.shtml">
+							<figure>
+								<img src="images/css3.png" alt="css" />
+							</figure>
+						</a>
+						<header>
+							<h3>CSS 3</h3>
+						</header>
+					</div>
+					<div class="iconpic">
+						<a href="lectures.shtml">
+							<figure>
+								<img src="images/method.png" alt="method" />
+							</figure>
+						</a>
+						<header>
+							<h3>Methodology</h3>
+						</header>
+					</div>
+					<div class="iconpic">
+						<a href="lectures.shtml">
+							<figure>
+								<img src="images/github.png" alt="git" />
+							</figure>
+						</a>
+						<header>
+							<h3>GitHub</h3>
+						</header>
+					</div>
+					<div class="iconpic">
+						<a href="lectures.shtml">
+							<figure>
+								<img src="images/jquery.png" alt="jquery" />
+							</figure>
+						</a>
+						<header>
+							<h3>JQuery</h3>
+						</header>
+					</div>
+					<div class="iconpic">
+						<a href="lectures.shtml">
+							<figure>
+								<img src="images/tumblr.png" alt="tumblr" />
+							</figure>
+						</a>
+						<header>
+							<h3>Tumblr</h3>
+						</header>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
 
-    <br class="clear" />
+	<br class="clear" />
 
-    <section>
-        <div id="main">
-            <div class="learn line">
-                <hr />
-            </div>
-            <div class="learn">
-                <h2>About Comp 1950 Course</h2>
-            </div>
-            <div class="learn line">
-                <hr />
-            </div>
-            <article>
-                <article class="mainarticle">
-                    <p>Official details about the who, what, where and how are located in the outlines section on the BCIT web site</p>
-                </article>
+	<section>
+		<div id="main">
+			<div class="learn line">
+				<hr />
+			</div>
+			<div class="learn">
+				<h2>About Comp 1950 Course</h2>
+			</div>
+			<div class="learn line">
+				<hr />
+			</div>
+			<article>
+				<article class="mainarticle">
+					<p>Official details about the who, what, where and how are located in the outlines section on the BCIT web site</p>
+				</article>
 
-                <article class="mainarticle">
-                    <h4>Textbook</h4>
-                    <p>There is no textbook for this class - why?</p>
-                </article>
+				<article class="mainarticle">
+					<h4>Textbook</h4>
+					<p>There is no textbook for this class - why?</p>
+				</article>
 
-                <article class="mainarticle">
-                    <h4>Introductions</h4>
-                    <p>Please introduce yourself to your neighbors.</p>
-                </article>
+				<article class="mainarticle">
+					<h4>Introductions</h4>
+					<p>Please introduce yourself to your neighbors.</p>
+				</article>
 
-                <article class="mainarticle">
-                    <h4>Web Space</h4>
-                    <p>Each student will be given web space for assignments at students.thenet.ca.</p>
-                </article>
+				<article class="mainarticle">
+					<h4>Web Space</h4>
+					<p>Each student will be given web space for assignments at students.thenet.ca.</p>
+				</article>
 
-                <article class="mainarticle">
-                    <h4>Expectations</h4>
-                    <p>
-                        There are a few things I want to make sure everyone knows:
-                    </p>
-                    <ul>
-                        <li>After week 2 - I do not want to help you with your FTP.  This is a <em>non-negotiable skill</em> you should know as a web developer</li>
-                        <li>Spaces, special characters and capital letters should <strong>never</strong> be used in file or folder names on the web.   The habit might be easy to get into on your desktop, but as someone who crafts web pages, you should avoid this. </li>
-                        <li>The student web space is: <strong>students.thenet.ca/(student_name)</strong> &larr; Notice that there is <strong>no www</strong> at the front</li>
-                        <li>You will be maintaining a web site for this course. A web development course. Think about that a moment.</li>
-                        <li>The audience for your course homepage is your instructor, design it for me:
-                        <ul>
-                            <li>Have your assignments easy to find</li>
-                            <li>The course is delivered weekly, so should your work</li>
-                            <li>Use techniques you have learned in class</li>
-                            <li>You don't have to spend hours making it beautiful - that is not an aim of this course.  Focus on making it usable and befitting of the content</li>
-                        </ul>
-                        </li>
-                    </ul>
+				<article class="mainarticle">
+					<h4>Expectations</h4>
+					<p>
+						There are a few things I want to make sure everyone knows:
+					</p>
+					<ul>
+						<li>After week 2 - I do not want to help you with your FTP.  This is a <em>non-negotiable skill</em> you should know as a web developer</li>
+						<li>Spaces, special characters and capital letters should <strong>never</strong> be used in file or folder names on the web.   The habit might be easy to get into on your desktop, but as someone who crafts web pages, you should avoid this. </li>
+						<li>The student web space is: <strong>students.thenet.ca/(student_name)</strong> &larr; Notice that there is <strong>no www</strong> at the front</li>
+						<li>You will be maintaining a web site for this course. A web development course. Think about that a moment.</li>
+						<li>The audience for your course homepage is your instructor, design it for me:
+						<ul>
+							<li>Have your assignments easy to find</li>
+							<li>The course is delivered weekly, so should your work</li>
+							<li>Use techniques you have learned in class</li>
+							<li>You don't have to spend hours making it beautiful - that is not an aim of this course.  Focus on making it usable and befitting of the content</li>
+						</ul>
+						</li>
+					</ul>
 
-                </article>
-            </article>
-        </div>
-    </section>
+				</article>
+			</article>
+		</div>
+	</section>
 
-    <div id="overlay">
-        <figure id="alistairimg">
-            <img src="images/alistair.jpg" />
-            <figcaption>Alistair
-            </figcaption>
-        </figure>
+	<div id="overlay">
+		<figure id="alistairimg">
+			<img src="images/alistair.jpg" />
+			<figcaption>Alistair
+			</figcaption>
+		</figure>
 
-        <div id="alistair">
-            <section>
-                <article>
-                    <div class="subdiv">
-                        <br />
-                        <p>I have been developing websites since 1995.  I enjoy teaching, and COMP 1950 students are by far the brightest and best looking people around!</p>
-                    </div>
-                </article>
-            </section>
-        </div>
-    </div>
-    <article class="mapa">
-        <div id="blog">
-            <article>
-                <div class="subdiv">
-                    <h3>Latest Blog Post</h3>
-                    <p>Ever have one of those days...</p>
-                </div>
-            </article>
-        </div>
-    </article>
-    <br />
-    <div class="learn line">
-        <hr />
-    </div>
-    <div class="learn">
-        <h2>See What You Can Create</h2>
-    </div>
-    <div class="learn line">
-        <hr />
-    </div>
+		<div id="alistair">
+			<section>
+				<article>
+					<div class="subdiv">
+						<br />
+						<p>I have been developing websites since 1995.  I enjoy teaching, and COMP 1950 students are by far the brightest and best looking people around!</p>
+					</div>
+				</article>
+			</section>
+		</div>
+	</div>
+	<article class="mapa">
+		<div id="blog">
+			<article>
+				<div class="subdiv">
+					<h3>Latest Blog Post</h3>
+					<p>Ever have one of those days...</p>
+				</div>
+			</article>
+		</div>
+	</article>
+	<br />
+	<div class="learn line">
+		<hr />
+	</div>
+	<div class="learn">
+		<h2>See What You Can Create</h2>
+	</div>
+	<div class="learn line">
+		<hr />
+	</div>
 
-    <section>
-        <h3 style="clear: both;"></h3>
-        <div class="owl-carousel">
-            <div>
-                <a href="/">
-                    <img src="images/site1.jpg" alt="site image"></a>
-            </div>
-            <div>
-                <a href="http://teams.thenet.ca/zerocool/">
-                    <img src="images/site2.jpg" alt="site image"></a>
-            </div>
-            <div>
-                <a href="http://teams.thenet.ca/">
-                    <img src="images/site3.jpg" alt="site image"></a>
-            </div>
-            <div>
-                <a href="http://teams.thenet.ca/">
-                    <img src="images/site4.jpg" alt="site image"></a>
-            </div>
-            <div>
-                <a href="http://teams.thenet.ca/">
-                    <img src="images/site5.jpg" alt="site image"></a>
-            </div>
-            <div>
-                <a href="http://teams.thenet.ca/">
-                    <img src="images/site6.jpg" alt="site image"></a>
-            </div>
-            <div>
-                <a href="http://teams.thenet.ca/">
-                    <img src="images/site7.jpg" alt="site image"></a>
-            </div>
-            <div>
-                <a href="http://teams.thenet.ca/">
-                    <img src="images/site8.jpg" alt="site image"></a>
-            </div>
-        </div>
-        <p style="text-align: center">
-            <a href="#menu">
-                <img src="images/arrowup.png" alt="arrow up" /></a>
-        </p>
-    </section>
+	<section>
+		<h3 style="clear: both;"></h3>
+		<div class="owl-carousel">
+			<div>
+				<a href="/">
+					<img src="images/site1.jpg" alt="site image"></a>
+			</div>
+			<div>
+				<a href="http://teams.thenet.ca/zerocool/">
+					<img src="images/site2.jpg" alt="site image"></a>
+			</div>
+			<div>
+				<a href="http://teams.thenet.ca/">
+					<img src="images/site3.jpg" alt="site image"></a>
+			</div>
+			<div>
+				<a href="http://teams.thenet.ca/">
+					<img src="images/site4.jpg" alt="site image"></a>
+			</div>
+			<div>
+				<a href="http://teams.thenet.ca/">
+					<img src="images/site5.jpg" alt="site image"></a>
+			</div>
+			<div>
+				<a href="http://teams.thenet.ca/">
+					<img src="images/site6.jpg" alt="site image"></a>
+			</div>
+			<div>
+				<a href="http://teams.thenet.ca/">
+					<img src="images/site7.jpg" alt="site image"></a>
+			</div>
+			<div>
+				<a href="http://teams.thenet.ca/">
+					<img src="images/site8.jpg" alt="site image"></a>
+			</div>
+		</div>
+		<p style="text-align: center">
+			<a href="#menu">
+				<img src="images/arrowup.png" alt="arrow up" /></a>
+		</p>
+	</section>
 
-    <!--the footer.inc goes here-->
-    <!--#include file="inc/footer.inc" -->
+	<!--the footer.inc goes here-->
+	<!--#include file="inc/footer.inc" -->
 
 </body>
 

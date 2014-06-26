@@ -1,124 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>COMP 1950 Home Page</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta name="description" content="Your starting point for all things COMP 1950." />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="scripts/scripts.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>COMP 1950 Home Page</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<!--print stylesheet-->
+	<link rel="stylesheet" href="css/print.css" media="print" />
+	<meta name="description" content="Your starting point for all things COMP 1950." />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="scripts/scripts.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
 
-    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 
-    <!--Carousel resource for index page-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <script src="scripts/owl.carousel.min.js"></script>
+	<!--Carousel resource for index page-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<script src="scripts/owl.carousel.min.js"></script>
 
-    <!--for sider navigation-->
-    <link href="css/jquery.sidr.dark.css" rel="stylesheet" />
-    <script src="scripts/jquery.sidr.min.js"></script>
+	<!--for sider navigation-->
+	<link href="css/jquery.sidr.dark.css" rel="stylesheet" />
+	<script src="scripts/jquery.sidr.min.js"></script>
 </head>
 
 <body>
 
-    <!--the navigation.inc goes here-->
-    <!--#include file="inc/navigation.inc" -->
+	<!--the navigation.inc goes here-->
+	<!--#include file="inc/navigation.inc" -->
 
-    <section class="black">
-        <div class="weeksummary">
-            <div id="summarywrap">
-                <div id="agenda">
-                    <h3>Agenda</h3>
-                    <hr class="hline" />
-                    <ul>
-                        <li>introductions</li>
-                        <li>course information & administration
-                        </li>
-                        <li>intro to web and HTML concepts
-                        </li>
-                        <li>Readings and Trends</li>
-                    </ul>
-                </div>
-                <div id="assignment">
-                    <h3>Assignment</h3>
-                    <hr class="hline" />
-                    <ul>
-                        <li>Create your course web site:</li>
-                        <li>Check out the example page created by a past student: Lori's Example</li>
-                        <li>Specifically, what I would like to see:
-                            <ul>
-                                <li>Include some information about yourself (such as from your introduction today) including a photo</li>
+	<section class="black">
+		<div class="weeksummary">
+			<div id="summarywrap">
+				<div id="agenda">
+					<h3>Agenda</h3>
+					<hr class="hline" />
+					<ul>
+						<li>introductions</li>
+						<li>course information & administration
+						</li>
+						<li>intro to web and HTML concepts
+						</li>
+						<li>Readings and Trends</li>
+					</ul>
+				</div>
+				<div id="assignment">
+					<h3>Assignment</h3>
+					<hr class="hline" />
+					<ul>
+						<li>Create your course web site:</li>
+						<li>Check out the example page created by a past student: Lori's Example</li>
+						<li>Specifically, what I would like to see:
+							<ul>
+								<li>Include some information about yourself (such as from your introduction today) including a photo</li>
 
-                                <li>For week one, please be sure these elements are added somewhere:
-                                    <ul>
-                                        <li>A brief overview of your web development skill level</li>
-                                        <li>Links to favorite sites, either because of esthetic, technology, etc</li>
-                                    </ul>
+								<li>For week one, please be sure these elements are added somewhere:
+									<ul>
+										<li>A brief overview of your web development skill level</li>
+										<li>Links to favorite sites, either because of esthetic, technology, etc</li>
+									</ul>
 
-                                </li>
-                            </ul>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <p style="text-align: center">
-            <a href="#main">
-                <img src="images/uparrow.png" alt="arrow up" /></a>
-        </p>
-    </section>
+								</li>
+							</ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<p class="center" >
+			<a href="#main">
+				<img id="arr" src="images/uparrow.png" alt="arrow up" /></a>
+		</p>
+	</section>
 
-     <!--for side navigation-->
-    <div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" alt="arrow" /></a></div>
-    <!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
+	 <!--for side navigation-->
+	<div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" alt="arrow" /></a></div>
+	<!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
 
 
-    <section>
-        <div id="main">
-            <div class="contentheader">
-                <h2>Week 1
-                </h2>
-            </div>
-            <article>
-                <h2>web space</h2>
-                <p>Each student will get personal webspace.  This may be different than in the past, as this space is exclusively yours, with your own username and password.</p>
+	<section>
+		<div id="main">
+			<div class="contentheader">
+				<h2>Week 1
+				</h2>
+			</div>
+			<article>
+				<h2>web space</h2>
+				<p>Each student will get personal webspace.  This may be different than in the past, as this space is exclusively yours, with your own username and password.</p>
 
-                <p>This is also not a continuation of your COMP1850 site (if you had one).  This site is primarily for you to house your exercises, assignments, group work and more.  Make it a site that is usable and functional.</p>
+				<p>This is also not a continuation of your COMP1850 site (if you had one).  This site is primarily for you to house your exercises, assignments, group work and more.  Make it a site that is usable and functional.</p>
 
-                <h3>TheNet Setup</h3>
-                <ul>
-                    <li>Your account name has already been created: first initial + last name. Example, John Smith would be jsmith</li>
-                    <li>Passwords were randomized at account creation, so you will have to create yours</li>
-                    <li>
-                    Be prepared to enter your password when you come to the front
-                    <li>Your URL will be: <strong>http://students.thenet.ca/{accountname}</strong></li>
+				<h3>TheNet Setup</h3>
+				<ul>
+					<li>Your account name has already been created: first initial + last name. Example, John Smith would be jsmith</li>
+					<li>Passwords were randomized at account creation, so you will have to create yours</li>
+					<li>
+					Be prepared to enter your password when you come to the front
+					<li>Your URL will be: <strong>http://students.thenet.ca/{accountname}</strong></li>
 
-                </ul>
+				</ul>
 
-            </article>
+			</article>
 
-            <article>
-                <h2>FTP into your Account</h2>
+			<article>
+				<h2>FTP into your Account</h2>
 
-                <p>You can use any FTP program you are comfortable with. There is most likely one installed in the labs (it changes from term to term) but you can download and install any one you want.</p>
+				<p>You can use any FTP program you are comfortable with. There is most likely one installed in the labs (it changes from term to term) but you can download and install any one you want.</p>
 
-                <p><a href="https://filezilla-project.org">Filezilla</a> is a great FTP client that works on Mac/PC/Linux if you are looking for one to install on your laptop or at home</p>
-                <p>If you aren't knowledgeable with any FTP programs yet, just let me know!</p>
+				<p><a href="https://filezilla-project.org">Filezilla</a> is a great FTP client that works on Mac/PC/Linux if you are looking for one to install on your laptop or at home</p>
+				<p>If you aren't knowledgeable with any FTP programs yet, just let me know!</p>
 
-                <p>Here is the relevant information you will need to know:</p>
-                <ul>
-                    <li>Host / IP / URL: <strong>thenet.ca</strong></li>
-                    <li>Username (It's important that you have the accountname <strong>and</strong> the domain for your Username to work): <strong>{accountname}@thenet.ca</strong></li>
-                    <li>Password: <strong>{the password you entered}</strong></li>
-                </ul>
+				<p>Here is the relevant information you will need to know:</p>
+				<ul>
+					<li>Host / IP / URL: <strong>thenet.ca</strong></li>
+					<li>Username (It's important that you have the accountname <strong>and</strong> the domain for your Username to work): <strong>{accountname}@thenet.ca</strong></li>
+					<li>Password: <strong>{the password you entered}</strong></li>
+				</ul>
 
-            </article>
-        </div>
-    </section>
-    <!--the footer.inc goes here-->
-    <!--#include file="inc/footer.inc" -->
+			</article>
+		</div>
+	</section>
+	<!--the footer.inc goes here-->
+	<!--#include file="inc/footer.inc" -->
 
 </body>
 

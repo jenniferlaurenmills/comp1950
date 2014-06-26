@@ -1,139 +1,141 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>COMP 1950 Home Page</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta name="description" content="Your starting point for all things COMP 1950." />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="scripts/scripts.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>COMP 1950 Home Page</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<!--print stylesheet-->
+	<link rel="stylesheet" href="css/print.css" media="print" />
+	<meta name="description" content="Your starting point for all things COMP 1950." />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="scripts/scripts.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
 
-    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 
-    <!--Carousel resource for index page-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <script src="scripts/owl.carousel.min.js"></script>
+	<!--Carousel resource for index page-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<script src="scripts/owl.carousel.min.js"></script>
 
-    <!--for sider navigation-->
-    <link href="css/jquery.sidr.dark.css" rel="stylesheet" />
-    <script src="scripts/jquery.sidr.min.js"></script>
+	<!--for sider navigation-->
+	<link href="css/jquery.sidr.dark.css" rel="stylesheet" />
+	<script src="scripts/jquery.sidr.min.js"></script>
 
 
 </head>
 
 <body>
 
-    <!--the navigation.inc goes here-->
-    <!--#include file="inc/navigation.inc" -->
+	<!--the navigation.inc goes here-->
+	<!--#include file="inc/navigation.inc" -->
 
-    <section class="black">
-        <div class="weeksummary">
-            <div id="summarywrap">
-                <div id="agenda">
-                    <h3>Agenda</h3>
-                    <hr class="hline" />
-                    <ul>
-                        <li>New development in web developments </li>
-                        <li>Referer 
-                        </li>
-                        <li>Review assignment: XHTML vs HTML5 
-                        </li>
-                        <li>Page construction </li>
-                        <li>Assignment & Homework </li>
-                    </ul>
-                </div>
-                <div id="assignment">
-                    <h3>Assignment</h3>
-                    <hr class="hline" />
-                    <ul>
-                        <li>Using the principles of:
+	<section class="black">
+		<div class="weeksummary">
+			<div id="summarywrap">
+				<div id="agenda">
+					<h3>Agenda</h3>
+					<hr class="hline" />
+					<ul>
+						<li>New development in web developments </li>
+						<li>Referer 
+						</li>
+						<li>Review assignment: XHTML vs HTML5 
+						</li>
+						<li>Page construction </li>
+						<li>Assignment & Homework </li>
+					</ul>
+				</div>
+				<div id="assignment">
+					<h3>Assignment</h3>
+					<hr class="hline" />
+					<ul>
+						<li>Using the principles of:
 						<ul>
-                            <li>HTML5 Semantics</li>
-                            <li>SEO fundamentals </li>
-                            <li>Solid content </li>
-                            <li>Referer link on every page</li>
-                        </ul>
-                    </ul>
+							<li>HTML5 Semantics</li>
+							<li>SEO fundamentals </li>
+							<li>Solid content </li>
+							<li>Referer link on every page</li>
+						</ul>
+					</ul>
 
-                </div>
-            </div>
-        </div>
-        <p style="text-align: center">
-            <a href="#main">
-                <img src="images/uparrow.png" alt="arrow up" /></a>
-        </p>
-    </section>
-
-
-    <!--for side navigation-->
-    <div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" alt="arrow" /></a></div>
-    <!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
-    
-    
-    <section>
-        <div id="main">
-
-            <div class="contentheader">
-                <h2>Week 3
-                </h2>
-            </div>
-
-            <article>
-                <h3>New development in web development</h3>
-
-                <ul>
-                    <li>Always trying to make the web more accessible and publishable</li>
-                    <li>Tools for doing this abound!</li>
-                    <li>In September, 2013, Google released <a href="http://www.google.com/webdesigner/">Web Designer</a>
-
-                    </li>
-                    <li>In a similar way, Squarespace just launched their <a href="http://squarespace.com/logo">Logo Maker</a></li>
-                    <li>There are may similar tools out there, not to mention things like <a href="http://wix.com">Wix</a>, <a href="http://www.weebly.com/">Weebly</a>, <a href="http://www.moonfruit.com/">Moonfruit</a> and more.</li>
-                </ul>
+				</div>
+			</div>
+		</div>
+		<p style="text-align: center">
+			<a href="#main">
+				<img src="images/uparrow.png" alt="arrow up" /></a>
+		</p>
+	</section>
 
 
-                <h4>Your viewpoint</h4>
-                <ul>
-                    <li>What is the value of these tools?</li>
-                    <li>Where do web developers fit in?</li>
-                    <li>Is this a threat to web development skills?</li>
-                    <li>Let's <strong>discuss this</strong></li>
-                </ul>
-            </article>
+	<!--for side navigation-->
+	<div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" alt="arrow" /></a></div>
+	<!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
+	
+	
+	<section>
+		<div id="main">
 
-            <article>
-                <h3>Referer</h3>
-                <ul>
-                    <li>Validators can accept requests from existing URLs</li>
-                    <li>Rather than creating a link each time, you can reuse this one: <a href="http://validator.w3.org/check?uri=referer">Referer</a></li>
-                    <li>It&apos;s portable and can be used on <em>any</em> page</li>
-                    <li>Also, keep your homepages clean, up to date and they should make sense to an unknowing viewer</li>
-                    <li>Remember, this is a <strong>web development course</strong></li>
+			<div class="contentheader">
+				<h2>Week 3
+				</h2>
+			</div>
 
-                </ul>
-            </article>
-            <article>
-                <h3>Referer</h3>
-                <ul>
-                    <li>Validators can accept requests from existing URLs</li>
-                    <li>Rather than creating a link each time, you can reuse this one: <a href="http://validator.w3.org/check?uri=referer">Referer</a></li>
-                    <li>It&apos;s portable and can be used on <em>any</em> page</li>
-                    <li>Also, keep your homepages clean, up to date and they should make sense to an unknowing viewer</li>
-                    <li>Remember, this is a <strong>web development course</strong></li>
+			<article>
+				<h3>New development in web development</h3>
 
-                </ul>
-            </article>
+				<ul>
+					<li>Always trying to make the web more accessible and publishable</li>
+					<li>Tools for doing this abound!</li>
+					<li>In September, 2013, Google released <a href="http://www.google.com/webdesigner/">Web Designer</a>
+
+					</li>
+					<li>In a similar way, Squarespace just launched their <a href="http://squarespace.com/logo">Logo Maker</a></li>
+					<li>There are may similar tools out there, not to mention things like <a href="http://wix.com">Wix</a>, <a href="http://www.weebly.com/">Weebly</a>, <a href="http://www.moonfruit.com/">Moonfruit</a> and more.</li>
+				</ul>
 
 
+				<h4>Your viewpoint</h4>
+				<ul>
+					<li>What is the value of these tools?</li>
+					<li>Where do web developers fit in?</li>
+					<li>Is this a threat to web development skills?</li>
+					<li>Let's <strong>discuss this</strong></li>
+				</ul>
+			</article>
 
-        </div>
-    </section>
+			<article>
+				<h3>Referer</h3>
+				<ul>
+					<li>Validators can accept requests from existing URLs</li>
+					<li>Rather than creating a link each time, you can reuse this one: <a href="http://validator.w3.org/check?uri=referer">Referer</a></li>
+					<li>It&apos;s portable and can be used on <em>any</em> page</li>
+					<li>Also, keep your homepages clean, up to date and they should make sense to an unknowing viewer</li>
+					<li>Remember, this is a <strong>web development course</strong></li>
 
-    <!--the footer.inc goes here-->
-    <!--#include file="inc/footer.inc" -->
+				</ul>
+			</article>
+			<article>
+				<h3>Referer</h3>
+				<ul>
+					<li>Validators can accept requests from existing URLs</li>
+					<li>Rather than creating a link each time, you can reuse this one: <a href="http://validator.w3.org/check?uri=referer">Referer</a></li>
+					<li>It&apos;s portable and can be used on <em>any</em> page</li>
+					<li>Also, keep your homepages clean, up to date and they should make sense to an unknowing viewer</li>
+					<li>Remember, this is a <strong>web development course</strong></li>
+
+				</ul>
+			</article>
+
+
+
+		</div>
+	</section>
+
+	<!--the footer.inc goes here-->
+	<!--#include file="inc/footer.inc" -->
 
 </body>
 

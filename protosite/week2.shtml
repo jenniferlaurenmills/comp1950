@@ -1,168 +1,168 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>COMP 1950 Home Page</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<!--print stylesheet-->
-	<link rel="stylesheet" href="css/print.css" media="print" />
-	<meta name="description" content="Your starting point for all things COMP 1950." />
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="scripts/scripts.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>COMP 1950 Home Page</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" title="default css" media="screen" />
+    <!--print stylesheet-->
+    <link rel="stylesheet" href="css/print.css" media="print" />
+    <meta name="description" content="Your starting point for all things COMP 1950." />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
 
-	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 
-	<!--Carousel resource for index page-->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<script src="scripts/owl.carousel.min.js"></script>
+    <!--Carousel resource for index page-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="scripts/owl.carousel.min.js"></script>
 
-	<!--for sider navigation-->
-	<link href="css/jquery.sidr.dark.css" rel="stylesheet" />
-	<script src="scripts/jquery.sidr.min.js"></script>
+    <!--for sider navigation-->
+    <link href="css/jquery.sidr.dark.css" rel="stylesheet" />
+    <script src="scripts/jquery.sidr.min.js"></script>
 </head>
 
 <body>
 
-	<!--the navigation.inc goes here-->
-	<!--#include file="inc/navigation.inc" -->
+    <!--the navigation.inc goes here-->
+    <!--#include file="inc/navigation.inc" -->
 
-	<section class="black">
-		<div class="weeksummary">
-			<div id="summarywrap">
-				<div id="agenda">
-					<h3>Agenda</h3>
-					<hr class="hline" />
-					<ul>
-						<li>Web review: some reminders </li>
-						<li>Web Development with Firefox, Chrome and Safari 
-						</li>
-						<li>Standards & Semantics 
-						</li>
-						<li>Markup Languages </li>
-						<li>Assignment & Homework </li>
-					</ul>
-				</div>
-				<div id="assignment">
-					<h3>Assignment</h3>
-					<hr class="hline" />
-					<ul>
-						<li>You have two pieces of homework for this week. Please finish both:
+    <section class="black">
+        <div class="weeksummary">
+            <div id="summarywrap">
+                <div id="agenda">
+                    <h3>Agenda</h3>
+                    <hr class="hline" />
+                    <ul>
+                        <li>Web review: some reminders </li>
+                        <li>Web Development with Firefox, Chrome and Safari 
+                        </li>
+                        <li>Standards & Semantics 
+                        </li>
+                        <li>Markup Languages </li>
+                        <li>Assignment & Homework </li>
+                    </ul>
+                </div>
+                <div id="assignment">
+                    <h3>Assignment</h3>
+                    <hr class="hline" />
+                    <ul>
+                        <li>You have two pieces of homework for this week. Please finish both:
 						<ul>
-							<li>Create a page for Finnegan in XHTML Strict and HTML5</li>
-							<li>Create related pages for Finnegan in XHTML Strict and HTML5 </li>
-							<li>Create a page for a Realtor in XHTML Strict and HTML5 </li>
-							<li>Create related pages for a Realtor in XHTML Strict and HTML5 </li>
-						</ul>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<p class="center">
-			<a href="#main">
-				<img src="images/uparrow.png" alt="arrow up" /></a>
-		</p>
-	</section>
+                            <li>Create a page for Finnegan in XHTML Strict and HTML5</li>
+                            <li>Create related pages for Finnegan in XHTML Strict and HTML5 </li>
+                            <li>Create a page for a Realtor in XHTML Strict and HTML5 </li>
+                            <li>Create related pages for a Realtor in XHTML Strict and HTML5 </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="center">
+            <a href="#main">
+                <img src="images/uparrow.png" alt="arrow up" /></a>
+        </p>
+    </section>
 
-	<!--for side navigation-->
-	<div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" alt="arrow" /></a></div>
-	<!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
+    <!--for side navigation-->
+    <div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" alt="arrow" /></a></div>
+    <!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
 
 
-	<section>
-		<div id="main">
-			<div class="contentheader">
-				<h2>Week 2
-				</h2>
-			</div>
+    <section>
+        <div id="main">
+            <div class="contentheader">
+                <h2>Week 2
+                </h2>
+            </div>
 
-			<article>
-				<h2>web review: reminders</h2>
+            <article>
+                <h2>web review: reminders</h2>
 
-				<p>
-					There are a few things that bear reminding:
+                <p>
+                    There are a few things that bear reminding:
 					<ul>
-						<li>File and folder names cannot contain:
+                        <li>File and folder names cannot contain:
 							<ul>
-								<li>capital letters</li>
-								<li>spaces</li>
-								<li>special characters: ! @ # $ % ^ &amp; * ( ) + { } [
+                                <li>capital letters</li>
+                                <li>spaces</li>
+                                <li>special characters: ! @ # $ % ^ &amp; * ( ) + { } [
 						   ] : ; &quot; &lt; &gt; ? |</li>
-								<li>acceptable non-alphanumeric characters: .  _  -  ~
-								</li>
-							</ul>
-						</li>
+                                <li>acceptable non-alphanumeric characters: .  _  -  ~
+                                </li>
+                            </ul>
+                        </li>
 
-						<li>default page: index.htm, index.html or index.shtml (or
+                        <li>default page: index.htm, index.html or index.shtml (or
 							 whatever your server default is)
-						</li>
+                        </li>
 
-					</ul>
-				</p>
-			</article>
+                    </ul>
+                </p>
+            </article>
 
-			<article>
-				<h2>Browser Tools</h2>
+            <article>
+                <h2>Browser Tools</h2>
 
-				<h4>Lots of options</h4>
+                <h4>Lots of options</h4>
 
-				<ul>
-					<li>These days there are lots of browser-based tools available for web developers</li>
-					<li>Webkit (<a href="www.google.com/chrome">Chrome</a>, <a href="http://www.apple.com/safari/">Safari</a>) and Mozilla (<a href="http://www.mozilla.org/en-US/firefox">Firefox</a>) both have built-in tools</li>
-					<li>Tools are enhanced by their organizations</li>
-					<li>Easy to develop and troubleshoot now</li>
-					<li>We will look at <a href="www.google.com/chrome">Chrome</a> and <a href="http://www.apple.com/safari/">Safari</a> but, in COMP 1950, the focus will be <a href="http://www.mozilla.org/en-US/firefox">Firefox</a></li>
-				</ul>
+                <ul>
+                    <li>These days there are lots of browser-based tools available for web developers</li>
+                    <li>Webkit (<a href="www.google.com/chrome">Chrome</a>, <a href="http://www.apple.com/safari/">Safari</a>) and Mozilla (<a href="http://www.mozilla.org/en-US/firefox">Firefox</a>) both have built-in tools</li>
+                    <li>Tools are enhanced by their organizations</li>
+                    <li>Easy to develop and troubleshoot now</li>
+                    <li>We will look at <a href="www.google.com/chrome">Chrome</a> and <a href="http://www.apple.com/safari/">Safari</a> but, in COMP 1950, the focus will be <a href="http://www.mozilla.org/en-US/firefox">Firefox</a></li>
+                </ul>
 
 
-				<h4>Why Use Firefox?</h4>
-				<ul>
-					<li>Open source and user supported</li>
-					<li>Extremely standards compliant </li>
-					<li>Designed by web developers</li>
-					<li>Uses the superb Gecko page-rendering engine</li>
-					<li>Current version very solid (with minimal extensions)</li>
-					<li>Built in tools are excellent</li>
-					<li>Works for large or small-scale development</li>
-					<li>Excellent selection of extensions</li>
-				</ul>
+                <h4>Why Use Firefox?</h4>
+                <ul>
+                    <li>Open source and user supported</li>
+                    <li>Extremely standards compliant </li>
+                    <li>Designed by web developers</li>
+                    <li>Uses the superb Gecko page-rendering engine</li>
+                    <li>Current version very solid (with minimal extensions)</li>
+                    <li>Built in tools are excellent</li>
+                    <li>Works for large or small-scale development</li>
+                    <li>Excellent selection of extensions</li>
+                </ul>
 
-				<h4>Challenges</h4>
-				<ul>
-					<li>Open source and user supported</li>
-					<li>User contributable code and suggestions</li>
-					<li>Can become heavy under it&apos;s own weight: extensions &amp; add-ons</li>
-				</ul>
+                <h4>Challenges</h4>
+                <ul>
+                    <li>Open source and user supported</li>
+                    <li>User contributable code and suggestions</li>
+                    <li>Can become heavy under it&apos;s own weight: extensions &amp; add-ons</li>
+                </ul>
 
-				<h4>Considerations</h4>
-				<ul>
-					<li>Remember that there are other browsers out there!</li>
-					<li>Test in Moz/IE/Opera/FF and anything else just to be sure</li>
-				</ul>
+                <h4>Considerations</h4>
+                <ul>
+                    <li>Remember that there are other browsers out there!</li>
+                    <li>Test in Moz/IE/Opera/FF and anything else just to be sure</li>
+                </ul>
 
-				<h4>Built-in tools</h4>
+                <h4>Built-in tools</h4>
 
-				<p>Starting with the built-in web developer tools:</p>
-				<ul>
-					<li>Firefox Developer Toolbar</li>
-					<li>Includes console, debugger, inspector</li>
-					<li>Also includes multiple view options, ability to include style and even full size screenshots</li>
-					<li>Responsive Design view</li>
-					<li>Scratchpad for JavaScript stuff</li>
-					<li>Separate style editor</li>
-				</ul>
-				<p>
-					Some pretty great stuff, but there are other tools out there that offer far more!
+                <p>Starting with the built-in web developer tools:</p>
+                <ul>
+                    <li>Firefox Developer Toolbar</li>
+                    <li>Includes console, debugger, inspector</li>
+                    <li>Also includes multiple view options, ability to include style and even full size screenshots</li>
+                    <li>Responsive Design view</li>
+                    <li>Scratchpad for JavaScript stuff</li>
+                    <li>Separate style editor</li>
+                </ul>
+                <p>
+                    Some pretty great stuff, but there are other tools out there that offer far more!
+        </div>
+
+        </article>
+
 		</div>
-
-		</article>
-
-		</div>
-	</section>
-	<!--the footer.inc goes here-->
-	<!--#include file="inc/footer.inc" -->
+    </section>
+    <!--the footer.inc goes here-->
+    <!--#include file="inc/footer.inc" -->
 
 </body>
 

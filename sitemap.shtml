@@ -6,7 +6,7 @@
     <meta name="description" content="site map page of Zero Cool group for comp 1950 final project protosite">
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="scripts/scripts.js"></script>
-    <link rel="stylesheet" href="css/zerostyle.css">
+    <link rel="stylesheet" href="css/zerostyle.css" title="default css" media="screen" />
     <!--print stylesheet-->
     <link rel="stylesheet" href="css/print.css" media="print" />
     <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>

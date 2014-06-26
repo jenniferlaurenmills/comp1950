@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Comp 1950 is an intemediate web development course in BCIT Vancouver. it all about best practices in web developments">
 	<title>COMP 1950 Home Page</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" title="default css" media="screen" />
 	<!--print stylesheet-->
 	<link rel="stylesheet" href="css/print.css" media="print" />
 	<meta name="description" content="Your starting point for all things COMP 1950." />

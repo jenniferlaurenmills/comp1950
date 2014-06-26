@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>COMP 1950 Contact</title>
 	<meta name="description" content="This a contact page of Zero Cool group Protosite for comp 1950. It's final project for Comp 1950 by Ali, Lawrence , Janni and Zack">
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" title="default css" media="screen" />
 	<meta name="description" content="Your starting point for all things COMP 1950." />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="scripts/scripts.js"></script>

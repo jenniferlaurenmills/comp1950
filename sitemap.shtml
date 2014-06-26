@@ -17,15 +17,12 @@
 
     <!--the header.inc goes here-->
     <!--#include file="inc/secondnav.inc" -->
-    <!---------------------------->
 
     <!--the header.inc goes here-->
     <!--#include file="inc/header.inc" -->
-    <!---------------------------->
 
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
-    <!---------------------------->
 
     <div id="container">
         <div id="content">
@@ -80,7 +77,6 @@
     <!--/container-->
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
-    <!---------------------------->
 
 </body>
 </html>

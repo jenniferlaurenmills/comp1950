@@ -13,15 +13,13 @@
 <body id="questionaire">
 	<!--the header.inc goes here-->
 	<!--#include file="inc/secondnav.inc" -->
-	<!---------------------------->
 
 	<!--the header.inc goes here-->
 	<!--#include file="inc/header.inc" -->
-	<!---------------------------->
 
 	<!--the navigation.inc goes here-->
 	<!--#include file="inc/navigation.inc" -->
-	<!---------------------------->
+
 	<div id="container">
 		<div id="content">
 			<h1>Questionnaire Answers</h1>
@@ -320,7 +318,6 @@ This site has some unique requirements, like having audience members coming back
 
 	<!--the footer.inc goes here-->
 	<!--#include file="inc/footer.inc" -->
-	<!---------------------------->
 
 </body>
 

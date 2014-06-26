@@ -15,15 +15,13 @@
 
     <!--the header.inc goes here-->
     <!--#include file="inc/secondnav.inc" -->
-    <!---------------------------->
 
     <!--the header.inc goes here-->
     <!--#include file="inc/header.inc" -->
-    <!---------------------------->
 
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
-    <!---------------------------->
+
     <section>
         <div id="container">
             <div id="content">
@@ -154,7 +152,6 @@ able to create posts on the blog.  Ideally, it should only to be used to transmi
 
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
-    <!---------------------------->
 
 </body>
 

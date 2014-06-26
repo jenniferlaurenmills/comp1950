@@ -70,8 +70,16 @@ body#home a#indexnav, body#wireframe a#wireframenav, body#protosite a#protositen
     color: #fff;
     background: #7ac5cd;
 }
+body#home a#indexnav1, body#wireframe a#wireframenav1, body#protosite a#protositenav1, body#rationale a#rationalenav1, body#sitemap a#sitemapnav1 {
+    color: #fff;
+    background: #7ac5cd;
+}
 
 #indexnav:hover, #wireframenav:hover, #protositenav:hover, #rationalenav:hover, #sitemapnav:hover {
+    color: #fff;
+    background: #7ac5cd;
+}
+#indexnav1:hover, #wireframenav1:hover, #protositenav1:hover, #rationalenav1:hover, #sitemapnav1:hover {
     color: #fff;
     background: #7ac5cd;
 }

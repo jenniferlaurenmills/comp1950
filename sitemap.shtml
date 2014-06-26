@@ -10,6 +10,8 @@
 	<!--[if lte IE 7]> <link rel="stylesheet" type="text/css" media="screen,print" href="slickmap-ie.css" /> <![endif]-->
 	<script src="/mint/?js" type="text/javascript"></script> <!-- stats tracking -->	
 	
+	
+
 
 </head>
 
@@ -21,13 +23,12 @@
 		
 	
 		<ul id="utilityNav">
-			<li><a href="http://my.bcit.ca">My BCIT/a></li>
+			<li><a href="http://my.bcit.ca">My BCIT</a></li>
 			<li><a href="#">Sitemap</a></li>
 		</ul>
 
 		<ul id="primaryNav">
 			<li id="home"><a href="http://teams.thenet.ca/zerocool/protosite/index.shtml">Home</a></li>
-
 			<li><a href="http://teams.thenet.ca/zerocool//protosite/lectures.shtml">Lectures</a>
 
 				<ul>
@@ -36,12 +37,10 @@
 					<li><a href="http://teams.thenet.ca/zerocool//protosite/week3.shtml">Week 3</a></li>
 				</ul>
 			</li>
-
-			
+		
 			<li><a href="http://zerocoolers.tumblr.com/">BLOG</a></li>
-
 			<li><a href="#">Contact</a></li>
-			<li><a href="#">Wiki/Forums>/a></li>
+			<li><a href="#">Wiki/Forums</a></li>
 			<li><a href="#">Alumni Resources</a></li>
 			
 

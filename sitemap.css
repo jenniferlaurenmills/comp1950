@@ -98,7 +98,7 @@ ol, ul {
 #primaryNav #home {
 	display: block;
 	float: none;
-	background: #ffffff url('images/L1-left.png') center bottom no-repeat;
+	background: url('images/L1-left.png') center bottom no-repeat;
 	position: relative;
 	z-index: 2;
 	padding: 0 0 30px 0;

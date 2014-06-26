@@ -122,7 +122,7 @@ able to create posts on the blog.  Ideally, it should only to be used to transmi
 				<hr>
 
 				<article>
-					.<header>
+					<header>
 						<h3>Contact Page</h3>
 					</header>
 					<p>One of the more cumbersome process in trying to get hold of fellow students is having to use an external email / messaging system (i.e. through mybcit) outside of the COMP 1950 site.  A more efficient way to do this could be to include in the contact page a way for students to send messages to each other.  Perhaps it can be organized into class sections.  As of now, <a href="http://teams.thenet.ca/zerocool/protosite/contact.shtml">the contact page</a> is a simple message submit form, perhaps there could be a drop down list from the email input area  to add recipients. </p>

@@ -581,31 +581,52 @@ footer {
 }
 
 #rotatetext {
-    position:absolute;
+    position: absolute;
     /*border:solid;*/
-    width:50px;
+    width: 50px;
     left: 25px;
     /*top:50%;*/
-    margin-top:30%;    
-    align-content:center;
-
+    margin-top: 30%;
+    align-content: center;
     transform: rotate(-90deg);
     -ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Opera, Chrome, and Safari */
 }
 
     #rotatetext a {
-        text-decoration:none;
-        color:#328e85;
-        margin-left:-8px;
+        text-decoration: none;
+        color: #328e85;
+        margin-left: -8px;
     }
-    
-    #rotatetext a:hover {
-        text-decoration:none;
-        color:#0c3406;
-    }
+
+        #rotatetext a:hover {
+            text-decoration: none;
+            color: #0c3406;
+        }
 /*-----------------------------------------------------------------------------------------------------------*/
 /*------------------------End CSS for Weeks of protosite---------------------------------------------------*/
 
+
+/*------------------------Start CSS for Contact-------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------*/
+label {
+    display: block;
+    /*border:solid;*/
+}
+
+input {
+    /*border:solid;*/
+    width: 25%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 50%;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------*/
 
 

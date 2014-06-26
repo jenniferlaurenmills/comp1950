@@ -2,49 +2,24 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>COMP 1950 Contact Page</title>
+    <title>COMP 1950 Contact</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta name="description" content="Alistair's contact info." />
+    <meta name="description" content="Your starting point for all things COMP 1950." />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="scripts/scripts.js"></script>
-	
-	<style>
-	
-	
-	
-	.contact {background:url(http://teams.thenet.ca/zerocool/protosite/images/blog_bg.jpg);
-			background-repeat: no-repeat;
-			 background-color: #243755;
-			padding: 1em;
-			color: #ffffff;
-	
-			
-	 }
-	 
-	 	 
-	 .instruct, .students,  .messages  {border: 1px solid #ffffff;
-        padding: 1em;
-       margin-top: 3em;
-	   width: 40%;}
-	 
-	 .messages {float: right;
-	           min-height: 600px;
-			   padding-right: 10em;}
-			   
-	 .messages li {margin-top: 2em;}		   
-			   
-	 .messages li a {color: #ffffff;}		   
-	 
-     .buttons {background-color: #243755;
-               color: #ffffff;
-			   margin: 1em;
-			   padding: .05em;
-               }			   
-	
-	
-	</style>
-	
-	
+
+    <!--page fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+
+    <!--Carousel resource for index page-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="scripts/owl.carousel.min.js"></script>
+
+    <!--wysiwyg editor for textarea-->
+    <script type="text/javascript" src="editor/tinymce.min.js"></script>
 </head>
 
 <body>
@@ -52,62 +27,104 @@
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
     <!---------------------------->
-	
-	<div class="contact">
-	
-    <h1>Contact</h1>
-	
-	
-    <div class="icon">
-        <img src="http://teams.thenet.ca/zerocool/protosite/images/email.png">
-    </div>
-	
-	<div class="messages">
-	<h2>Unread Messages</h2>
-	<ul>
-	<li><a href="#">Message Subject</a> - blah blah blah...</li>
-	<li><a href="#">Message Subject</a> - blah blah blah...</li>
-	<li><a href="#">Message Subject</a> - blah blah blah...</li>
-	<li><a href="#">Message Subject</a> - blah blah blah...</li>
-	<li><a href="#">Message Subject</a> - blah blah blah...</li>
-	<li><a href="#">Message Subject</a> - blah blah blah...</li>
-	<li><a href="#">Message Subject</a> - blah blah blah...</li>
-	</ul>
-	
-	
-	</div>
-	
-	
 
-    <div class="instruct">
-	    <h2>Contact the Almighty Instructor</h2>
-		<br>
-		<textarea rows="10" cols="60"></textarea>
-		<br>
-		<input class="buttons" type="submit" value="Send Message">
-        <br>
-    </div>
-	
-	<div class="students">
-	<h2>Contact Your Cohorts</h2>
-	<input type="checkbox" name="Student01" id="Student01" value="yes">Student 01<br>
-	<input type="checkbox" name="Student02" id="Student02" value="yes">Student 01<br>
-	<input type="checkbox" name="Student03" id="Student03" value="yes">Student 01<br>
-	<input type="checkbox" name="Student04" id="Student04" value="yes">Student 01<br>
-	<input type="checkbox" name="Student05" id="Student05" value="yes">Student 01<br>
-	<input type="checkbox" name="Student06" id="Student06" value="yes">Student 01<br>
-	<input type="checkbox" name="Student07" id="Student07" value="yes">Student 01<br>
-	<input type="checkbox" name="Student08" id="Student08" value="yes">Student 01<br>
-	<br>
-	<textarea rows="10" cols="60"></textarea>
-	<br>
-	<input class="buttons" type="submit" value="Send Message">
-	<br>
-	</div>
- 
-	
-	
-	
+    <!-- <div class="contact">
+
+        <h1>Contact</h1>
+
+
+        <div class="icon">
+            <img src="http://teams.thenet.ca/zerocool/protosite/images/email.png">
+        </div>
+
+        <div class="messages">
+            <h2>Unread Messages</h2>
+            <ul>
+                <li><a href="#">Message Subject</a> - blah blah blah...</li>
+                <li><a href="#">Message Subject</a> - blah blah blah...</li>
+                <li><a href="#">Message Subject</a> - blah blah blah...</li>
+                <li><a href="#">Message Subject</a> - blah blah blah...</li>
+                <li><a href="#">Message Subject</a> - blah blah blah...</li>
+                <li><a href="#">Message Subject</a> - blah blah blah...</li>
+                <li><a href="#">Message Subject</a> - blah blah blah...</li>
+            </ul>
+
+
+        </div>
+
+
+
+        <div class="instruct">
+            <h2>Contact the Almighty Instructor</h2>
+            <br>
+            <textarea rows="10" cols="60"></textarea>
+            <br>
+            <input class="buttons" type="submit" value="Send Message">
+            <br>
+        </div>
+
+        <div class="students">
+            <h2>Contact Your Cohorts</h2>
+            <input type="checkbox" name="Student01" id="Student01" value="yes">Student 01<br>
+            <input type="checkbox" name="Student02" id="Student02" value="yes">Student 01<br>
+            <input type="checkbox" name="Student03" id="Student03" value="yes">Student 01<br>
+            <input type="checkbox" name="Student04" id="Student04" value="yes">Student 01<br>
+            <input type="checkbox" name="Student05" id="Student05" value="yes">Student 01<br>
+            <input type="checkbox" name="Student06" id="Student06" value="yes">Student 01<br>
+            <input type="checkbox" name="Student07" id="Student07" value="yes">Student 01<br>
+            <input type="checkbox" name="Student08" id="Student08" value="yes">Student 01<br>
+            <br>
+            <textarea rows="10" cols="60"></textarea>
+            <br>
+            <input class="buttons" type="submit" value="Send Message">
+            <br>
+        </div>
+
+
+
+
+    </div>-->
+
+
+
+
+    <div id="wrapper">
+        <br />
+        <br />
+        <div class="learn line">
+            <hr />
+        </div>
+        <div class="learn">
+            <h1>Contact</h1>
+        </div>
+        <div class="learn line">
+            <hr class="clear" />
+        </div>
+
+        <section id="wrapper1">
+            <div id="contactform" class="clear">
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name<span>(required)</span></label>
+                        <input type="text" class="name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email<span>(required)</span></label>
+                        <input type="email" name="email" id="email" class="email">
+                    </div>
+                    <br />
+                    <div>
+                        <label for="comment">Comment<span>(required)</span></label>
+                           <br />
+                        <textarea name="comment" id="comment" rows="20"></textarea>
+                    </div>
+                    <p class="contactsubmit">
+                        <input type="submit" value="Submit »">
+                    </p>
+                </form>
+            </div>
+        </section>
     </div>
 
     <!--the footer.inc goes here-->

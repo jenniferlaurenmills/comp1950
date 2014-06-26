@@ -35,6 +35,13 @@ $(document).ready(function () {
             }
         }
     });
+
+
+    //wysiwyg  editor  for textarea
+    tinymce.init({
+        selector: "textarea"
+        
+    });
 });
 
 function openSubMenu() {
@@ -76,3 +83,5 @@ $(document).ready(function () {
         }
     });
 });
+
+

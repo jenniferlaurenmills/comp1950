@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>COMP 1950 Home Page</title>
+    <meta name="description" content="Lecture contact page of Zero Cool group Protosite for comp 1950.">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <meta name="description" content="Your starting point for all things COMP 1950." />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -13,13 +14,8 @@
 </head>
 
 <body>
-
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
-    <!---------------------------->
-
-
-
 
     <div id="wrapper">
         <br />
@@ -223,12 +219,8 @@
 
     </div>
 
-
-
-
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
-    <!---------------------------->
 
 </body>
 </html>

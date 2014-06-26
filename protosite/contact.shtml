@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>COMP 1950 Contact</title>
+	<meta name="description" content="This a contact page of Zero Cool group Protosite for comp 1950. It's final project for Comp 1950 by Ali, Lawrence , Janni and Zack">
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<meta name="description" content="Your starting point for all things COMP 1950." />
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -32,47 +33,48 @@
 
 	<!--the navigation.inc goes here-->
 	<!--#include file="inc/navigation.inc" -->
-
-	<div id="wrapper">
-		<br />
-		<br />
-		<div class="learn line">
-			<hr />
-		</div>
-		<div class="learn">
-			<h1>Contact</h1>
-		</div>
-		<div class="learn line">
-			<hr class="clear" />
-		</div>
-
-		<section id="wrapper1">
-			<div id="contactform" class="clear">
-				<form action="#" method="post">
-					<div>
-						<label for="name">Name<span>(required)</span></label>
-						<input type="text" class="name">
-
-						<label for="email">Email<span>(required)</span></label>
-						<input type="email" name="email" id="email" class="email">
-					</div>
-
-					<br />
-					<div>
-						<label for="comment">Comment<span>(required)</span></label>
-						<br />
-						<textarea name="comment" id="comment" rows="20"></textarea>
-					</div>
-					<p class="contactsubmit">
-						<input type="submit" value="Submit »">
-					</p>
-				</form>
+	<section>
+		<div id="wrapper">
+			<br />
+			<br />
+			<div class="learn line">
+				<hr />
 			</div>
-		</section>
-	</div>
+			<div class="learn">
+				<header>
+					<h1>Contact</h1>
+				</header>
+			</div>
+			<div class="learn line">
+				<hr class="clear" />
+			</div>
 
+			<section id="wrapper1">
+				<div id="contactform" class="clear">
+					<form action="#" method="post">
+						<div>
+							<label for="name">Name<span>(required)</span></label>
+							<input type="text" name="name" id="name" class="name">
+
+							<label for="email">Email<span>(required)</span></label>
+							<input type="email" name="email" id="email" class="email">
+						</div>
+
+						<br />
+						<div>
+							<label for="comment">Comment<span>(required)</span></label>
+							<br />
+							<textarea name="comment" id="comment" rows="20"></textarea>
+						</div>
+						<p class="contactsubmit">
+							<input type="submit" value="Submit »">
+						</p>
+					</form>
+				</div>
+			</section>
+		</div>
+	</section>
 	<!--the footer.inc goes here-->
 	<!--#include file="inc/footer.inc" -->
-
 </body>
 </html>

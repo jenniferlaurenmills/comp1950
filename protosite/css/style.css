@@ -19,6 +19,20 @@ a {
     clear: both;
 }
 
+.center {
+    text-align: center;
+}
+
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mapa {
+    padding: 0px;
+    margin: 0px;
+}
+
 article {
     /*border: 1px solid;*/
     /*border-radius: 10px;*/
@@ -144,6 +158,10 @@ footer {
     footer a:link {
         color: white;
     }
+
+#arr {
+    padding-top:14px;
+}
 
 /*------------------------End CSS for navigation and footer of protosite------------------------------------*/
 /*----------------------------------------------------------------------------------------------------------*/
@@ -326,7 +344,7 @@ footer {
     position: absolute;
     left: 40%;
     right: 40%;
-    top: -100px;
+    top: -76px;
     /*bottom:90px;*/
     /*border: solid;*/
     width: 100px;
@@ -354,8 +372,12 @@ footer {
     clear: both;
 }
 
-.validator {
-    width: 100%;
+
+.validator img {
+    clear: both;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0px;
 }
 
 /*----------------------------------------Start Lecture page CSS------------------------------------------------*/
@@ -612,7 +634,7 @@ footer {
 label {
     display: block;
     /*border:solid;*/
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 input {

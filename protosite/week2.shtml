@@ -26,7 +26,6 @@
 
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
-    <!---------------------------->
 
     <section class="black">
         <div class="weeksummary">
@@ -66,7 +65,7 @@
     </section>
 
     <!--for side navigation-->
-    <div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" /></a></div>
+    <div id="rotatetext"><a id="callback-menu" href="#callback-menu"><strong>Lectures</strong><img id="imgd" src="images/arrowrightd.png" alt="arrow" /></a></div>
     <!--<a id="right-menu" href="#right-menu">Right Menu</a>-->
 
 
@@ -162,7 +161,6 @@
     </section>
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
-    <!---------------------------->
 
 </body>
 

@@ -29,13 +29,14 @@
         </li>
       </ul>
     </nav>
+    <div class="validator">
+      <a href="http://validator.w3.org/check?uri=referer">
+        <img
+          src="images/html5_logo_32.png"
+          alt="Valid HTML 5!" height="32" width="32" />
+      </a>
+    </div>
   </div>
+
 </footer>
 
-<div class="validator">
-  <a href="http://validator.w3.org/check?uri=referer">
-    <img
-      src="images/html5_logo_32.png"
-      alt="Valid HTML 5!" height="32" width="32" />
-  </a>
-</div>

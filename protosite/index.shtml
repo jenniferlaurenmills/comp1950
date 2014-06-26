@@ -24,7 +24,6 @@
 
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
-    <!---------------------------->
 
     <section>
         <div id="bigimg">
@@ -33,7 +32,6 @@
                     <div class="moto">
                         <h1>Are You Ready to Code!</h1>
                         <h1>Start Learning Now.</h1>
-                        <h6></h6>
                     </div>
                     <div id="transparentbtn">
                         <div class="btn" id="btn1"><a class="lnk" id="lnk1" href="lectures.shtml">Start Here</a></div>
@@ -46,58 +44,91 @@
         </div>
     </section>
 
-    <section>
 
-        <p style="text-align: center">
+    <div class="center" id="arr">
+        <figure>
             <a href="#two">
-                <img src="images/arrowdown1.png" alt="arrow down" /></a>
-        </p>
-
-        <div id="outcome">
-            <div class="learn line" id="two">
-                <hr />
-            </div>
-            <div class="learn">
-                <h2>What You Can Learn</h2>
-            </div>
-            <div class="learn line">
-                <hr />
-            </div>
-
-            <div id="icons">
-                <div class="iconpic">
-                    <img src="images/html5.png" />
-                    <h3>HTML 5</h3>
+                <img src="images/arrowdown1.png" alt="arrow down" />
+            </a>
+        </figure>
+    </div>
+    <section>
+        <article>
+            <div id="outcome">
+                <div class="learn line" id="two">
+                    <hr />
+                </div>
+                <div class="learn">
+                    <header>
+                        <h2>What You Can Learn</h2>
+                    </header>
+                </div>
+                <div class="learn line">
+                    <hr />
                 </div>
 
-                <div class="iconpic">
-                    <a href="lectures.shtml">
-                        <img src="images/css3.png" /></a>
-                    <h3>CSS 3</h3>
-                </div>
-                <div class="iconpic">
-                    <a href="lectures.shtml">
-                        <img src="images/method.png" /></a>
-                    <h3>Methodology</h3>
-                </div>
-                <div class="iconpic">
-                    <a href="lectures.shtml">
-                        <img src="images/github.png" /></a>
-                    <h3>GitHub</h3>
-                </div>
-                <div class="iconpic">
-                    <a href="lectures.shtml">
-                        <img src="images/jquery.png" /></a>
-                    <h3>JQuery</h3>
-                </div>
-                <div class="iconpic">
-                    <a href="lectures.shtml">
-                        <img src="images/tumblr.png" /></a>
-                    <h3>Tumblr</h3>
+                <div id="icons">
+                    <div class="iconpic">
+                        <a href="lectures.shtml">
+                            <img src="images/html5.png" alt="html5" /></a>
+                        <header>
+                            <h3>HTML 5</h3>
+                        </header>
+                    </div>
+
+                    <div class="iconpic">
+                        <a href="lectures.shtml">
+                            <figure>
+                                <img src="images/css3.png" alt="css" />
+                            </figure>
+                        </a>
+                        <header>
+                            <h3>CSS 3</h3>
+                        </header>
+                    </div>
+                    <div class="iconpic">
+                        <a href="lectures.shtml">
+                            <figure>
+                                <img src="images/method.png" alt="method" />
+                            </figure>
+                        </a>
+                        <header>
+                            <h3>Methodology</h3>
+                        </header>
+                    </div>
+                    <div class="iconpic">
+                        <a href="lectures.shtml">
+                            <figure>
+                                <img src="images/github.png" alt="git" />
+                            </figure>
+                        </a>
+                        <header>
+                            <h3>GitHub</h3>
+                        </header>
+                    </div>
+                    <div class="iconpic">
+                        <a href="lectures.shtml">
+                            <figure>
+                                <img src="images/jquery.png" alt="jquery" />
+                            </figure>
+                        </a>
+                        <header>
+                            <h3>JQuery</h3>
+                        </header>
+                    </div>
+                    <div class="iconpic">
+                        <a href="lectures.shtml">
+                            <figure>
+                                <img src="images/tumblr.png" alt="tumblr" />
+                            </figure>
+                        </a>
+                        <header>
+                            <h3>Tumblr</h3>
+                        </header>
+                    </div>
                 </div>
             </div>
-        </div>
-
+        </article>
     </section>
 
     <br class="clear" />
@@ -168,7 +199,6 @@
         <div id="alistair">
             <section>
                 <article>
-
                     <div class="subdiv">
                         <br />
                         <p>I have been developing websites since 1995.  I enjoy teaching, and COMP 1950 students are by far the brightest and best looking people around!</p>
@@ -177,15 +207,16 @@
             </section>
         </div>
     </div>
-
-    <div id="blog">
-        <article>
-            <div class="subdiv">
-                <h3>Latest Blog Post</h3>
-                <p>Ever have one of those days...</p>
-            </div>
-        </article>
-    </div>
+    <article class="mapa">
+        <div id="blog">
+            <article>
+                <div class="subdiv">
+                    <h3>Latest Blog Post</h3>
+                    <p>Ever have one of those days...</p>
+                </div>
+            </article>
+        </div>
+    </article>
     <br />
     <div class="learn line">
         <hr />
@@ -241,7 +272,6 @@
 
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
-    <!---------------------------->
 
 </body>
 

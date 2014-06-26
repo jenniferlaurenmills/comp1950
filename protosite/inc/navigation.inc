@@ -9,11 +9,11 @@
       <li class="currentpage">
         <a href="index.shtml">Home</a>
       </li>
-      
-      
+
+
       <li class="popupmenu">
         <a href="lectures.shtml">Lectures</a>
-        
+
         <div id="lecturemenu">
           <ul id="tt">
             <li>
@@ -28,14 +28,11 @@
           </ul>
         </div>
       </li>
-      
-      
       <li>
         <a href="http://zerocoolers.tumblr.com">Blog</a>
       </li>
       <li>
         <a href="contact.shtml">Contact</a>
-      </li>
       </li>
       <li>
         <a href="#">Wiki/Forums</a>

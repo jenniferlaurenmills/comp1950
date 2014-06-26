@@ -87,23 +87,26 @@
 					<p>The ZeroCoolers opted to have a dual navigation bar, one at the top of the site and one below.  This not only makes it more convenient to visit pages without having to scroll up, but also acts like a "visual frame" for aesthetic appeal.  The most important section of the site is the <a href="http://teams.thenet.ca/zerocool/protosite/week1.shtml">weekly lectures</a> and we invested a lot more navigation help in this section with a detailed pull-out side bar, in addition to the gallery style layout. In this way, students reading through the lectures may have easier access to notes from previous weeks.  It is also understood that lecture notes and information will not be posted too early in advance. </p>
 
 					<header>
-						<h4>Sitemap</h4>
-					</header>
-					<p>We have a <a href="http://teams.thenet.ca/zerocool/sitemap.shtml">site map</a> proposed that also follows a coloured gallery palette layout as well. We are hoping that our proposed layout for the site (gallery palette), will make the sitemap redundant (in particular the lecture main page). But if implemented, this sitemap will be linked on both the upper and lower main navigation bars.  </p>
+                        <h4>Sitemap</h4>
+                    </header>
+                    <p>We have a <a href="http://teams.thenet.ca/zerocool/sitemap.shtml">site map</a> proposed that also follows a coloured gallery palette layout as well. However we also added an outline version of the sitemap for good measure.  There are two possibilities for the sitemap, either as a permanent fixture at the lower navigation area or as links on both the upper and lower main navigation bars.  </p>
 				</article>
 
 				<br>
 				<hr>
 
 				<article>
-					<header>
-						<h3>Blog</h3>
-					</header>
-					<p>
-						The <a href="http://zerocoolers.tumblr.com/">blog</a> will serve as the "Bulletin Board" of the class, where updates, announcements, and other important 
-
-					</p>
-				</article>
+                    <header>
+                        <h3>Blog</h3>
+                    </header>
+                    <p>
+                        The <a href="http://zerocoolers.tumblr.com/">blog</a> will serve as the "Bulletin Board" of the class, where updates, announcements, and other important 
+topics will be posted (as opposed to the archival nature of the wiki / forums).  The posts are tagged 
+accordingly and can be accessed as a group using the page links categorized (hypothetically) as: 
+Announcements, Homework Tips, References, and Inspiration.  Unlike the Wiki / Forum, the students will not be 
+able to create posts on the blog.  Ideally, it should only to be used to transmit information from the instructor to the students. Perhaps a function can be considered where a student can indicate that he / she has read the information (via comments).
+                    </p>
+                </article>
 
 				<br>
 				<hr>

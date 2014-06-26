@@ -84,7 +84,7 @@
                     <header>
                         <h4>Sitemap</h4>
                     </header>
-                    <p>We have a <a href="http://teams.thenet.ca/zerocool/sitemap.shtml">site map</a> proposed that also follows a coloured gallery palette layout as well. We are hoping that our proposed layout for the site (gallery palette), will make the sitemap redundant (in particular the lecture main page). But if implemented, this sitemap will be linked on both the upper and lower main navigation bars.  </p>
+                    <p>We have a <a href="http://teams.thenet.ca/zerocool/sitemap.shtml">site map</a> proposed that also follows a coloured gallery palette layout as well. However we also added an outline version of the sitemap for good measure.  There are two possibilities for the sitemap, either as a permanent fixture at the lower navigation area or as links on both the upper and lower main navigation bars.  </p>
                 </article>
 
                 <br>
@@ -120,7 +120,7 @@ able to create posts on the blog.  Ideally, it should only to be used to transmi
                     .<header>
                         <h3>Contact Page</h3>
                     </header>
-                    <p>One of the more cumbersome process in trying to get hold of fellow students is having to use an external email / messaging system (i.e. through mybcit) outside of the COMP 1950 site.  A more efficient way to do this could be to include in the contact page a way for students to send messages to each other.  Perhaps it can be organized into class sections.  There could be a way to implement a filter so that only the students of a particular section are visible depending on the login account.  A little message area is proposed for recent message threads as well. </p>
+                    <p>One of the more cumbersome process in trying to get hold of fellow students is having to use an external email / messaging system (i.e. through mybcit) outside of the COMP 1950 site.  A more efficient way to do this could be to include in the contact page a way for students to send messages to each other.  Perhaps it can be organized into class sections.  As of now, <a href="http://teams.thenet.ca/zerocool/protosite/contact.shtml">the contact page</a> is a simple message submit form, perhaps there could be a drop down list from the email input area  to add recipients. </p>
                 </article>
 
                 <br>

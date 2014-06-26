@@ -37,10 +37,7 @@ $(document).ready(function () {
     });
 
 
-    //wysiwyg  editor  for textarea
-    tinymce.init({
-        selector: "textarea"
-    });
+
 });
 
 function openSubMenu() {
@@ -78,8 +75,13 @@ $(document).ready(function () {
     $('#callback-menu').sidr({
         name: 'Contents',
         source: function (name) {
-            return '<h1 style="font-size:120% ;">' + name + ' Comp 1950</h1><p><a href="lectures.shtml">Home</a></p><p><a href="week1.shtml">01| Introduction</a></p><p><a href="week2.shtml">02| Tools & Standards</a></p><p><a href="week3.shtml">03| HTML 5 & SEO</a></p><p>04| CSS Concepts</p><p>05| More CSS</p><p>06| CSS & SSI</p><p>07| Template Development</p><p>08| Methodology</p><p>09| Alistair!</p><p>10| JQUERY/Git</p>';
+            return '<h1 style="font-size:120% ;">' + name + ' Comp 1950</h1><p><a href="lectures.shtml">Home</a></p><p><a href="week1.shtml">01| Introduction</a><p style="padding-left:25px;">Web Space</p><p style="padding-left:25px;">The Net Setup</p><p style="padding-left:25px;">FTP Setup</p></p><p><a href="week2.shtml">02| Tools & Standards</a><p style="padding-left:25px;">Reminders</p><p style="padding-left:25px;">Browser Tools</p><p style="padding-left:25px;">Why Firefox!</p><p style="padding-left:25px;">FireBug</p></p><p><a href="week3.shtml">03| HTML 5 & SEO</a></p><p>04| CSS Concepts</p><p>05| More CSS</p><p>06| CSS & SSI</p><p>07| Template Development</p><p>08| Methodology</p><p>09| Alistair!</p><p>10| JQUERY/Git</p>';
         }
+    });
+
+    //////wysiwyg  editor  for textarea///////
+    tinymce.init({
+        selector: "textarea"
     });
 });
 

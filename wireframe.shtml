@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Wireframe</title>
+    <meta name="description" content="Wireframe page of Zero Cool group for comp 1950 final project">
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="scripts/scripts.js"></script>
     <link rel="stylesheet" href="css/zerostyle.css">
@@ -11,7 +12,6 @@
 </head>
 
 <body id="wireframe">
-
     <!--the header.inc goes here-->
     <!--#include file="inc/secondnav.inc" -->
     <!---------------------------->
@@ -23,46 +23,42 @@
     <!--the navigation.inc goes here-->
     <!--#include file="inc/navigation.inc" -->
     <!---------------------------->
+    <section>
+        <div id="container">
+            <div id="content">
+                <header>
+                    <h2>Wireframes</h2>
+                </header>
 
+                <p>The following are thumbnail versions of the working wireframe we have for the proposed site revamp.  To access the larger version of the image (in jpeg format) just click on the caption links.</p>
 
-    <div id="container">
+                <article class="wireframe">
+                    <header>
+                        <h3>Homepage Wireframe</h3>
+                    </header>
+                    <br />
+                    <figure>
+                        <a href="images/wireframehomepage.jpg">
+                            <img src="images/t_wireframehomepage.jpg" alt="homepage wireframe" /></a>
+                        <figcaption><a href="images/wireframehomepage.jpg">Homepage</a> </figcaption>
+                    </figure>
+                </article>
 
-
-        <div id="content">
-
-            <h2>Wireframes</h2>
-
-            <p>The following are thumbnail versions of the working wireframe we have for the proposed site revamp.  To access the larger version of the image (in jpeg format) just click on the caption links.</p>
-
-
-            <article class="wireframe">
-                <h2>Homepage Wireframe</h2>
-                <br />
-
-                <figure>
-                    <a href="images/wireframehomepage.jpg"><img src="images/t_wireframehomepage.jpg" alt="homepage wireframe" /></a>
-                    <figcaption><a href="images/wireframehomepage.jpg">Homepage</a> </figcaption>
-                </figure>
-
-            </article>
-
-
-
-            <article class="wireframe">
-
-                <h2>Lecture Page Wireframe</h2>
-                <br />
-                <figure>
-                    <a href="images/wireframelecture.jpg"><img src="images/t_wireframelecture.jpg" alt="lecture page wireframe" /></a>
-                    <figcaption><a href="images/wireframelecture.jpg">Lecture Page</a> </figcaption>
-                </figure>
-
-            </article>
-
+                <article class="wireframe">
+                    <header>
+                        <h3>Lecture Page Wireframe</h3>
+                    </header>
+                    <br />
+                    <figure>
+                        <a href="images/wireframelecture.jpg">
+                            <img src="images/t_wireframelecture.jpg" alt="lecture page wireframe" /></a>
+                        <figcaption><a href="images/wireframelecture.jpg">Lecture Page</a> </figcaption>
+                    </figure>
+                </article>
+            </div>
+            <!--/content-->
         </div>
-        <!--/content-->
-
-    </div>
+    </section>
     <!--/container-->
 
     <!--the footer.inc goes here-->

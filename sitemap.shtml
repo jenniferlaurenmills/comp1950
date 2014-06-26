@@ -1,17 +1,16 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Site Map</title>
+    <meta name="description" content="site map page of Zero Cool group for comp 1950 final project protosite">
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="scripts/scripts.js"></script>
     <link rel="stylesheet" href="css/zerostyle.css">
     <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-
     <!--for site map css-->
     <link rel="stylesheet" type="text/css" media="screen, print" href="css/sitemap.css" />
-
 </head>
 
 <body id="sitemap">
@@ -29,10 +28,10 @@
     <!---------------------------->
 
     <div id="container">
-
         <div id="content">
-
-            <h2>Protosite Sitemap</h2>
+            <header>
+                <h2>Protosite Sitemap</h2>
+            </header>
 
             <article>
                 <ul>
@@ -53,25 +52,21 @@
                 </ul>
             </article>
             <hr />
-           <article>
+            <article>
                 <div class="sitemap">
-
                     <ul id="utilityNav">
                         <li><a href="http://my.bcit.ca">My BCIT</a></li>
                         <li><a href="#">Sitemap</a></li>
                     </ul>
-
                     <ul id="primaryNav">
                         <li id="Li1"><a href="http://teams.thenet.ca/zerocool/protosite/index.shtml">Home</a></li>
                         <li><a href="http://teams.thenet.ca/zerocool//protosite/lectures.shtml">Lectures</a>
-
                             <ul>
                                 <li><a href="http://teams.thenet.ca/zerocool//protosite/week1.shtml">Week One</a></li>
                                 <li><a href="http://teams.thenet.ca/zerocool//protosite/week2.shtml">Week 2</a></li>
                                 <li><a href="http://teams.thenet.ca/zerocool//protosite/week3.shtml">Week 3</a></li>
                             </ul>
                         </li>
-
                         <li><a href="http://zerocoolers.tumblr.com/">BLOG</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Wiki/Forums</a></li>
@@ -81,18 +76,11 @@
             </article>
         </div>
         <!--/content-->
-
-
-         
     </div>
     <!--/container-->
-
-
-
     <!--the footer.inc goes here-->
     <!--#include file="inc/footer.inc" -->
     <!---------------------------->
 
 </body>
-
 </html>

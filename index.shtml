@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Zero Cool</title>
-    <link rel="stylesheet" href="css/zerostyle.css">
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="scripts/scripts.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>Zero Cool</title>
+	<meta name="description" content="This a home page of Zero Cool group. It's final project for Comp 1950 by Ali, Lawrence , Janni and Zack">
+	<link rel="stylesheet" href="css/zerostyle.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="scripts/scripts.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body id="home">
 
-    <!--the header.inc goes here-->
-    <!--#include file="inc/secondnav.inc" -->
-    <!---------------------------->
+	<!--the header.inc goes here-->
+	<!--#include file="inc/secondnav.inc" -->
+	<!---------------------------->
 
-    <!--the header.inc goes here-->
-    <!--#include file="inc/header.inc" -->
-    <!---------------------------->
+	<!--the header.inc goes here-->
+	<!--#include file="inc/header.inc" -->
+	<!---------------------------->
 
-    <!--the navigation.inc goes here-->
-    <!--#include file="inc/navigation.inc" -->
-    <!---------------------------->
+	<!--the navigation.inc goes here-->
+	<!--#include file="inc/navigation.inc" -->
+	<!---------------------------->
 
-    <div id="container">
-        <div id="content">
-            <article>
-                <h2>Introduction</h2>
-                <p>
-                    The ZeroCoolers are an eclectic bunch. Some of us are nocturnal, some are diurnal, while some are only awake during weekends. But we all share a burning love to create the bestest websites ever.  And as students of COMP 1950, we get our five minutes of fame to propose a revamp of the current course website to make it more accessible and informative for everyone. This site will act like a "live" textbook / resources for the current COMP 1950 students, the main target audience.   Based on the <a href="questionaire.shtml">questionnaire answers</a>, we have a few design goals we will attempt to address:
-                </p>
+	<div id="container">
+		<div id="content">
+			<article>
+				<header>
+					<h2>Introduction</h2>
+				</header>
+				<p>
+					The ZeroCoolers are an eclectic bunch. Some of us are nocturnal, some are diurnal, while some are only awake during weekends. But we all share a burning love to create the bestest websites ever.  And as students of COMP 1950, we get our five minutes of fame to propose a revamp of the current course website to make it more accessible and informative for everyone. This site will act like a "live" textbook / resources for the current COMP 1950 students, the main target audience.   Based on the <a href="questionaire.shtml">questionnaire answers</a>, we have a few design goals we will attempt to address:
+				</p>
 
-                <ul>
-                    <li>A more intuitive way to access information:
+				<ul>
+					<li>A more intuitive way to access information:
 						<ul>
-                            <li>visual cues such as: colors schemes, layout, and text, etc.</li>
-                            <li>search function incorporated into the site</li>
-                            <li>some form of CMS to help the instructor keep the content up to date while refraining from FTP</li>
-                            <li>keep users informed of the latest updates through a blog</li>
-                            <li>ensuring cross-platform, cross-browser, readability</li>
-                            <li>a wiki that provides an evolving collective knowledge base</li>
+							<li>visual cues such as: colors schemes, layout, and text, etc.</li>
+							<li>search function incorporated into the site</li>
+							<li>some form of CMS to help the instructor keep the content up to date while refraining from FTP</li>
+							<li>keep users informed of the latest updates through a blog</li>
+							<li>ensuring cross-platform, cross-browser, readability</li>
+							<li>a wiki that provides an evolving collective knowledge base</li>
 							<li>In keeping with this goal, at the very least every page must have:
 								<ul>
 									<li>access to previous lectures/exercises/assignments</li>
@@ -49,94 +52,88 @@
 									<li>access to the course blog</li>
 								</ul>
 							</li>
-                        </ul>
-                    </li>
-					
-                    <li>The site should also act as a way for prospective students to get an idea of how the course will be taught and what they expect to learn from it.</li>
-                    <li>The possibility of an alumni (COMP 1950 alumni) area, sometimes grad students can provide some learning tips as well as some inspiring real world post-grad experience</li>
-                    <li>Perhaps incorporate some humor to make a more or less technical / mundane subject more interesting and "digestible" to students</li>
-					
-					
-                </ul>
+						</ul>
+					</li>
 
-                <br>
-                <hr>
-            </article>
+					<li>The site should also act as a way for prospective students to get an idea of how the course will be taught and what they expect to learn from it.</li>
+					<li>The possibility of an alumni (COMP 1950 alumni) area, sometimes grad students can provide some learning tips as well as some inspiring real world post-grad experience</li>
+					<li>Perhaps incorporate some humor to make a more or less technical / mundane subject more interesting and "digestible" to students</li>
+				</ul>
+				<br>
+				<hr>
+			</article>
 
-            <article id="coolers">
-                <h2>Meet the Zero Coolers</h2>
-                <ul>
-                    <li>
-                        <figure>
-                            <img src="images/ali_s.jpg" alt="ali's pic" />
-                            <figcaption><a href="http://students.thenet.ca/asharifi/">Ali Sharifi</a> </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="images/jen_m.jpg" alt="jen's pic" />
-                            <figcaption><a href="http://students.thenet.ca/jmills/">Jennifer Lauren Mills</a> </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="images/ltengw.jpg" alt="lteng's pic" />
-                            <figcaption><a href="http://students.thenet.ca/lteng/index.html">Lawrence Teng</a> </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="images/zach_w.jpg" alt="zach's pic" />
-                            <figcaption><a href="http://students.thenet.ca/zwestfall/">Zach Westfall</a></figcaption>
-                        </figure>
-                    </li>
+			<article id="coolers">
+				<header>
+					<h2>Meet the Zero Coolers</h2>
+				</header>
+				<ul>
+					<li>
+						<figure>
+							<img src="images/ali_s.jpg" alt="ali's pic" />
+							<figcaption><a href="http://students.thenet.ca/asharifi/">Ali Sharifi</a> </figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/jen_m.jpg" alt="jen's pic" />
+							<figcaption><a href="http://students.thenet.ca/jmills/">Jennifer Lauren Mills</a> </figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/ltengw.jpg" alt="lteng's pic" />
+							<figcaption><a href="http://students.thenet.ca/lteng/index.html">Lawrence Teng</a> </figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/zach_w.jpg" alt="zach's pic" />
+							<figcaption><a href="http://students.thenet.ca/zwestfall/">Zach Westfall</a></figcaption>
+						</figure>
+					</li>
+				</ul>
+			</article>
 
-                </ul>
+			<article id="agenda">
+				<br>
+				<hr>
+				<header>
+					<h2>Agenda</h2>
+				</header>
+				<div id="table">
+					<table>
+						<tr>
+							<th>COOL MEMBER</th>
+							<th>DUTIES</th>
+						</tr>
+						<tr>
+							<td>Ali</td>
+							<td>version 2 and revamping / fine-tuning of the client site, protosite, and blogs with added effects, color tweaking, and jquery. </td>
+						</tr>
+						<tr>
+							<td>Jennifer</td>
+							<td>content and version 1 of the rationale, sitemap, and wireframes for home and lecture pages, version 2 of the rationale (with detailed descriptions)</td>
+						</tr>
+						<tr>
+							<td>Lawrence</td>
+							<td>content and version 1 of the client project site, the  protosite blog (and porting of the protosite style to the blog), version 3 of the rationale</td>
+						</tr>
+						<tr>
+							<td>Zach</td>
+							<td>content and version 1 of protosite home page and lectures pages </td>
+						</tr>
+					</table>
+				</div>
+				<!--/table-->
+			</article>
+		</div>
+		<!--/content-->
+	</div>
+	<!--/container-->
 
-            </article>
-
-            <article id="agenda">
-                <br>
-
-                <hr>
-
-                <h2>Agenda</h2>
-
-                <div id="table">
-                    <table>
-                        <tr>
-                            <th>COOL MEMBER</th>
-                            <th>DUTIES</th>
-                        </tr>
-                        <tr>
-                            <td>Ali</td>
-                            <td>version 2 and revamping / fine-tuning of the client site, protosite, and blogs with added effects, color tweaking, and jquery. </td>
-                        </tr>
-                        <tr>
-                            <td>Jennifer</td>
-                            <td>content and version 1 of the rationale, sitemap, and wireframes for home and lecture pages, version 2 of the rationale (with detailed descriptions)</td>
-                        </tr>
-                        <tr>
-                            <td>Lawrence</td>
-                            <td>content and version 1 of the client project site, the  protosite blog (and porting of the protosite style to the blog), version 3 of the rationale</td>
-                        </tr>
-                        <tr>
-                            <td>Zach</td>
-                            <td>content and version 1 of protosite home page and lectures pages </td>
-                        </tr>
-                    </table>
-                </div>
-                <!--/table-->
-            </article>
-        </div>
-        <!--/content-->
-    </div>
-    <!--/container-->
-
-    <!--the footer.inc goes here-->
-    <!--#include file="inc/footer.inc" -->
-    <!---------------------------->
-
+	<!--the footer.inc goes here-->
+	<!--#include file="inc/footer.inc" -->
+	<!---------------------------->
 </body>
-
 </html>

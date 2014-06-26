@@ -29,6 +29,10 @@ body {
     min-width: 400px;
 }
 
+.validator {
+    width:20%;
+    float:left;
+}
 
 hr {
     background-color: #104e8b;

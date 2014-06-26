@@ -23,20 +23,14 @@
 	<!--#include file="inc/navigation.inc" -->
 	<!---------------------------->
 	<div id="container">
-
 		<div id="content">
-
 			<h1>Questionnaire Answers</h1>
-
 			<dl>
 				<dt>What do you think are some of the problems with the existing COMP 1950 website? 
 				</dt>
 				<dt>List the things you do not like about the current design of your website?  What don't you like about the current course website that you think it should change in future redesign (please list)?</dt>
 
 				<dd>From my point of view (instructor), the problems are all related to access to information.  Making sure that the information is presented in a way that makes sense to the user (students). As students yourselves, I'd like to think you could poll each other to find out what things work and don't: you are the target in this case.</dd>
-
-
-
 
 				<dt>What do you like about the existing website?  What do you like about the current website that you think it should appear in the future redesign (please list)?</dt>
 

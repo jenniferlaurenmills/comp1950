@@ -28,12 +28,20 @@
     <!--#include file="inc/navigation.inc" -->
     <!---------------------------->
 
-    <div id="container">
+    <div id="wrapper">
+        <br />
+        <br />
+        <div class="learn line">
+            <hr />
+        </div>
+        <div class="learn">
+            <h1>Protosite Sitemap</h1>
+        </div>
+        <div class="learn line">
+            <hr class="clear" />
+        </div>
 
-        <div id="content">
-
-            <h2>Protosite Sitemap</h2>
-
+        <div id="content" class="clear">
             <article>
                 <ul>
                     <li><a href="http://my.bcit.ca">myBCIT</a></li>
@@ -52,33 +60,33 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </article>
-            <hr />
-            <article>
-                <div class="sitemap">
+                <hr />
+                <article>
+                    <div class="sitemap">
 
-                    <ul id="utilityNav">
-                        <li><a href="http://my.bcit.ca">My BCIT</a></li>
-                        <li><a href="#">Sitemap</a></li>
-                    </ul>
+                        <ul id="utilityNav">
+                            <li><a href="http://my.bcit.ca">My BCIT</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
 
-                    <ul id="primaryNav">
-                        <li id="Li1"><a href="http://teams.thenet.ca/zerocool/protosite/index.shtml">Home</a></li>
-                        <li><a href="http://teams.thenet.ca/zerocool//protosite/lectures.shtml">Lectures</a>
+                        <ul id="primaryNav">
+                            <li id="Li1"><a href="http://teams.thenet.ca/zerocool/protosite/index.shtml">Home</a></li>
+                            <li><a href="http://teams.thenet.ca/zerocool//protosite/lectures.shtml">Lectures</a>
 
-                            <ul>
-                                <li><a href="http://teams.thenet.ca/zerocool//protosite/week1.shtml">Week One</a></li>
-                                <li><a href="http://teams.thenet.ca/zerocool//protosite/week2.shtml">Week 2</a></li>
-                                <li><a href="http://teams.thenet.ca/zerocool//protosite/week3.shtml">Week 3</a></li>
-                            </ul>
-                        </li>
+                                <ul>
+                                    <li><a href="http://teams.thenet.ca/zerocool//protosite/week1.shtml">Week One</a></li>
+                                    <li><a href="http://teams.thenet.ca/zerocool//protosite/week2.shtml">Week 2</a></li>
+                                    <li><a href="http://teams.thenet.ca/zerocool//protosite/week3.shtml">Week 3</a></li>
+                                </ul>
+                            </li>
 
-                        <li><a href="http://zerocoolers.tumblr.com/">BLOG</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Wiki/Forums</a></li>
-                        <li><a href="#">Alumni Resources</a></li>
-                    </ul>
-                </div>
-            </article>
+                            <li><a href="http://zerocoolers.tumblr.com/">BLOG</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Wiki/Forums</a></li>
+                            <li><a href="#">Alumni Resources</a></li>
+                        </ul>
+                    </div>
+                </article>
         </div>
         <!--/content-->
 

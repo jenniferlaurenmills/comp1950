@@ -2,6 +2,15 @@
 
 $(document).ready(function () {
 
+
+    //show and hide nav
+    $('#navmenu').mouseover(function () { $('#menu').fadeIn(); });
+    // $('#navmenu').click(function () { $('nav').fadeOut(); });
+    $('#navmenu').mouseleave(function () { if ($(window).width() < 710) { $('#menu').fadeOut(); } });
+
+    $('#navmenu').mouseleave(function () { if ($(window).width() > 710) { $('#menu').fadeIn(); } });
+    //$('nav').mouseout(function () { $('nav').hide(); });
+
     //////////////Menu//////////////
     $('.listMenu > li').bind('mouseover', openSubMenu);
     $('.listMenu > li').bind('mouseout', closeSubMenu);
@@ -35,6 +44,8 @@ $(document).ready(function () {
             }
         }
     });
+
+
 
 
 

@@ -7,6 +7,10 @@ body {
     font-family: 'Noto Sans','Arapey',serif,Arial,Helvetica,sans-serif;
 }
 
+#navmenu {
+    display: none;
+}
+
 h3 {
     font-size: 1.2em;
 }
@@ -160,7 +164,7 @@ footer {
     }
 
 #arr {
-    padding-top:14px;
+    padding-top: 14px;
 }
 
 /*------------------------End CSS for navigation and footer of protosite------------------------------------*/

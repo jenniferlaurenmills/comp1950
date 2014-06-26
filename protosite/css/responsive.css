@@ -1,0 +1,102 @@
+﻿
+
+/*@media only screen and (max-width: 1420px) {*/
+@media only screen and (max-width: 1024px) {
+
+
+    #navmenu {
+        display: none;
+    }
+}
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+
+
+@media only screen and (max-width: 850px) {
+
+    .listMenu li {
+        margin: 10px;
+    }
+
+    #menu {
+        height: 100px;
+    }
+
+    nav ul li {
+        display: inline;
+        font-size: 0.8em;
+        margin-right: 20px;
+        padding-right: 7px;
+        padding-top: 10px;
+    }
+     .black {
+        height:400px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+
+    .listMenu li {
+        margin: 10px;
+    }
+
+    .moto {
+        display: none;
+    }
+
+    nav ul li {
+        display: inline;
+        font-size: 0.8em;
+        margin-right: 10px;
+        padding-right: 0px;
+        padding-top: 5px;
+    }
+    #mainimgcontent {
+        padding-top:70px;
+    }
+    #menu {
+        height: 150px;
+    }
+    .black {
+        height:600px;
+    }
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+
+
+/*@media only screen and (max-width: 1230px) {*/
+@media only screen and (max-width: 360px) {
+    .listMenu li {
+        margin: 10px;
+    }
+
+    .moto {
+        display: none;
+    }
+
+    nav ul li {
+        display: inline;
+        font-size: 0.8em;
+        margin-right: 10px;
+        padding-right: 0px;
+        padding-top: 5px;
+    }
+    #mainimgcontent {
+        padding-top:70px;
+    }
+    #menu {
+        height: 150px;
+    }
+      .black {
+        height:700px;
+    }
+}

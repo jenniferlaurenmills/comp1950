@@ -14,6 +14,11 @@
 	<link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 
+    <!--responsive stylesheet-->
+	<link rel="stylesheet" href="css/responsive.css" />
+	<!-- Mobile viewport consideration -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
 	<!--Carousel resource for index page-->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">

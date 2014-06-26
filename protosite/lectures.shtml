@@ -13,6 +13,10 @@
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <!--responsive stylesheet-->
+	<link rel="stylesheet" href="css/responsive.css" />
+	<!-- Mobile viewport consideration -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
